@@ -1,0 +1,35 @@
+{
+"layer_geom_type_s": "Mixed", 
+"layer_modified_dt": "2016-09-02T15:11:49Z", 
+"solr_geom": "ENVELOPE(-78.356474, -74.540675, 41.491614, 39.197635)", 
+"dct_references_s": "{\"http://schema.org/url\":\"http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=544\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://opengeometadata.github.io/big-ten/4b/0d/d3/f4b18e444cb12fa0ab510df4df/iso19139.xml\"}", 
+"dc_rights_s": "Public", 
+"uuid": "4b0dd3f4-b18e-444c-b12f-a0ab510df4df", 
+"dct_provenance_s": "Penn State", 
+"dc_subject_sm": [
+"Imagery and Base Maps", 
+"Environment", 
+"Terrestrial resources", 
+"Natural vegetation", 
+"Vegetation"
+], 
+"dct_temporal_sm": "2006", 
+"dc_description_s": "This raster dataset has been created using NPennsylvania Land Cover dated 1992N developed by the EROS Data Center for EPA Federal Region III (see metadata entitled NLand Cover 1992 EPA Federal Region III.pdfN) and Landscape Blocks as originated by The Nature Conservancy. Using an inside buffer of 18 meters on the Landscape Blocks a new shapefile was created in order to create a 30 meter area between the blocks to represent roads. Natural vegetation cover (Water, Coniferous Forest, Mixed Forest, Deciduous Forest, Woody Wetland, and Emergent Wetland) from the 1992 land Cover was reclassified and then the road buffered landscape blocks were combined with the raster to assign a value of N0N to areas in the natural vegetation land cover that overlap with the road buffers. Acreage of the contiguous natural vegetation was calculated and the data was reclassified based on conservation value as follows: Acreage Conservation Value 0-35 0 35-70 1 70-100 2 100-150 3 150-250 4 250-500 5 500-875 6 875-1375 7 1375-2025 8 2025-3000 9 3000+ 10 Conservation values were determined by experts gathered by Natural Lands Trust through SmartConservation. This data set is one of several that have been combined to create an overall terrestrial resources conservation value raster for the expanded piedmont ecoregion. Therefore the values were determined as a relative rank, comparable in value only to the other input terrestrial resources data. Conservation value ranges from 1 - 10 with 10 being the highest value.", 
+"dct_issued_s": "2006-09-02", 
+"dc_format_s": "Raster Dataset", 
+"dc_creator_sm": [
+"Natural Lands Trust with input data from PA DEP."
+], 
+"dc_type_s": "Dataset", 
+"dc_identifier_s": "4b0dd3f4-b18e-444c-b12f-a0ab510df4df", 
+"georss_polygon_s": "39.197635 -78.356474 41.491614 -78.356474 41.491614 -74.540675 39.197635 -74.540675 39.197635 -78.356474", 
+"solr_year_i": 2006, 
+"dct_spatial_sm": [
+"Pennsylvania, United States"
+], 
+"layer_id_s": "4b0dd3f4-b18e-444c-b12f-a0ab510df4df", 
+"georss_box_s": "39.197635 -78.356474 41.491614 -74.540675", 
+"dc_title_s": "Natural Vegetation Habitat: Pennsylvania, 2006", 
+"layer_slug_s": "4b0dd3f4-b18e-444c-b12f-a0ab510df4df", 
+"dct_isPartOf_sm": "Pennsylvania Spatial Data Access (PASDA)"
+}
