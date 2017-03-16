@@ -55,7 +55,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-09T13:13:07</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-16T12:52:15</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -97,7 +97,7 @@
             <gmd:date>
               <gmd:CI_Date>
                 <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-10-27</gco:Date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-10-24</gco:Date>
                 </gmd:date>
                 <gmd:dateType>
                   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
@@ -278,7 +278,7 @@
             <gmd:temporalElement>
               <gmd:EX_TemporalExtent>
                 <gmd:extent>
-                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d678890e303a1052958">
+                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d42472e305a1052958">
                     <gml:beginPosition>2015</gml:beginPosition>
                     <gml:endPosition>2015</gml:endPosition>
                   </gml:TimePeriod>
@@ -309,9 +309,6 @@
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">National Agricultural Imagery Program</gco:CharacterString>
             </gmd:keyword>
             <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Imagerybasemapsearthcover</gco:CharacterString>
-            </gmd:keyword>
-            <gmd:keyword>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Orthophotography</gco:CharacterString>
             </gmd:keyword>
             <gmd:keyword>
@@ -321,45 +318,52 @@
         </gmd:descriptiveKeywords>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
-    <gmd:distributionInfo>
+    <gmd:distributionInfo xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:date="http://exslt.org/dates-and-times" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml">
       <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>Raster Dataset</gco:CharacterString>
+            </gmd:name>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
         <gmd:distributor>
           <gmd:MD_Distributor>
             <gmd:distributorContact>
               <gmd:CI_ResponsibleParty>
                 <gmd:individualName>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WisconsinView</gco:CharacterString>
+                  <gco:CharacterString>WisconsinView</gco:CharacterString>
                 </gmd:individualName>
                 <gmd:organisationName>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">University of Wisconsin-Madison</gco:CharacterString>
+                  <gco:CharacterString>University of Wisconsin-Madison</gco:CharacterString>
                 </gmd:organisationName>
                 <gmd:positionName>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Space Science &amp; Engineering Center</gco:CharacterString>
+                  <gco:CharacterString>Space Science &amp; Engineering Center</gco:CharacterString>
                 </gmd:positionName>
                 <gmd:contactInfo>
                   <gmd:CI_Contact>
                     <gmd:address>
                       <gmd:CI_Address>
                         <gmd:deliveryPoint>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Floor 12</gco:CharacterString>
+                          <gco:CharacterString>Floor 12</gco:CharacterString>
                         </gmd:deliveryPoint>
                         <gmd:deliveryPoint>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">1225 W. Dayton St.</gco:CharacterString>
+                          <gco:CharacterString>1225 W. Dayton St.</gco:CharacterString>
                         </gmd:deliveryPoint>
                         <gmd:city>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Madison</gco:CharacterString>
+                          <gco:CharacterString>Madison</gco:CharacterString>
                         </gmd:city>
                         <gmd:administrativeArea>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WI</gco:CharacterString>
+                          <gco:CharacterString>WI</gco:CharacterString>
                         </gmd:administrativeArea>
                         <gmd:postalCode>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">53706</gco:CharacterString>
+                          <gco:CharacterString>53706</gco:CharacterString>
                         </gmd:postalCode>
                         <gmd:country>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                          <gco:CharacterString>US</gco:CharacterString>
                         </gmd:country>
                         <gmd:electronicMailAddress>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sabatzli@wisc.edu</gco:CharacterString>
+                          <gco:CharacterString>sabatzli@wisc.edu</gco:CharacterString>
                         </gmd:electronicMailAddress>
                       </gmd:CI_Address>
                     </gmd:address>
@@ -377,42 +381,42 @@
             <gmd:distributorContact>
               <gmd:CI_ResponsibleParty>
                 <gmd:individualName>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Supervisor Customer Services Section</gco:CharacterString>
+                  <gco:CharacterString>Supervisor Customer Services Section</gco:CharacterString>
                 </gmd:individualName>
                 <gmd:organisationName>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">USDA-FSA Aerial Photography Field Office</gco:CharacterString>
+                  <gco:CharacterString>USDA-FSA Aerial Photography Field Office</gco:CharacterString>
                 </gmd:organisationName>
                 <gmd:contactInfo>
                   <gmd:CI_Contact>
                     <gmd:phone>
                       <gmd:CI_Telephone>
                         <gmd:voice>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">801-844-2922</gco:CharacterString>
+                          <gco:CharacterString>801-844-2922</gco:CharacterString>
                         </gmd:voice>
                         <gmd:facsimile>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">801-956-3653</gco:CharacterString>
+                          <gco:CharacterString>801-956-3653</gco:CharacterString>
                         </gmd:facsimile>
                       </gmd:CI_Telephone>
                     </gmd:phone>
                     <gmd:address>
                       <gmd:CI_Address>
                         <gmd:deliveryPoint>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2222 West 2300 South</gco:CharacterString>
+                          <gco:CharacterString>2222 West 2300 South</gco:CharacterString>
                         </gmd:deliveryPoint>
                         <gmd:city>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Salt Lake City</gco:CharacterString>
+                          <gco:CharacterString>Salt Lake City</gco:CharacterString>
                         </gmd:city>
                         <gmd:administrativeArea>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Utah</gco:CharacterString>
+                          <gco:CharacterString>Utah</gco:CharacterString>
                         </gmd:administrativeArea>
                         <gmd:postalCode>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">84119-2020</gco:CharacterString>
+                          <gco:CharacterString>84119-2020</gco:CharacterString>
                         </gmd:postalCode>
                         <gmd:country>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                          <gco:CharacterString>US</gco:CharacterString>
                         </gmd:country>
                         <gmd:electronicMailAddress>
-                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">apfo.sales@slc.usda.gov</gco:CharacterString>
+                          <gco:CharacterString>apfo.sales@slc.usda.gov</gco:CharacterString>
                         </gmd:electronicMailAddress>
                       </gmd:CI_Address>
                     </gmd:address>
@@ -426,14 +430,14 @@
             <gmd:distributionOrderProcess>
               <gmd:MD_StandardOrderProcess>
                 <gmd:fees>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Contact the Aerial Photography Field Office for more information</gco:CharacterString>
+                  <gco:CharacterString>Contact the Aerial Photography Field Office for more information</gco:CharacterString>
                 </gmd:fees>
               </gmd:MD_StandardOrderProcess>
             </gmd:distributionOrderProcess>
             <gmd:distributorFormat>
               <gmd:MD_Format>
                 <gmd:name>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Compressed County Mosaic</gco:CharacterString>
+                  <gco:CharacterString>Compressed County Mosaic</gco:CharacterString>
                 </gmd:name>
               </gmd:MD_Format>
             </gmd:distributorFormat>
@@ -461,74 +465,29 @@
                   <gmd:URL>http://www.wisconsinview.org/</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp&#8212;download</gco:CharacterString>
+                  <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                 </gmd:protocol>
                 <gmd:name>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WisconsinView.org</gco:CharacterString>
+                  <gco:CharacterString>WisconsinView.org</gco:CharacterString>
                 </gmd:name>
                 <gmd:function>
-                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115"/>
+                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="ISOTC211/19115"/>
                 </gmd:function>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>ftp://ftp.ssec.wisc.edu/pub/wisconsinview/NAIP_2015/</gmd:URL>
+                  <gmd:URL>https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/Wisconsin_2015_1m/ImageServer</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp&#8212;download</gco:CharacterString>
+                  <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                 </gmd:protocol>
                 <gmd:name>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WisconsinView.org</gco:CharacterString>
-                </gmd:name>
-                <gmd:function>
-                  <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115"/>
-                </gmd:function>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>ftp://ftp.ssec.wisc.edu/pub/wisconsinview/NAIP_2015_t/</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp&#8212;download</gco:CharacterString>
-                </gmd:protocol>
-                <gmd:name>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WisconsinView.org</gco:CharacterString>
-                </gmd:name>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>ftp://ftp.ssec.wisc.edu/pub/wisconsinview/NAIP_2015/</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-                </gmd:protocol>
-                <gmd:name>
-                  <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="application/octet-stream">USDA Geospatial Data Gateway</gmx:MimeFileType>
-                </gmd:name>
-                <gmd:function>
-                  <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115">download</gmd:CI_OnLineFunctionCode>
-                </gmd:function>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://gis.apfo.usda.gov/arcgis/rest/services</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
-                </gmd:protocol>
-                <gmd:name>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">USDA ArcGIS server - WMS</gco:CharacterString>
+                  <gco:CharacterString>USDA ArcGIS server - WMS</gco:CharacterString>
                 </gmd:name>
                 <gmd:description>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ease note: This link will not work unless you are using ESRI's ArcGIS application. This link is for customers who can consume Web Mapping Services (WMS) only.</gco:CharacterString>
+                  <gco:CharacterString>ease note: This link will not work unless you are using ESRI's ArcGIS application. This link is for customers who can consume Web Mapping Services (WMS) only.</gco:CharacterString>
                 </gmd:description>
                 <gmd:function>
                   <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115"/>
@@ -541,21 +500,22 @@
                   <gmd:URL>https://opengeometadata.github.io/big-ten/f2/6c/47/6f2f2740cca8b8d79039a278d4/iso19139.xml</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
+                  <gco:CharacterString>metadata</gco:CharacterString>
                 </gmd:protocol>
-                <gmd:name/>
-                <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"/>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>ftp://ftp.ssec.wisc.edu/pub/wisconsinview/NAIP_2013/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+                </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
         </gmd:transferOptions>
-        <gmd:distributionFormat>
-          <gmd:MD_Format>
-            <gmd:name>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Raster Dataset</gco:CharacterString>
-            </gmd:name>
-          </gmd:MD_Format>
-        </gmd:distributionFormat>
       </gmd:MD_Distribution>
     </gmd:distributionInfo>
     <gmd:dataQualityInfo>
