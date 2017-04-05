@@ -1,0 +1,33 @@
+{
+"layer_geom_type_s": "Line", 
+"layer_modified_dt": "2017-04-05T15:19:44Z", 
+"solr_geom": "ENVELOPE(-77.3712, -75.6133, 39.614, 37.8691)", 
+"dct_references_s": "{\"http://schema.org/downloadUrl\":\"http://data.imap.maryland.gov/datasets/4f3aecc0786f4f16a917a83cf03dd34b_0.zip\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://opengeometadata.github.io/big-ten/e2/7d/a8/4980454f4e9139a82d0936b850/iso19139.xml\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://geodata.md.gov/imap/rest/services/Elevation/MD_Bathymetry/MapServer/0\",\"http://schema.org/url\":\"http://data.imap.maryland.gov/datasets/4f3aecc0786f4f16a917a83cf03dd34b_0\"}", 
+"dc_rights_s": "Public", 
+"uuid": "e27da849-8045-4f4e-9139-a82d0936b850", 
+"dct_provenance_s": "Maryland", 
+"dc_subject_sm": [
+"Elevation", 
+"Oceanography"
+], 
+"dct_temporal_sm": "2016", 
+"dc_description_s": "Bathymetry for Chesapeake Bay was derived from two hundred ninety-seven surveys containing 3,178,509 soundings. Thirty-five older, less accurate, overlapping surveys were entirely omitted before tinning. Partial overlap from other older, less accurate surveys was also omitted prior to tinning. The surveys used dated from 1859 to 1993. Thirty-six surveys dated from 1859 to 1918, thirty-seven from the 1930s, ninety-one from the 1940s, sixty- six from the 1950s, twenty-five from the 1960s, twenty-four from the 1970s, fourteen from the 1980s, and four from the 1990s. The total range of sounding data was 3.7 meters to -50.4 meters at mean low water. Mean high water values between 0.2 and 1.2 meters were assigned to the shoreline. Fifteen points were found that were not consistent with the surrounding data and were removed prior to tinning. DEM grid values outside the shoreline (on land) were assigned null values (-32676). Chesapeake Bay has two hundred eighteen 7.5 minute DEMs and ten one degree DEMs. The 1 degree DEMs were generated from the higher resolution 7.5 minute DEMs which covered the estuary. A Digital Elevation Model (DEM) contains a series of elevations ordered from south to north with the order of the columns from west to east. The DEM is formatted as one ASCII header record (A- record), followed by a series of profile records (B- records) each of which include a short B-record header followed by a series of ASCII integer elevations (typically in units of 1 centimeter) per each profile. The last physical record of the DEM is an accuracy record (C- record). The 7.5-minute DEM (30- by 30-m data spacing) is cast on the Universal Transverse Mercator (UTM) projection. It provides coverage in 7.5- by 7.5-minute blocks. Each product provides the same coverage as a standard USGS 7.5-minute quadrangle but the DEM contains over edge data. Coverage is available for many estuaries of the contiguous United States but is not complete.This layer was modified from its original form. Please see lineage section for details.Not to be used for Navigation. Acknowledgment of the National Oceanic and Atmospheric Administration- Nation Ocean Service would be appreciated in products derived from these data. The datum for these bathymetric DEMs is not the same as that used by the US Geological survey (USGS) for land based DEMs which results in a discontinuity if the two datasets are merged together. Moreover, the shoreline for the USGS DEMs is indeterminate and not the same as that used for the Bathymetric DEMs. The data within the bathymetry file is floating point. When using the data within a GIS care must be taken to ensure that the data are being read as floating point and not integer data.Last Updated:Feature Service Layer Link:http://geodata.md.gov/imap/rest/services/Elevation/MD_Bathymetry/MapServer/0", 
+"dct_issued_s": "2016-03-30T17:54:07.000ZZ", 
+"dc_format_s": "Shapefile", 
+"dc_creator_sm": [
+"ArcGIS Online for Maryland"
+], 
+"dc_type_s": "Dataset", 
+"dc_identifier_s": "e27da849-8045-4f4e-9139-a82d0936b850", 
+"georss_polygon_s": "37.8691 -77.3712 39.614 -77.3712 39.614 -75.6133 37.8691 -75.6133 37.8691 -77.3712", 
+"solr_year_i": 2016, 
+"dct_spatial_sm": [
+"Maryland, United States"
+], 
+"dc_publisher_sm": [], 
+"layer_id_s": "e27da849-8045-4f4e-9139-a82d0936b850", 
+"georss_box_s": "37.8691 -77.3712 39.614 -75.6133", 
+"dc_title_s": "Bathymetry - Chesapeake Bay Contours: Maryland, 2016", 
+"layer_slug_s": "e27da849-8045-4f4e-9139-a82d0936b850", 
+"dct_isPartOf_sm": "Maryland iMap"
+}
