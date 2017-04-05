@@ -1,0 +1,1579 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+    <gmd:fileIdentifier>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">9ccbe642-aa0c-472c-b428-30c484322251</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">dataset</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405 2208</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+            <gmd:hoursOfService>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+            </gmd:hoursOfService>
+            <gmd:contactInstructions>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+            </gmd:contactInstructions>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T16:55:42</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2007</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Water_Wells_IDNR</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+        <gmd:geometricObjects>
+          <gmd:MD_GeometricObjects>
+            <gmd:geometricObjectType>
+              <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+            </gmd:geometricObjectType>
+            <gmd:geometricObjectCount>
+              <gco:Integer xmlns:gco="http://www.isotc211.org/2005/gco">395065</gco:Integer>
+            </gmd:geometricObjectCount>
+          </gmd:MD_GeometricObjects>
+        </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">26916</gco:CharacterString>
+            </gmd:code>
+            <gmd:codeSpace>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">EPSG</gco:CharacterString>
+            </gmd:codeSpace>
+            <gmd:version>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">8.2.6</gco:CharacterString>
+            </gmd:version>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Water-Well Locations: Indiana, 2013</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2013-07-23</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:edition>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">3.0</gco:CharacterString>
+            </gmd:edition>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">urn-9ccbe642-aa0c-472c-b428-30c484322251</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington, Indiana</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources, Division of Water</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:presentationForm>
+              <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+            </gmd:presentationForm>
+            <gmd:otherCitationDetails>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Point</gco:CharacterString>
+            </gmd:otherCitationDetails>
+            <gmd:collectiveTitle>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IndianaMAP</gco:CharacterString>
+            </gmd:collectiveTitle>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NOTE: The original data set named WATERWELLS_DNR_WATER_IN_100217.SHP was provided to Indiana Geological Survey personnel on February 17, 2010, personnel from the Indiana Department of Natural Resources, Division of Water, Resource Assessment Section. NOTE: An updated data set named WATERWELLS_DNR_WATER_IN_120312.SHP was provided to Indiana Geological Survey personnel on March 15, 2012, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department of Natural Resources, Division of Outdoor Recreation. NOTE: An updated data set named WATERWELLS_DNR_WATER_IN_130530.SHP was provided to Indiana Geological Survey personnel on July 23, 2013, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department of Natural Resources, Division of Outdoor Recreation. The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: This file is a digital geospatial point feature class of both located water well records (which include UTM coordinates) and unlocated water well records (without UTM coordinates as of 200911). The estimated locations used for the unlocated wells were based on the polygon centroid values for the smallest indicated section, quarter, quarter-quarter, or quarter-quarter-quarter section (as indicated in the database) for over 250,000 water well records and for about 26,000 of the 250,000 water well records the UTM's were obtained from address geocoding using the owners address, a generally more accurate method (see process steps below).</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:purpose>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: "The Division of Water Ground Water Database has approximately 400,000 water well records, and of those, approximately 145,000 have been field located and have x, y (UTM) coordinates. The remaining records have no utms and cannot be easily utilized in a GIS format. The purpose of this shapefile was to include those wells with UTM coordinates and to approximate the UTM coordinates for the others based on the most precise Township, Range, Section, quarter sections (TRS) locations available from office locating, which is effectively the centroid of the smallest known section or quarter sections; thus, increasing the amount of data available for display and analysis in a GIS format. This shapefile is combination of the located water well records and the water well records for which an estimated location was able to be determined using the methods described below. This leaves less than 15,000 records with no UTM's associated with them. This shapefile and associated table has selected fields from the main digital water well database that are typically needed for most research."</gco:CharacterString>
+        </gmd:purpose>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Michael P. Martin</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources/Division of Outdoor Recreation</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Coordinator</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317-232-4070</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317-233-4648</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">402 W. Washington St., Rm. W271</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46204</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">mmartin@dnr.state.in.us</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:hoursOfService>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1630 Eastern Standard Time</gco:CharacterString>
+                </gmd:hoursOfService>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" codeSpace="ISOTC211/19115"/>
+            </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:resourceConstraints>
+          <gmd:MD_Constraints>
+            <gmd:useLimitation>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">DATA DISCLAIMER: This data set is provided by Indiana University, Indiana Geological Survey, using data believed to be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any kind, either expressed or implied, including but not limited to warranties of suitability to a particular purpose or use. No attempt has been made in either the design or production of these data to define the limits or jurisdiction of any federal, state, or local government. These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to be construed as a legal document or survey instrument. A detailed on-the- ground survey and historical analysis of a single site may differ from these data. CREDIT: It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be included: [WATERWELLS_IDNR_IN: Water-Well Locations in Indiana (Indiana Department of Natural Resources, Point Shapefile), 2013]. It is also requested that the Indiana Department of Natural Resources, Division of Water be cited in any products generated from this data. WARRANTY: Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405 2208, and it will be replaced free of charge. LIMITATION OF WARRANTIES AND LIABILITY: Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.</gco:CharacterString>
+            </gmd:useLimitation>
+          </gmd:MD_Constraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying, adaptation, distribution, public performance, or public display of this information without the express written consent of Indiana University, Indiana Geological Survey is discouraged. CREDIT: It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be included: [WATERWELLS_IDNR_IN: Water-well Locations in Indiana (Indiana Department of Natural Resources, Point Shapefile), 2013]. WARRANTY: Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405 2208, and it will be replaced free of charge. LIMITATION OF WARRANTIES AND LIABILITY: Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:otherConstraints>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This file is available to anyone, but access may be contingent on written request, specific terms relevant to the agency or person making the request, and/or current freedom of information statutes in the state of Indiana.</gco:CharacterString>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:aggregationInfo>
+          <gmd:MD_AggregateInformation>
+            <gmd:aggregateDataSetName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Online Water Well Record Database</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2013-07-23</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis, Indiana</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources, Division of Water</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:aggregateDataSetName>
+            <gmd:associationType>
+              <gmd:DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation" codeSpace="ISOTC211/19115"/>
+            </gmd:associationType>
+          </gmd:MD_AggregateInformation>
+        </gmd:aggregationInfo>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+        </gmd:spatialRepresentationType>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>location</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:environmentDescription>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI ArcGIS shapefile format, Microsoft Windows XP, approximately 351 MB</gco:CharacterString>
+        </gmd:environmentDescription>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">-88.1458</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">-84.692</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">37.7633</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">41.774</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:description>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Data collection date</gco:CharacterString>
+            </gmd:description>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimeInstant xmlns:gml="http://www.opengis.net/gml">
+                    <gml:timePosition>2013-05-30</gml:timePosition>
+                  </gml:TimeInstant>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:supplementalInformation>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">None</gco:CharacterString>
+        </gmd:supplementalInformation>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana, United States</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Water wellss</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:individualName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Michael P Martin</gco:CharacterString>
+                </gmd:individualName>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">[PRIMARY DISTRIBUTOR] Indiana Department of Natural Resources/Division of Outdoor Recreation</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:positionName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Coordinator</gco:CharacterString>
+                </gmd:positionName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 232 4070</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 4648</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">402 W Washington Street, Room 271</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46204</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">mmartin@dnr.state.in.us</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">8 to 4:30</gco:CharacterString>
+                    </gmd:hoursOfService>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:individualName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Publication Sales</gco:CharacterString>
+                </gmd:individualName>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">[SECONDARY DISTRIBUTOR] Indiana Geological Survey</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:positionName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Clerk</gco:CharacterString>
+                </gmd:positionName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 7636</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405 2208</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGSinfo@indiana.edu</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                    </gmd:hoursOfService>
+                    <gmd:contactInstructions>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                    </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://maps.indiana.edu/arcgis/rest/services/Hydrology/Water_Wells_IDNR/MapServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://maps.indiana.edu/download/Hydrology/Water_Wells_IDNR.zip</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://indianamap.org/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://maps.indiana.edu/arcgis/services/Hydrology/Water_Wells_IDNR/MapServer/WMSServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OGC:WMS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://opengeometadata.github.io/big-ten/9c/cb/e6/42aa0c472cb42830c484322251/iso19139.xml</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI Shapefile</gco:CharacterString>
+            </gmd:name>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_TopologicalConsistency>
+            <gmd:evaluationMethodDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: "Checks for duplicates (unique values in unique records) were performed on this data set. No checks on topology were performed on this data set."</gco:CharacterString>
+            </gmd:evaluationMethodDescription>
+          </gmd:DQ_TopologicalConsistency>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_ConceptualConsistency>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: "Checks for duplicates (unique values in unique records) were performed on this data set. No checks on topology were performed on this data set."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_ConceptualConsistency>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_CompletenessOmission>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This dataset it assumed to be complete, as-is, provided to the IGS from IDNR personnel.</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_CompletenessOmission>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_QuantitativeAttributeAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: "Records that did not have locations provided and whose locations could not be estimated using the public land survey system descriptions were removed from this version of the database."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_QuantitativeAttributeAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_130530.SHP: "Locations based only on the street address, driving directions, or other location information provided on the well record are considered unlocated records and have no x, y coordinates, only township, range, section, and quarter-quarter-quarter sections (if estimated). "The x, y coordinates are from the calculated centroid of the smallest possible individual polygon that matched the water well location data. Some records have no quarter sections and/or some of the polygons could not be subdivided, so the centroid of the section was used for those water well records. These are the least accurate coordinates and in a regular one-mile square section the x, y coordinates will generally be within a half-mile of the office located section, on irregular sections, the distance may be greater. The best location values are on the records with quarter-quarter-quarter sections and typically will be within 150 meters of the office located quarters. "A small number of the data points were checked for accuracy and methods used should keep the x, y coordinates within the proper section in most cases. However, due to the complexity and in cases redundancy in the public land survey system for Indiana some x, y pairs may not be located in the proper section or even the proper county. Other sources of error may be caused by misinterpretation of the driving directions or office locating. Several areas have different survey systems than the Congressional TRS (Clark Military Grant, Military Donations, Meridian Road Lines, Indian Treaties etc.) and no attempt at this time was made to provide centroids for these areas. "Located records were primarily field located based on the location identified on the USGS 1:24,000 7.5 minute series topo map by the field locator. In some cases the structure or subdivsion may not be on the map and location is based on topography. So some error may be inherent in the field locations and points placed on the map ( a single point on a map may be 100 feet across). The scale is based USGS 1:24,000 7.5 minute series topographic maps. However, in most cases locations of mislocated wells can have large errors, with the reported locations having no meaning."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vertical accuracy was not a factor in the digital production of the data set. No quantitative tests were performed.</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Polygon shapefiles representing divisions in the Indiana PLSS were spatially joined to LANDSURVEY_COUNTY_POLY_IN.shp using a one-to-many relationship, so sections and subsections on county boundaries could be identified. A new field was added to poly_q.shp, poly_qq.shp, poly_qqq.shp, and Landsurvey_Sections_Poly_IN.shp called "CONCAT," which concatenated the following fields of the attribute tables: TWP,TWPD,RNG,RNGD,PARCEL_ID,QTR,COUNTY. Each layer was then converted to points (polygon centroid locations). A check for duplicates in the CONCAT field was conducted to verify the uniqueness of this field for matching against the water well log database. Several errors were found in LANDSURVEY_COUNTY_POLY_IN.shp and were corrected before proceeding. Using the Calculate Geometry tool in ArcGIS, UTMX and UTMY values were calculated for each point in each section and subsection data layer.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2008-08-04T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sally Letsinger</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Research Hydrogeologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-1356</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sletsing@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">poly_q.shp, poly_qq.shp, poly_qqq.shp, Landsurvey_Sections_Poly_IN.shp, and LANDSURVEY_COUNTY_POLY_IN.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">q_county27_pts.shp, qq_county27_pts.shp, qqq_county27_pts.shp, sec_county27_pts.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Polygon shapefiles representing divisions in the Indiana PLSS were processed to remove non-alphanumeric characters from fields in the attribute tables describing the PLSS subsection location of the water well log (quarter-, quarter-quarter-, or quarter-quarter-quarter-section).</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2008-08-04T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sally Letsinger</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Research Hydrogeologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-1356</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sletsing@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 - 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday - Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">poly_q.shp, poly_qq.shp, poly_qqq.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">poly_q.shp, poly_qq.shp, poly_qqq.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The DNR.DBF table obtained from IDNR was imported into a Microsoft Access database called IDNR_waterwells.mdb for processing. A query was conducted to identify records with IDNR locations (UTM coordinates) and those without. A subset of the original fields were retained, including: REFNO, COMPDATE, OWNER, COUNTY, TWN, RNG, QUAR1, QUAR2, QUAR3, SEC, DEPTH, STATIC, PUMPRATE, BAILERRT, WELLUSE, UTMX, UTMY. DBF attribute tables of the section and subsection point files were imported to the Access database from the input shapefiles. A field called CONCAT was added to the unlocated well-log table to concatenate the fields: TWN, RNG, QUAR1, QUAR2, QUAR3, SEC, COUNTY. Relationships were defined in Access using the CONCAT field for the unlocated records and the section and subsection point locations. Queries were conducted for each subsection to assign UTM (NAD 27) coordinates to each unlocated well record based on the best available PLSS location. A field was added to each output query table called "LOC_SRC" and populated with the value "PLSS AND COUNTY MATCH" for each record matched with an estimated coordinate. A field was added to the query table for the located records called "LOC_SRC" and populated with the value "IDNR-WATER" to denote that the locations were sourced from IDNR.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2008-08-05T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sally Letsinger</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Research Hydrogeologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-1356</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sletsing@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">DNR.DBF, q_county27_pts.shp, qq_county27_pts.shp, qqq_county27_pts.shp, sec_county27_pts.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IDNR_waterwells.mdb, LOCATED.DBF, UNLOC.DBF, qmatch.dbf, qqmatch.dbf, qqqmatch.dbf, secmatch.dbf</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">A table called ilith.dbf was imported into the Access database (IDNR_waterwells.mdb), and a query was performed to identify records in the original IDNR database with locations corrected during the compilation of the iLITH database. Eight hundred and eighty (880) UTM coordinates in the LOCATED table were replaced with iLITH locations and the LOC_SRC field for these records was populated with the value "ILITH." All water-well records with estimated coordinates were appended into a single table called "matched." This table was then appended to the LOCATED table to produce a single table with located and unlocated well records. In ArcGIS, the Add XY data utility was used to import the water-well locations (located and estimated). The data were exported to a shapefile with an assigned projection of UTM NAD27 Zone 16, which is the native projection of all the IDNR and original iLITH locations. The shapefile was then reprojected to UTM NAD83 Zone 16, and two new fields were added to the shapefile attribute table: UTMX83 and UTMY83. The Calculate Geometry utility was used to calculate the new UTMX and UTMY coordinates for the new UTM 1983 datum. The UTM NAD27 coordinate fields were deleted from the shapefile. The shapefile was clipped to the state boundary to retain only records contained within the boundary. The resulting shapefile was named Waterwells_IDNR_IN.shp</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2008-08-07T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sally Letsinger</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Research Hydrogeologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-1356</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sletsing@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday throught Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IDNR_waterwells.mdb, qmatch.dbf, qqmatch.dbf, qqqmatch.dbf, secmatch.dbf, ilith.dbf</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">matched.dbf, allpts27.shp, Waterwells_IDNR_IN.shp</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The attribute table for Waterwells_IDNR_IN.shp was modified to include an attribute called LOCATION to identify records with known versus estimated locations.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-06-23T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sally Letsinger</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Research Hydrogeologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-1356</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">sletsing@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Waterwells_IDNR_IN.dbf</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Waterwells_IDNR_IN.dbf</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_100217.SHP" on April 21, 2010. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2010-04-21T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist/Geologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-856-5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_DNR_WATER_IN_100217.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_IDNR_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_120312.SHP" on March 15, 2012. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2012-03-15T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist/Geologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-856-5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_DNR_WATER_IN_120312.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_IDNR_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_130530.SHP" on July 23, 2013. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-07-23T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist/Geologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-856-5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_DNR_WATER_IN_130530.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_IDNR_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-07-31T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist/Geologist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-856-5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812-855-2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:source>
+              <gmd:LI_Source>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Well locations from IDNR water-well-log database</gco:CharacterString>
+                </gmd:description>
+                <gmd:scaleDenominator>
+                  <gmd:MD_RepresentativeFraction>
+                    <gmd:denominator>
+                      <gco:Integer xmlns:gco="http://www.isotc211.org/2005/gco">24000</gco:Integer>
+                    </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+                </gmd:scaleDenominator>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WATERWELLS_DNR_WATER_IN_130530.SHP well locations from IDNR water-well-log database</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IDNR Water well database</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2013-07-23</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources, Division of Water</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Natural Resources</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                          <gmd:CI_Contact>
+                            <gmd:address>
+                              <gmd:CI_Address>
+                                <gmd:deliveryPoint>
+                                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis, Indiana</gco:CharacterString>
+                                </gmd:deliveryPoint>
+                              </gmd:CI_Address>
+                            </gmd:address>
+                          </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+                    </gmd:presentationForm>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Publication date</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d21317e2178">
+                            <gml:beginPosition>1959-01-01</gml:beginPosition>
+                            <gml:endPosition>2013-07-23</gml:endPosition>
+                          </gml:TimePeriod>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+      <gmd:MD_Constraints>
+        <gmd:useLimitation>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.</gco:CharacterString>
+        </gmd:useLimitation>
+      </gmd:MD_Constraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+        <gmd:maintenanceAndUpdateFrequency>
+          <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115"/>
+        </gmd:maintenanceAndUpdateFrequency>
+        <gmd:maintenanceNote>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata was translated to ISO 19139 for inclusion in the CIC Geospatial Data Discovery Project.</gco:CharacterString>
+        </gmd:maintenanceNote>
+        <gmd:contact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Purdue University Libraries</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:country>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">geohelp@purdue.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+  </gmd:MD_Metadata>
+  

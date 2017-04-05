@@ -1,0 +1,2677 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+    <gmd:fileIdentifier>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ae138e81-0a53-4422-8e23-932396711cf5</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">dataset</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+            <gmd:hoursOfService>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+            </gmd:hoursOfService>
+            <gmd:contactInstructions>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+            </gmd:contactInstructions>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T16:56:30</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2007</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Remediation_Institutional_Control_Sites</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+        <gmd:geometricObjects>
+          <gmd:MD_GeometricObjects>
+            <gmd:geometricObjectType>
+              <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex" codeSpace="ISOTC211/19115"/>
+            </gmd:geometricObjectType>
+            <gmd:geometricObjectCount>
+              <gco:Integer xmlns:gco="http://www.isotc211.org/2005/gco">1287</gco:Integer>
+            </gmd:geometricObjectCount>
+          </gmd:MD_GeometricObjects>
+        </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">26916</gco:CharacterString>
+            </gmd:code>
+            <gmd:codeSpace>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">EPSG</gco:CharacterString>
+            </gmd:codeSpace>
+            <gmd:version>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">8.2.6</gco:CharacterString>
+            </gmd:version>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Institutional Control Sites: Indiana, 2015</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-02-25</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">urn-ae138e81-0a53-4422-8e23-932396711cf5</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management, Office of Land Quality</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management, Office of Land Quality</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis, Indiana</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:presentationForm>
+              <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+            </gmd:presentationForm>
+            <gmd:otherCitationDetails>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Mixed</gco:CharacterString>
+            </gmd:otherCitationDetails>
+            <gmd:collectiveTitle>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IndianaMAP</gco:CharacterString>
+            </gmd:collectiveTitle>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN is a polygon shapefile that contains Institutional Control (IC) site locations in Indiana, provided by personnel of Indiana Department of Environmental Management, Office of Land Quality (IDEM, OLQ) as of March 17, 2009 and subsequently updated on June 4, 2009, August 12, 2009, October 20, 2009, November 18, 2009, December 16, 2009, April 16, 2010, December 12, 2011, February 20, 2012, April 10, 2012, January 9, 2013, April 5, 2013, June 5, 2013, August 7, 2013, December 5, 2013, May 13, 2014, September 16, 2014, and February 25, 2015. The data set provided by IDEM was in an ESRI shapefile format and was named OLQ_INSTITUTIONAL_CONTROLS_IN.SHP. INSTITUTIONAL_CONTROLS_IDEM_IN.SHP is attributed with facility names, identification numbers, restriction descriptions, and a list of chemical contaminants. The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named OLQ_INSTITUTIONAL_CONTROLS_IN.SHP: Institutional Control (IC) polygons were created by Coordinate Geometry (COGO) from recorded Environmental Restrictive Covenants (ERCs) and other Institutional Controls (ICs) mandated by the Indiana Department of Environmental Management.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:purpose>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "This dataset was developed to provide the spatial component of recorded Institutional Controls for managed facilities of the Indiana Department of Environmental Management. When any amount of contamination above a residential closure level is left on site, a legal measure called an Institutional Control (IC) may be needed. An IC protects human health and the environment by restricting property activity, use, or access. As an example, the RISC guidance may allow a site to be remediated only to levels appropriate for industrial or commercial uses. In this case, an IC would be required that would restrict the use of the property to non-residential purposes in the future."</gco:CharacterString>
+        </gmd:purpose>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Engineering and GIS Services, Office of Land Quality, Indiana Department of Environmental Management.</gco:CharacterString>
+        </gmd:credit>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="underDevelopment" codeSpace="ISOTC211/19115"/>
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 7636</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGSinfo@indiana.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:hoursOfService>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                </gmd:hoursOfService>
+                <gmd:contactInstructions>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                </gmd:contactInstructions>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly" codeSpace="ISOTC211/19115"/>
+            </gmd:maintenanceAndUpdateFrequency>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:resourceConstraints>
+          <gmd:MD_Constraints>
+            <gmd:useLimitation>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INDIANA GEOLOGICAL SURVEY DATA DISCLAIMER This data set is provided by Indiana University, Indiana Geological Survey, and contains data believed to be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any kind, either expressed or implied, including but not limited to warranties of suitability of a particular purpose or use. No attempt has been made in either the designed format or production of these data to define the limits or jurisdiction of any federal, state, or local government. These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to be construed as a legal document or survey instrument. A detailed on-the-ground survey and historical analysis of a single site may differ from these data. CREDIT It is requested that the Engineering and GIS Services, Office of Land Quality, Indiana Department of Environmental Management be cited in any products generated from this data. The following source citation should be included [INSTITUTIONAL_CONTROLS_IDEM_IN.SHP: Institutional Control Sites in Indiana (Indiana Department of Environmental Management, Polygon Shapefile), 20150225]. WARRANTY Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405-2208, and it will be replaced free of charge. LIMITATION OF WARRANTIES AND LIABILITY Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.</gco:CharacterString>
+            </gmd:useLimitation>
+          </gmd:MD_Constraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">CREDIT It is requested that the Engineering &amp; GIS Services, Office of Land Quality, Indiana Department of Environmental Management be cited in any products generated from this data. The following source citation should be included: [INSTITUTIONAL_CONTROLS_IDEM_IN.SHP: Institutional Control Sites in Indiana (Indiana Department of Environmental Management, Polygon Shapefile), 20150225]. WARRANTY Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge. LIMITATION OF WARRANTIES AND LIABILITY Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:useLimitation>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "DISCLAIMER OF WARRANTIES THE INDIANA DEPARTMENT OF ENVIRONMENTAL MANAGEMENT (IDEM), ITS EMPLOYEES, SUCCESSORS OR ASSIGNS MAKE NO REPRESENTATIONS OR WARRANTIES ABOUT THE COMPLETENESS, SUITABILITY, RELIABILITY, AVAILABILITY AND ACCURACY OF DATA, SOFTWARE, INFORMATION OR SERVICES PROVIDED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY INFORMATION RETRIEVED FROM OR DELIVERED TO AN INDIVIDUAL OR ENTITY THROUGH THE AUSPICES OF IDEM ARE PROVIDED "AS IS" AND INCLUDES ALL FAULTS WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND. THE RECIPIENT, OF THE DATA, SOFTWARE, INFORMATION OR SERVICES, ACKNOWLEDGES AND AGREES THAT IT HAS RECEIVED ADEQUATE NOTICE THAT USE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES IS AT RECIPIENTS OWN RISK. IDEM AND OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE AFOREMENTIONED MATERIAL, INCLUDING WARRANTIES OF MERCHANTABILITY, TITLE, NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, ACCURACY OR COMPLETENESS OF RESPONSES, RESULTS, LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT, QUIET ENJOYMENT, QUIET POSSESSION, AND CORRESPONDENCE TO DESCRIPTION. FURTHER THE ABOVE LIST OF DISCLAIMED WARRANTIES IS NOT EXHAUSTIVE AS ANY AND ALL WARRANTIES AND CONDITIONS ARE DISCLAIMED. THE ENTIRE RISK ARISING OUT OF THE USE OF OR PERFORMANCE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES IS BORNE BY THE RECIPIENT. EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IDEM OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR: LOSS OF PROFITS, LOSS OF CONFIDENTIAL OR OTHER INFORMATION, BUSINESS INTERRUPTION, PERSONAL INJURY, LOSS OF PRIVACY, FAILURE TO MEET ANY DUTY (INCLUDING GOOD FAITH AND REASONABLE CARE), NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER, ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OR INABILITY TO USE, THE DATA, SOFTWARE, INFORMATION OR SERVICES, EVEN IF THE RECIPIENT IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. RECIPIENT'S SOLE REMEDY IS TO DISCONTINUE THE USE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES."</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:otherConstraints>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This file is available to anyone, but access may be contingent on written request, specific terms relevant to the agency or person making the request, and or) current freedom of information statutes in the state of Indiana.</gco:CharacterString>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+        </gmd:spatialRepresentationType>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:environmentDescription>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI ArcGIS version 10.2, approximately 2.6 Mb</gco:CharacterString>
+        </gmd:environmentDescription>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:description>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Publication date</gco:CharacterString>
+            </gmd:description>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimeInstant xmlns:gml="http://www.opengis.net/gml">
+                    <gml:timePosition>2015-02-25</gml:timePosition>
+                  </gml:TimeInstant>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">-87.653582</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">-84.760578</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">37.916998</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal xmlns:gco="http://www.isotc211.org/2005/gco">41.742793</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+        <gmd:supplementalInformation>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "A corrective action plan was prepared and implemented in accordance with statute(s) IC 13-23, IC 13-24, and/or IC 13-25] and/or other applicable Indiana law as a result of a release of petroleum or regulated substances (collectively, "contaminants of concern") which affected the Real Estate. Certain response activities have been implemented at the Real Estate, e.g., soil removal to remediate specific contaminants in specific areas of the site; placement of engineered cap; remediation of groundwater, etc. "The corrective action plan, as approved by the Indiana Department of Environmental Management, provides that contaminants of concern will remain in the groundwater and/or in the soil of the Real Estate and requires that land use restrictions that must be maintained to ensure the protection of public health, safety, or welfare, and the environment."</gco:CharacterString>
+        </gmd:supplementalInformation>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana, United States</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Pollution</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:individualName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shane Moore</gco:CharacterString>
+                </gmd:individualName>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:positionName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ GPS Coordinator</gco:CharacterString>
+                </gmd:positionName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 232 8726</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:voice>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 6565</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 3403</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">100 North Senate Avenue MC 66-20 IGCN 1101</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46206 2251</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">smoore@idem.in.gov</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, 8:30am to 4:30pm, Eastern DST</gco:CharacterString>
+                    </gmd:hoursOfService>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:individualName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Publication Sales</gco:CharacterString>
+                </gmd:individualName>
+                <gmd:organisationName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:positionName>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Clerk</gco:CharacterString>
+                </gmd:positionName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 7636</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:administrativeArea>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGSInfo@indiana.edu</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                    </gmd:hoursOfService>
+                    <gmd:contactInstructions>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                    </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115"/>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://maps.indiana.edu/download/Environment/Remediation_Institutional_Control_Sites.zip</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://maps.indiana.edu/arcgis/rest/services/Environment/Remediation_Institutional_Control_Sites/MapServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://indianamap.org/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://maps.indiana.edu/arcgis/services/Environment/Remediation_Institutional_Control_Sites/MapServer/WMSServer</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OGC:WMS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://opengeometadata.github.io/big-ten/ae/13/8e/810a5344228e23932396711cf5/iso19139.xml</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI Shapefile</gco:CharacterString>
+            </gmd:name>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_CompletenessOmission>
+            <gmd:evaluationMethodDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "Data was compiled by the Engineering &amp; GIS Section within the Office of Land Quality, the Indiana Department of Environmental Management. This dataset is incomplete and a work in progress, sites are COGO'ed as they are received. This dataset contains information that represents what had been recorded, processed, and archived by IDEM personnel at a time previous to publication. However the dataset may be incomplete and/or inaccurate due to the ever-changing status of managed facilities and sites, and due to the data collection and processing efforts of IDEM staff. It is an ever-changing work in progress. The Engineering &amp; GIS section was also responsible for collecting attribute information for each location. The data has been QA/QC'd for consistency but no formal tests were performed on accuracy. Therefore accuracy cannot be guaranteed or verified. Omissions or null values in certain fields are due to the fact that edits were made in the data dictionary (adding or deleting attribute information) as the project progressed. Human error could have been a factor as well in data omissions."</gco:CharacterString>
+            </gmd:evaluationMethodDescription>
+          </gmd:DQ_CompletenessOmission>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_ConceptualConsistency>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This data set was provided by IDEM personnel and is assumed to be accurate.</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_ConceptualConsistency>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_CompletenessOmission>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "Data was compiled by the Engineering &amp; GIS Section within the Office of Land Quality, the Indiana Department of Environmental Management. This dataset is incomplete and a work in progress, sites are COGO'ed as they are received. This dataset contains information that represents what had been recorded, processed, and archived by IDEM personnel at a time previous to publication. However the dataset may be incomplete and/or inaccurate due to the ever-changing status of managed facilities and sites, and due to the data collection and processing efforts of IDEM staff. It is an ever-changing work in progress. The Engineering &amp; GIS section was also responsible for collecting attribute information for each location. The data has been QA/QC'd for consistency but no formal tests were performed on accuracy. Therefore accuracy cannot be guaranteed or verified. Omissions or null values in certain fields are due to the fact that edits were made in the data dictionary (adding or deleting attribute information) as the project progressed. Human error could have been a factor as well in data omissions."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_CompletenessOmission>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_QuantitativeAttributeAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This data set was provided by IDEM personnel and is assumed to be accurate. The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "All attributes created during the process were verified by displaying the lines in the database and verifying consistency. However, no formal tests were performed. Therefore accuracy cannot be guaranteed or verified."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_QuantitativeAttributeAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "The referenced point data was collected with a GPS GIS-mapping system. The accuracy of the coordinates for GPS data should be from .5-5 meters, depending upon the type of GPS instrument used, the collection environment (ie., multipath, SNR, and PDOP), and the number of positions logged for each location. However, this accuracy cannot be guaranteed or verified. Each GPS unit should have been configured within the specifications of the manufacturer. However, if necessary, the field personnel would configure the unit outside of specifications if environmental conditions warranted. Accuracy was checked by logging both Maximum PDOP and the standard deviations of the positional average of each location collected. If maximum PDOP value was &gt; 6, the value for the "In_specs" field was input as "NO". If the standard deviation was &gt; 8, the corrected GPS file was analyzed for signs of multipath and/or outliers, and edited accordingly. It was then re-exported to the archive. If the data set was uneditable it was still left in the archive, the "In-specs" field was changed to "No" and the location could have an accuracy &gt; 5 meters. "The following explanation corresponds to the small traingular polygons used as ERC place markers: "If the environmental conditions of the collection session fell within the acceptable ranges for data collection as defined by the technical specifications of the instrument used and specific instrument configuration, then the accuracy of the collected coordinates should be within those values as given by the manufacturer. The GeoExplorer Unit has an accuracy range of 2 to 5 meters (post-processed), the GeoExplorer 3 and 3c a range of 1 to 5 meters (post-processed), and the Pro XR has a range of .50 cm - 1m differential accuracy to real-time differential correction. "If the environmental conditions and/or technical configurations were not met, then the values could exceed those given by the manufacturer. "The following explanation corresponds to the polygons that are COGO'ed in using the recorded ERC Exhibit A: "The recorded ERC Exhibit A (Legal Description of Real Estate) was based on original recorded surveys. The original descriptions may have been modified outside of IDEM's control, therefore the accuracy is unknown. The quality control step that IDEM personnel used is that the digital polygon closed (no accuracy is guaranteed or implied)."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:report>
+          <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+            <gmd:measureDescription>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "The vertical accuracy for GPS data collection can be two to three times less accurate than horizontal accuracy. The vertical accuracy for these locations could have up to 15 meters of error. However, this accuracy cannot be guaranteed or verified. Height above Ellipsoid values have been recorded, but it is strongly suggested that the values not be used for any analysis. "Due to the nature of how these values are derived in the GPS data collection process, the error variable is large enough to make the coordinate values unuseable in any type of locational analysis. "The following explanation corresponds to the polygons that are COGO'ed in using the recorded ERC Exhibit A: "The recorded ERC Exhibit A (Legal Description of Real Estate) was based on original recorded surveys. The original descritions may have been modified outside of IDEM's control, therefore the accuracy is unknown. The quality control step that IDEM personnel used is that the digital polygon closed (no accuracy is guaranteed or implied)."</gco:CharacterString>
+            </gmd:measureDescription>
+          </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The polygons were created using ESRI ArcInfo. The COGO toolbar was used in conjunction with the Traverse command. "Distance and Bearings" were input from the "Metes and Bounds" description provided in the recorded ERC (Exhibit A). Once the polygon was completed, it was saved in the Institutional Controls polygon layer.</gco:CharacterString>
+                </gmd:description>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shane Moore</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ GPS Coordinator</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 232 8726</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 6565</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 3403</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">100 North Senate Avenue MC 66-20 IGCN 1101</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46206 2251</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">smoore@idem.in.gov</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, 8:30am to 4:30pm, Eastern DST</gco:CharacterString>
+                        </gmd:hoursOfService>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Recorded ERC</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONALCONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">If an ERC has not been COGO'ed, or does not have sufficient data to be COGO'ed, a small triangular polygon (place marker) was created as a locational object. These small triangular polygons representing points were created using heads-up digitizing over the facilities point layer at a scale of 1:2,000 when the point was displayed at a size of four (circle2 symbol).</gco:CharacterString>
+                </gmd:description>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shane Moore</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ GPS Coordinator</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 232 8726</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 6565</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 3403</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">100 North Senate Avenue MC 66-20 IGCN 1101</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46206 2251</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">smoore@idem.in.gov</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, 8:30am to 4:30pm, Eastern DST</gco:CharacterString>
+                        </gmd:hoursOfService>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_ALL_DATA</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONALCONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management (IDEM) personnel have used recorded Environmental Restrictive Covenants (ERCs) to create polygons that delineate real property where contamination above a residential closure level is left on site. The polygons are derived from Exhibit A (Legal Description of Real Estate) from a recorded ERC of a regulated facility. The polygons are created using Coordinate Geometry (COGO) in ESRI ArcInfo software. This data set is ongoing and ERCs that have not been COGO'ed, or do not have sufficient data to complete the COGO process, are represented by small triangular polygons. The ERC polygon attributes are correlated and attached with the fields from the IDEM Institutional Controls Registry database.</gco:CharacterString>
+                </gmd:description>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shane Moore</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Department of Environmental Management</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ GPS Coordinator</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 232 8726</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 6565</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">317 233 3403</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">100 North Senate Avenue MC 66-20 IGCN 1101</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">46206 2251</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">smoore@idem.in.gov</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, 8:30am to 4:30pm, Eastern DST</gco:CharacterString>
+                        </gmd:hoursOfService>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Recorded ERC</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONALCONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on March 17, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "DATE_LAST_," "USER_CREAT," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-03-17T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on June 4, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-06-04T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on August 12, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-08-12T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on October 20, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-10-20T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on November 18, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-11-18T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on December 16, 2009. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2009-12-16T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on April 16, 2010. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 9.3 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. The attribute fields named "acres," "Shape_Leng," and "Shape_Area" were deleted. IGS personnel then saved the edited shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2010-04-16T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on December 12, 2011. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2011-12-12T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on February 20, 2012. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 536 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2012-02-20T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on April 10, 2012. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 548 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2012-04-10T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on January 9, 2013. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.1 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 674 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-01-09T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on April 5, 2013. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.1 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 674 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-04-05T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on June 5, 2013. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.1 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 717 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-06-05T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on August 7, 2013. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.1 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 780 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-08-07T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on December 5, 2013. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.2 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 929 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2013-12-05T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on May 13, 2014. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.2 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 1066 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2014-05-13T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on September 16, 2014. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.2 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 1218 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2014-09-16T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IGS personnel received an ESRI shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP" from IDEM personnel on February 25, 2015. OLQ_INSTITUTIONAL_CONTROLS_IN.SHP was loaded into ESRI ArcMap 10.2 and the shapefile was visually checked to ensure that all data provided actually fell within the accepted IGS state boundary. A total of 1287 control sites are now being published with this update. IGS personnel then renamed the shapefile as INSTITUTIONAL_CONTROLS_IDEM_IN.SHP. It should also be noted that portions of the associated metadata provided by IDEM for OLQ_INSTITUTIONAL_CONTROLS_IN.SHP were extracted and included in this metadata file.</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2015-02-25T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+                <gmd:source>
+                  <gmd:LI_Source>
+                    <gmd:sourceCitation>
+                      <gmd:CI_Citation>
+                        <gmd:alternateTitle>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">INSTITUTIONAL_CONTROLS_IDEM_IN.SHP</gco:CharacterString>
+                        </gmd:alternateTitle>
+                      </gmd:CI_Citation>
+                    </gmd:sourceCitation>
+                  </gmd:LI_Source>
+                </gmd:source>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."</gco:CharacterString>
+                </gmd:description>
+                <gmd:dateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2015-03-26T00:00:00</gco:DateTime>
+                </gmd:dateTime>
+                <gmd:processor>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Chris Dintaman</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana Geological Survey</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geologist, GIS Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:phone>
+                          <gmd:CI_Telephone>
+                            <gmd:voice>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 856 5654</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">812 855 2862</gco:CharacterString>
+                            </gmd:facsimile>
+                          </gmd:CI_Telephone>
+                        </gmd:phone>
+                        <gmd:address>
+                          <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">611 North Walnut Grove Avenue</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bloomington</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">47405-2208</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">cdintama@indiana.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                          </gmd:CI_Address>
+                        </gmd:address>
+                        <gmd:hoursOfService>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">0800 to 1700 Eastern Standard Time</gco:CharacterString>
+                        </gmd:hoursOfService>
+                        <gmd:contactInstructions>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Monday through Friday, except holidays</gco:CharacterString>
+                        </gmd:contactInstructions>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:processor>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:source>
+              <gmd:LI_Source>
+                <gmd:description>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Institutional Control sites in Indiana, current as of February 25, 2015. The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP": "Small triangular polygons representing points were created representing the portion of this dataset that have not been COGO'ed yet, or did not have sufficient data to be COGO'ed. These triangular polygons were digitized using heads-up digitizing over the facilities point layer at a scale of 1:2,000 when the point was displayed at a size of four (circle2 symbol). COGO'ed descriptions from recorded ERCs Exhibit "A" represent the other portion of this dataset."</gco:CharacterString>
+                </gmd:description>
+                <gmd:sourceCitation>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">OLQ_INSTITUTIONAL_CONTROLS_IN.SHP</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-02-25</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">1</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IDEM Office of Land Quality; Greg Overtoom</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:organisationName>
+                          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">IDEM OLQ</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                          <gmd:CI_Contact>
+                            <gmd:address>
+                              <gmd:CI_Address>
+                                <gmd:deliveryPoint>
+                                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indianapolis, Indiana</gco:CharacterString>
+                                </gmd:deliveryPoint>
+                              </gmd:CI_Address>
+                            </gmd:address>
+                          </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                      <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+                    </gmd:presentationForm>
+                  </gmd:CI_Citation>
+                </gmd:sourceCitation>
+                <gmd:sourceExtent>
+                  <gmd:EX_Extent>
+                    <gmd:description>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Based on metadata provided by IDEM, OLQ for the source shapefile named "OLQ_INSTITUTIONAL_CONTROLS_IN.SHP"</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:temporalElement>
+                      <gmd:EX_TemporalExtent>
+                        <gmd:extent>
+                          <gml:TimeInstant xmlns:gml="http://www.opengis.net/gml" gml:id="d10928e2885">
+                            <gml:timePosition>2015-02-25</gml:timePosition>
+                          </gml:TimeInstant>
+                        </gmd:extent>
+                      </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                  </gmd:EX_Extent>
+                </gmd:sourceExtent>
+              </gmd:LI_Source>
+            </gmd:source>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+      <gmd:MD_Constraints>
+        <gmd:useLimitation>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.</gco:CharacterString>
+        </gmd:useLimitation>
+      </gmd:MD_Constraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+        <gmd:maintenanceAndUpdateFrequency>
+          <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115"/>
+        </gmd:maintenanceAndUpdateFrequency>
+        <gmd:maintenanceNote>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata was translated to ISO 19139 for inclusion in the CIC Geospatial Data Discovery Project.</gco:CharacterString>
+        </gmd:maintenanceNote>
+        <gmd:contact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Purdue University Libraries</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">GIS Specialist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Indiana</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:country>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">geohelp@purdue.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+  </gmd:MD_Metadata>
+  
