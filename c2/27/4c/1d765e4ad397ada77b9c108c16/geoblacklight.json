@@ -1,0 +1,32 @@
+{
+"layer_geom_type_s": "Point", 
+"layer_modified_dt": "2017-05-24T17:33:09Z", 
+"solr_geom": "ENVELOPE(-77.115427, -76.909404, 38.9956, 38.802504)", 
+"dct_references_s": "{\"http://schema.org/url\":\"http://opendata.dc.gov/datasets/5564f65828844695b3e970ba3aa22577_27\",\"http://schema.org/downloadUrl\":\"http://opendata.dc.gov/datasets/5564f65828844695b3e970ba3aa22577_27.zip\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/27\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://opengeometadata.github.io/big-ten/c2/27/4c/1d765e4ad397ada77b9c108c16/iso19139.xml\"}", 
+"dc_rights_s": "Public", 
+"uuid": "c2274c1d-765e-4ad3-97ad-a77b9c108c16", 
+"dct_provenance_s": "Maryland", 
+"dc_subject_sm": [
+"Real property", 
+"Ownership"
+], 
+"dct_temporal_sm": "2017-", 
+"dc_description_s": "This dataset was retired in 2014. Please refer to thecommon ownership polygon\u00a0layer in\u00a0http://data.dc.gov\u00a0for the most current data on ownership.Property Owner Points. This dataset contains points that represent the approximate location of real property lots within the District of Columbia. Each property point is generated based on a corresponding record maintained within the Office of Tax and Revenue (OTR) Real Property Tax Administration's (RPTA) real property database. Each point contains the full attribution of database fields derived from ITS public release extract. The initial data conversion effort was begun in 1997 as a means to provide RPTA with a digital mapping system which could be maintained to reflect ongoing changes to property lots and ownership. The initial step was to scan RPTA tax square maps from aperture cards at an effective paper resolution of 400 DPI. The resulting images were then georeferenced to DC's 0.2-meter resolution 1995 digital orthophotos. During the georeferencing process The DC tax assessor provided a database of active tax accounts which were placed interactively by an operator using the georeferenced square image and the orthophoto. Centroids were placed on the primary structure visible in the orthophoto within the raster property polygon. The placement was performed within ArcView 3.2 using a customized data production application. Accounts which could not be placed in the first pass were then reviewed by another operator to attempt to find their correct location. The placed points were QC'd through a spatial overlay with the square index to assure a match between the NsquareN field value within the property database and the actual square polygon into which the point was placed. Spot checking was then performed to confirm that the centroids fell within the correct raster lot. The centroids were delivered to OTR as a single citywide AutoCAD DWG file. Attribute features with square All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters. METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.", 
+"dct_issued_s": "2017-03-03", 
+"dc_format_s": "Shapefile", 
+"dc_type_s": "Dataset", 
+"dc_identifier_s": "c2274c1d-765e-4ad3-97ad-a77b9c108c16", 
+"georss_polygon_s": "38.802504 -77.115427 38.9956 -77.115427 38.9956 -76.909404 38.802504 -76.909404 38.802504 -77.115427", 
+"solr_year_i": 2017, 
+"dct_spatial_sm": [
+"Washington, District of Columbia, United States"
+], 
+"dc_publisher_sm": [
+"District of Columbia GIS Program"
+], 
+"layer_id_s": "5564f65828844695b3e970ba3aa22577_27", 
+"georss_box_s": "38.802504 -77.115427 38.9956 -76.909404", 
+"dc_title_s": "Owner Points (Retired): Washington, D.C.", 
+"layer_slug_s": "c2274c1d-765e-4ad3-97ad-a77b9c108c16", 
+"dct_isPartOf_sm": "District of Columbia Open Data"
+}
