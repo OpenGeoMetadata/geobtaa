@@ -36,7 +36,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-06-07T17:50:31</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-06-28T17:41:57</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -338,11 +338,25 @@ This dataset is intended for researchers, students for reference, analysis and m
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/ce/d7/51/a671a44429a7dce6a0a3a055a/iso19139.xml</gmd:URL>
+                  <gmd:URL>https://opengeometadata.github.io/big-ten/ce/9d/75/1a671a44429a7dce6a0a3a055a/iso19139.xml</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
                 </gmd:protocol>
+                <gmd:name/>
+                <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"/>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://mapsweb.lib.purdue.edu/arcgis/rest/services/Purdue/wabashaerial/ImageServer/exportImage?mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%0D%0A%22lockRasterIds%22%3A+%5B15%5D%7D</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name/>
+                <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"/>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
