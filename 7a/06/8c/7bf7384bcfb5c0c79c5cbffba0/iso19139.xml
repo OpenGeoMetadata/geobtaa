@@ -67,7 +67,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-16T13:01:34</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-09T13:13:11</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -169,7 +169,7 @@
             <gmd:date>
               <gmd:CI_Date>
                 <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2007-12-28</gco:Date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2007-12-30</gco:Date>
                 </gmd:date>
                 <gmd:dateType>
                   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
@@ -277,9 +277,6 @@
             <gmd:otherCitationDetails>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Raster</gco:CharacterString>
             </gmd:otherCitationDetails>
-            <gmd:collectiveTitle>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin Department of Natural Resources (DNR)</gco:CharacterString>
-            </gmd:collectiveTitle>
           </gmd:CI_Citation>
         </gmd:citation>
         <gmd:abstract>
@@ -500,7 +497,7 @@
             <gmd:temporalElement>
               <gmd:EX_TemporalExtent>
                 <gmd:extent>
-                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d45338e557a1052958">
+                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml">
                     <gml:beginPosition>2008</gml:beginPosition>
                     <gml:endPosition>2008</gml:endPosition>
                   </gml:TimePeriod>
@@ -533,9 +530,7 @@
             <gmd:temporalElement>
               <gmd:EX_TemporalExtent>
                 <gmd:extent>
-                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d45338e607a1052958">
-                    <gml:beginPosition/>
-                  </gml:TimePeriod>
+                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d674211e597a1052958"/>
                 </gmd:extent>
               </gmd:EX_TemporalExtent>
             </gmd:temporalElement>
@@ -704,6 +699,30 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
             </gmd:distributorFormat>
             <gmd:distributorTransferOptions>
               <gmd:MD_DigitalTransferOptions>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>ftp://dnrftp01.wi.gov/geodata/landcover/reed_canary_grass.zip</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:description>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Data can be downloaded via the Surface Water Data Viewer Web Mapping Application, or from the DNR Public GIS FTP site.</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>http://dnrmaps.wisconsin.gov/imf/imf.jsp?site=SurfaceWaterViewer</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:description>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Data can be downloaded via the Surface Water Data Viewer Web Mapping Application, or from the DNR Public GIS FTP site.</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+              </gmd:MD_DigitalTransferOptions>
+            </gmd:distributorTransferOptions>
+            <gmd:distributorTransferOptions>
+              <gmd:MD_DigitalTransferOptions>
                 <gmd:offLine>
                   <gmd:MD_Medium>
                     <gmd:name>
@@ -790,9 +809,6 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
                 <gmd:function>
                   <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="ISOTC211/19115"/>
                 </gmd:function>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
-                </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
             <gmd:onLine>
@@ -812,16 +828,6 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
                 <gmd:function>
                   <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115">download</gmd:CI_OnLineFunctionCode>
                 </gmd:function>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/7a/06/8c/7bf7384bcfb5c0c79c5cbffba0/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>

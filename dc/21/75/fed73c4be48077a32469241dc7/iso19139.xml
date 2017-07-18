@@ -15,7 +15,7 @@
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">dataset</gco:CharacterString>
     </gmd:hierarchyLevelName>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-26T14:46:08</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-06-22T14:57:21</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -24,7 +24,7 @@
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2007</gco:CharacterString>
     </gmd:metadataStandardVersion>
     <gmd:dataSetURI>
-      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">qyik-3ame</gco:CharacterString>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">DPM</gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
@@ -67,6 +67,26 @@
             <gmd:title>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Detroit People Mover Route: Detroit, Michigan, 2015</gco:CharacterString>
             </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002"/>
+                </gmd:dateType>
+                <gmd:date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-01-17</gco:Date>
+                </gmd:date>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="002"/>
+                </gmd:dateType>
+                <gmd:date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2016-04-20</gco:Date>
+                </gmd:date>
+              </gmd:CI_Date>
+            </gmd:date>
             <gmd:identifier>
               <gmd:MD_Identifier>
                 <gmd:code>
@@ -89,6 +109,17 @@
                 <gmd:organisationName>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">City of Detroit Open Data Portal</gco:CharacterString>
                 </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:electronicMailAddress xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing">
+                          <gco:CharacterString/>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
                 <gmd:role>
                   <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator"/>
                 </gmd:role>
@@ -103,26 +134,6 @@
             <gmd:collectiveTitle>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Detroit Open Data</gco:CharacterString>
             </gmd:collectiveTitle>
-            <gmd:date>
-              <gmd:CI_Date>
-                <gmd:dateType>
-                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002"/>
-                </gmd:dateType>
-                <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-01-23</gco:Date>
-                </gmd:date>
-              </gmd:CI_Date>
-            </gmd:date>
-            <gmd:date>
-              <gmd:CI_Date>
-                <gmd:dateType>
-                  <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="002"/>
-                </gmd:dateType>
-                <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2016-08-28</gco:Date>
-                </gmd:date>
-              </gmd:CI_Date>
-            </gmd:date>
           </gmd:CI_Citation>
         </gmd:citation>
         <gmd:abstract>
@@ -169,7 +180,7 @@
                 <gmd:extent>
                   <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d30115e245a1052958">
                     <gml:beginPosition>2015</gml:beginPosition>
-                    <gml:endPosition indeterminatePosition="unknown">2016</gml:endPosition>
+                    <gml:endPosition indeterminatePosition="unknown">2015</gml:endPosition>
                   </gml:TimePeriod>
                 </gmd:extent>
               </gmd:EX_TemporalExtent>
@@ -182,10 +193,10 @@
               <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
             </gmd:type>
             <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Detroit, Michigan, United States</gco:CharacterString>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Michigan, United States</gco:CharacterString>
             </gmd:keyword>
             <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Michigan, United States</gco:CharacterString>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Detroit-Warren-Livonia, Michigan, United States</gco:CharacterString>
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
@@ -247,6 +258,9 @@
         </gmd:distributor>
         <gmd:transferOptions>
           <gmd:MD_DigitalTransferOptions>
+            <gmd:transferSize>
+              <gco:Real xmlns:gco="http://www.isotc211.org/2005/gco">0.008</gco:Real>
+            </gmd:transferSize>
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
@@ -260,7 +274,7 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://data.detroitmi.gov/d/qyik-3ame</gmd:URL>
+                  <gmd:URL>https://data.detroitmi.gov/Transportation/Detroit-People-Mover-Route/qyik-3ame</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>

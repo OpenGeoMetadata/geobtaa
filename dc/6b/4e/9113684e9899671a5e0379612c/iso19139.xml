@@ -58,7 +58,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T13:35:36</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-06-20T17:28:11</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -309,8 +309,14 @@
             <gmd:name>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shapefile</gco:CharacterString>
             </gmd:name>
+            <gmd:version xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:MD_Format>
         </gmd:distributionFormat>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
         <gmd:transferOptions>
           <gmd:MD_DigitalTransferOptions>
             <gmd:transferSize>
@@ -336,16 +342,6 @@
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/dc/6b/4e/9113684e9899671a5e0379612c/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
         </gmd:transferOptions>
       </gmd:MD_Distribution>
@@ -364,6 +360,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The Point Attribute Table contains a "Method Accuracy Description" field named "Loc_Method". Below are the estimated positional accuracies for each method followed by the number of schools located by that method. DRG: +/- 25 meters (876) Flood Affected Area: +/- 25 meters (869) Address Geocode: +/- 150 meters (93) 911 Address &amp; Plat Map: +/- 150 meters (2) Bad Locational Info: Undetermined (26) Street Only: Undetermined (2) DRG = School represented on DRG (scanned USGS 7.5' Quadrangle map) Flood Affected Area = See "References" section The following Method Descriptions refer to instances where the school was not represented on the DRG. Address Geocode = Geocoded using 1:100,000 scale TIGER line file data from the U.S. Bureau of the Census. 911 Address &amp; Plat map = Geocoded using paper E911 county maps with county plat maps used as verification. Bad Locational Info = School positioned near the center of the city used in the school's mailing address. Address information provided was not adequate to determine an actual location for the school. Street Only: Address range data not available for the street so school location placed on an arbitrary position along the street.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -389,6 +386,7 @@
                     <gmd:title>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Attribute data is derived from the 1998-99 Educational Directory for the Iowa Department of Education: Media: Published Report Title: Iowa Educational Directory: 1998-99 School Year Author/Agency: Iowa Department of Education Published Date: 1998 Locations for 869 schools were taken from a point coverage created by the Rock Island District of the US Army Corps of Engineers following the floods of 1993. The coverage includes all schools listed in the "Iowa Educational Directory: 1993-94 School Year" that occur within the scope of the FEMA-Iowa-GIS project. Following is the metadata for that point coverage: FILENAME: ia_schools DOCUMENTATION DATE:May 13, 1994 DATA THEME: SCHOOL DESCRIPTION: Point coverage showing location of schools within the scope of FEMA-Iowa-GIS project. ABSTRACT: The schools coverage consists of point locations manually digitized from 1:24K USGS Quadrangles. Attribute data is derived from dBase III file which is the database equivalent of the 1993-94 Educational Directory for the Iowa Department of Education. STATUS: 100% complete. GEOGRAPHIC AREA: Mississippi, Missouri, Cedar, Des Moines, Iowa, Nishebotna, Sioux and Skunk River corridors in Iowa. MAP PROJECTIONS: UTM zone 15 MAP UNITS: meters DATUM: NAD27 SOFTWARE VERSION: ARC/INFO v.6.1.1 INTENDED USE OF DATA: This data set is intended to be used to geographically locate schools and provide necessary information needed to contact these schools. LIMITATIONS OF DATA: The coverage depicts the schools as a single point location. Frequently a school consists of more than one structure. Frequently a school (especially the Community Colleges) consists of more than one structure. COVERAGE DEVELOPERS: Robert Willhite, Steve Lindmark CONTACT: Name: Robert Willhite, CENCR-PM-M Address: U.S. Army Corps of Engineers Rock Island District Clock Tower Building P.O. Box 2004 Rock Island, IL 61204-2004 Phone Number: (309)794-5393 Fax Number: (309)794-5710 E-Mail Address: robert@ncrsun1.ncr.usace.army.mil robert.a.willhite@usace.army.mil ORIGINAL SOURCE INFORMATION: Media: Pager Map 3-dBase III files provided on 1 floppy disk DIR9394.DBF SCHLKITC.DBF CROSWALK.DBF Author/Agency: U.S. Geological Survey, Iowa Department of Education, Census Data Center Published Dates: 1948-1993 1993 Scale: 1:24,000 Projection: State plane PROCEDURE USED TO CREATE THE DATA: The corners of each Quadrangle were used as tics. Tics generated in Lat-Long coordinates. Tics and points then manually digitized from Quadrangles assigning a unique label-id to each school. Digitized Quadrangles were then appended. The resulting coveerage was then transformed to UTM coordinate system. The dBase files were converted to comma delimited ascii format and converted to an Info table. The Info table and point coverage were then joined with joinitem command using the label id as the related item. REVISIONS MADE TO DATA: N/A REVIEWS APPLIED TO THE DATA: REFERENCES: COMMENTS: NOTICE: The U.S. Army Corps of Engineers assumes no responsibility for errors in the information. Similarly the U.S. Army Corps of Engineers assumes no responsibility for the consequences of inappropriate uses or interpretations of the data made by anyone to whom this data has been made available. The Corps bears no responsibility to inform users of any changes made to this data. Anyone using this data is advised that precision implied by the coverage may far exceed actual precision. Comments on this data are invited and the Corps would appreciate that documented errors be brought to staff attention. POINT ATTRIBUTE FILE ITEMS (PAT) ATTRIBUTE DESCRIPTION ia_schools_id Unique label identification number aea Area Education Agency number county Iowa has 99 counties. They are numbered 1-99 in alphabetical order. See Iowa Official Register 1993-1994 district school district number nces TIGER Census data school district number school Building or site number name Name of school admin Administrators name title Administrators title (i.e., Principal) address Address city City zip_code Zip Code area_code 3 digit area code phone_# 7 digit phone number ac2 Area code for fax machine, if applicable fax Fax machine number, if applicable gradespan Gradespan kitchen On site Kitchen y = yes n = no</gco:CharacterString>
                     </gmd:title>
+                    <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                   </gmd:CI_Citation>
                 </gmd:sourceCitation>
               </gmd:LI_Source>

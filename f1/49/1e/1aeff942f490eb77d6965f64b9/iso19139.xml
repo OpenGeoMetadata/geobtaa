@@ -70,7 +70,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T16:56:41</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-12-22T16:31:10</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -445,16 +445,6 @@
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/f1/49/1e/1aeff942f490eb77d6965f64b9/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
         </gmd:transferOptions>
         <gmd:distributionFormat>
@@ -483,6 +473,7 @@
             <gmd:evaluationMethodDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bureau of Transportation Statistics metadata reports- "The network is not topologically connected. There should be no redundancy of lines or nodes in the data set. The data set is geographically accurate at the 1:100,000 scale."</gco:CharacterString>
             </gmd:evaluationMethodDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_TopologicalConsistency>
         </gmd:report>
         <gmd:report>
@@ -490,6 +481,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bureau of Transportation Statistics metadata reports- "The network is not topologically connected. There should be no redundancy of lines or nodes in the data set. The data set is geographically accurate at the 1:100,000 scale."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_ConceptualConsistency>
         </gmd:report>
         <gmd:report>
@@ -497,6 +489,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bureau of Transportation Statistics metadata reports- "The railroad ownership field is complete to approximately mid-2000. The FRA reports the following fields as complete - Railroad Ownership, State/County (FIPS5), State Code, FRA Regions, Link Type (subject to change), Passenger Flag, Abandoned Flag, Billing Railroads, Railroad Class, The FRA reports the following fields as incomplete - Signals, Density Code, Military Flag - applied only in some states, Abandonment Year"</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_CompletenessOmission>
         </gmd:report>
         <gmd:report>
@@ -504,6 +497,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bureau of Transportation Statistics metadata reports- "The FRA reports that as many nodes as possible have been identified with a name. There are likely more that are not easily identified. Many nodes in the 1:100,000 scale rail network are 'mapped' to a node in the 1:2,000,000 scale rail network. Special note concerning trackage rights- In some cases, a 'short line'railroad may operate on its larger railroad connection(s) as its billing railroad. For example, the larger railroad(s) treat traffic originating or terminating on the short line as if it were originating or terminating its own line; perform the billing, car reporting, and car tracking; then share the revenue with the short line. These trackage rights may exist as four, five, or six in the sequence, while one and two remain empty."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_QuantitativeAttributeAccuracy>
         </gmd:report>
         <gmd:report>
@@ -511,6 +505,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Bureau of Transportation Statistics metadata reports- "The horizontal accuracy for these data can be stated as being that associated with data compiled at the 1:100,000 scale."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:report>
@@ -518,6 +513,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vertical accuracy was not a factor in the digital production of the data set. No quantitative tests were performed.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -583,9 +579,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">TIGER</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -594,9 +592,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Rail 100K</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -667,9 +667,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Rail 100K</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -678,9 +680,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">RAILROAD_100K_NTAD_IN</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -813,9 +817,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">RAILROAD_100K_NTAD_IN</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -824,9 +830,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">RAILROAD_100K_NTAD_IN</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
