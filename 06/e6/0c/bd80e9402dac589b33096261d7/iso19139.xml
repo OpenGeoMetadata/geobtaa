@@ -67,7 +67,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-16T12:57:23</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-09T13:13:07</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -224,9 +224,6 @@
             <gmd:otherCitationDetails>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Point</gco:CharacterString>
             </gmd:otherCitationDetails>
-            <gmd:collectiveTitle>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin Department of Natural Resources (DNR)</gco:CharacterString>
-            </gmd:collectiveTitle>
           </gmd:CI_Citation>
         </gmd:citation>
         <gmd:abstract>
@@ -583,7 +580,7 @@ A reference document, "24K Landnet Spatial Database Technical Documentation", 19
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://gisdata.wisc.edu/public/WI_PLSSCentroids_1996.zip</gmd:URL>
+                  <gmd:URL>ftp://dnrftp01.wi.gov/geodata/landnet/</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
@@ -594,26 +591,6 @@ A reference document, "24K Landnet Spatial Database Technical Documentation", 19
                 <gmd:function>
                   <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115"/>
                 </gmd:function>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>ftp://dnrftp01.wi.gov/geodata/landnet/</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
-                </gmd:protocol>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/06/e6/0c/bd80e9402dac589b33096261d7/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>

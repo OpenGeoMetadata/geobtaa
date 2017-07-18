@@ -73,7 +73,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T16:55:57</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-12-22T16:14:27</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -495,6 +495,9 @@
                 </gmd:role>
               </gmd:CI_ResponsibleParty>
             </gmd:distributorContact>
+            <gmd:distributorTransferOptions>
+              <gmd:MD_DigitalTransferOptions/>
+            </gmd:distributorTransferOptions>
           </gmd:MD_Distributor>
         </gmd:distributor>
         <gmd:transferOptions>
@@ -529,16 +532,6 @@
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/13/de/1f/eed18a42578497f0749f94a60a/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
         </gmd:transferOptions>
         <gmd:distributionFormat>
@@ -567,6 +560,7 @@
             <gmd:evaluationMethodDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "Points, nodes, lines, and areas conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends of lines. Lines do not overshoot or undershoot other lines where they are supposed to meet. There are no duplicate lines. Lines bound areas and lines identify the areas to the left and right of the lines. Gaps and overlaps among areas do not exist. All areas close."</gco:CharacterString>
             </gmd:evaluationMethodDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_TopologicalConsistency>
         </gmd:report>
         <gmd:report>
@@ -574,6 +568,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "Points, nodes, lines, and areas conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends of lines. Lines do not overshoot or undershoot other lines where they are supposed to meet. There are no duplicate lines. Lines bound areas and lines identify the areas to the left and right of the lines. Gaps and overlaps among areas do not exist. All areas close."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_ConceptualConsistency>
         </gmd:report>
         <gmd:report>
@@ -581,6 +576,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "The reader should be aware that in preparing local-resolution NHD for the State of Indiana, AECOM Technology Services, Inc. (ATS) has relied upon the accuracy and completeness of the information that has been provided to it for review, and that no third party is entitled to rely upon ATS work product, as the work is intended for the use of the client only. The completeness of the data reflects the HUC 8 level published in the WBD geodatabase. Features found on the ground may have been eliminated or generalized from the 1:24,000 scale NHD data because of scale and legibility constraints. In general, streams were collected to the 6 acre basin limit, or the highest upstream limit of the 1:24,000 scale NHD, whichever was greater. Features collected outside of the HUC 8 basin were done so because newer terrain data shows that the HUC 8 basin limit is no longer accurate. Lake/pond features that were 10,890 square feet or greater in area, or that were part of the 1:24,000 scale NHD and were still visible in the imagery, were collected. Swamp/marsh features were collected if a 1:24,000 scale NHD feature existed and could be verified in the imagery. Ftypes of Pipeline with an Fcode of 42803 Pipeline: Pipeline Type = Aqueduct; Relationship to Surface = Underground indicate urban areas in which stormwater data is unavailable, and 3 or more underground connections could be inferred from the imagery and terrain data. Fcodes may have changed from the 1:24,000 scale NHD and have been defined in agreement with the USGS and the Indiana Geographic Information Councils Waters Working Group. Fcodes will remain the same unless determined to have been incorrectly coded in the 1:24,000 scale NHD. All Stream/river features that do not have a corresponding 1:24,000 scale NHD will have a generic Stream/river FCode. Note, however, that these general rules were applied unevenly among basins during compilation. Transport reaches are defined on nearly all features of type stream/river, canal/ditch, artificial path, and connector. Waterbody reaches are defined on all lake/pond features. New local resolution NHD streams whose headwaters are in Indiana and flow into a bordering state were captured using imagery and terrain data that overlapped into the adjacent state. The features were digitized until they reached the first confluence within the 1:24,000 scale NHD feature. The 1:24,000 scale NHD reach that crossed the state boundaries was then copied into the local resolution NHD dataset and broken at the new confluences. The entire reach was copied in order for it to be coded as a "Modify" during the conflation process. New features whose head waters start in a bordering state and flow into Indiana will start at the border. Features that start in a bordering state and meander in and out of the state along the border are captured from the highest headwater intersection with the border and continue downstream only if the feature confluences with another feature in Indiana. When a 1:24,000 NHDFlowline feature crosses the boundary it is smoothed at the boundary as to not appear jagged. New and existing NHD Waterbody features that intersect the Indiana state boundary are digitized across the state boundary. NHDArea features that cross the state boundary are smoothed at the state boundary to avoid a jagged look. Detailed capture conditions are provided for every feature type in the Standards for National Hydrography Dataset - High Resolution (USGS, 1999), available online through http://mapping.usgs.gov/standards/."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_CompletenessOmission>
         </gmd:report>
         <gmd:report>
@@ -588,6 +584,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "The accuracy of the attributes of the source 1:24,000 scale NHD cannot be verified but the Digital Line Graph (DLG) data that the 1:24,000 scale NHD attributes come from is estimated to be 98.5 percent. Prior to conflation, the Indiana Geographic Information Council's Waters Working Group reviewed the 1:24,000 scale NHD for the entire state of Indiana and corrected GNIS name errors. As part of the conflation process, GNIS names on the local resolution NHD reaches were validated against the 1:24,000 scale NHD. Prior to conflation, Feature types were checked against the source 1:24,000 scale NHD. Feature types, characteristics, and other attributes conform to the Standards for National Hydrography Dataset - High Resolution (USGS, 1999) as of the date they were loaded into the database."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_QuantitativeAttributeAccuracy>
         </gmd:report>
         <gmd:report>
@@ -595,6 +592,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "The horizontal accuracy of the local resolution NHD meets the parameters of the National Map Accuracy Standards (NMAS) for 1"=100' (1:1,200) or 1"=200' (1:2,400) scale mapping, depending on whether the scale of the Imagery is half-foot or 1 foot, respectively (see Process Description for additional information). Three levels of horizontal positioning QC were performed, including a self-check, an independent review and a final review. Excluding operator error, horizontal accuracy is based on the source terrain and imagery data used to create the dataset. All source data (Terrain and Imagery) meets the National Standard for Spatial Data Accuracy (NSSDA) at a scale of 1:1,200 or 1:2,400."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:report>
@@ -602,6 +600,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_AREA_IN": "No vertical data will be part of the local resolution dataset."</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -1001,9 +1000,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_121004.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1012,9 +1013,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1091,9 +1094,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_131216.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1102,9 +1107,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1181,9 +1188,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_140327.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1192,9 +1201,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1271,9 +1282,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_140327.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1282,9 +1295,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1361,9 +1376,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_140905.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1372,9 +1389,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1451,9 +1470,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_141106.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1462,9 +1483,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1541,9 +1564,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_150306.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1552,9 +1577,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1631,9 +1658,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">NHD_LOCALRES_150806.MDB (NHD_LOCALRES_AREA_IN - polygon feature class)</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -1642,9 +1671,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>

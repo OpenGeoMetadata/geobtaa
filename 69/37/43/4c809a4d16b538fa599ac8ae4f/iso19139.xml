@@ -42,7 +42,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-10T15:32:57</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-07-18T21:24:50</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -77,7 +77,7 @@
             <gmd:date>
               <gmd:CI_Date>
                 <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-07-31</gco:Date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2015-07-27</gco:Date>
                 </gmd:date>
                 <gmd:dateType>
                   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
@@ -104,6 +104,9 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin Statewide Parcel Layer Version 1.0.1 (V1.0.1) The layer was created as the primary development cycle of the Statewide Parcel Map Initiative, see http://www.doa.state.wi.us/Divisions/Intergovernmental-Relations/Land-Information-Program/Statewide-Parcel-Map-Initiative/ for more information on this project.</gco:CharacterString>
         </gmd:purpose>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin</gco:CharacterString>
+        </gmd:credit>
         <gmd:credit>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Product of the Version 1 Statewide Parcel Map Database Project (V1). Created by: The Wisconsin State Cartographer's Office, Administrated by: The Wisconsin Land Information Program (WLIP) at the Department of Administration (DOA)</gco:CharacterString>
         </gmd:credit>
@@ -134,6 +137,32 @@
             </gmd:role>
           </gmd:CI_ResponsibleParty>
         </gmd:pointOfContact>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin, United States</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+            </gmd:type>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Parcels</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Real property</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Land ownership</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
         <gmd:resourceConstraints>
           <gmd:MD_Constraints>
             <gmd:useLimitation>
@@ -191,7 +220,7 @@
             <gmd:temporalElement>
               <gmd:EX_TemporalExtent>
                 <gmd:extent>
-                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml">
+                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d64072e225a1052958">
                     <gml:beginPosition>2015</gml:beginPosition>
                     <gml:endPosition>2015</gml:endPosition>
                   </gml:TimePeriod>
@@ -200,32 +229,6 @@
             </gmd:temporalElement>
           </gmd:EX_Extent>
         </gmd:extent>
-        <gmd:descriptiveKeywords>
-          <gmd:MD_Keywords>
-            <gmd:type>
-              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
-            </gmd:type>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin, United States</gco:CharacterString>
-            </gmd:keyword>
-          </gmd:MD_Keywords>
-        </gmd:descriptiveKeywords>
-        <gmd:descriptiveKeywords>
-          <gmd:MD_Keywords>
-            <gmd:type>
-              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
-            </gmd:type>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Parcels</gco:CharacterString>
-            </gmd:keyword>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Real property</gco:CharacterString>
-            </gmd:keyword>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Land ownership</gco:CharacterString>
-            </gmd:keyword>
-          </gmd:MD_Keywords>
-        </gmd:descriptiveKeywords>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

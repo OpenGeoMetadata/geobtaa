@@ -58,7 +58,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T13:35:46</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-06-20T17:24:22</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -254,6 +254,7 @@
         </gmd:resourceConstraints>
         <gmd:resourceConstraints>
           <gmd:MD_SecurityConstraints>
+            <gmd:classification xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
             <gmd:classificationSystem>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">State of Iowa Enterprise Data Classification Standard</gco:CharacterString>
             </gmd:classificationSystem>
@@ -349,6 +350,7 @@
             <gmd:name>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shapefile</gco:CharacterString>
             </gmd:name>
+            <gmd:version xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:MD_Format>
         </gmd:distributionFormat>
         <gmd:distributor>
@@ -419,20 +421,20 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>ftp://ftp.igsb.uiowa.edu/gis_library/IA_State/Infrastructure/</gmd:URL>
+                  <gmd:URL>ftp://ftp.igsb.uiowa.edu/gis_library/ia_state/infrastraucture/transportation/rail_lines.zip</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/f6/22/49/44f2994a548e50f8166f94052a/iso19139.xml</gmd:URL>
+                  <gmd:URL>ftp://ftp.igsb.uiowa.edu/gis_library/IA_State/Infrastructure/</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:LINK</gco:CharacterString>
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
@@ -454,6 +456,7 @@
             <gmd:evaluationMethodDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The network is topologically connected and the data set is geographically accurate at the 1:100,000 scale.</gco:CharacterString>
             </gmd:evaluationMethodDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_TopologicalConsistency>
         </gmd:report>
         <gmd:report>
@@ -461,6 +464,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The network is topologically connected and the data set is geographically accurate at the 1:100,000 scale.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_ConceptualConsistency>
         </gmd:report>
         <gmd:report>
@@ -468,6 +472,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">It is estimated that over 95% of the lines are represented in this file. SW Iowa has a few missing or incomplete lines.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_CompletenessOmission>
         </gmd:report>
         <gmd:report>
@@ -475,6 +480,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The previous 2 million network attributes were conflated to the 100k network. The FRA reports the following fields as incomplete: Signal System, Number of Tracks, and Subdivision. Special note concerning trackage rights: In some cases, a 'short line' railroad may operate on its larger railroad connection(s) as its billing railroad. For example, the larger railroad(s) treat traffic originating or terminating on the short line as if it were originating or terminating on its own line; perform the billing, car reporting, and car tracking; then share the revenue with the short line. These trackage rights may exist as four, five, or six in the sequence, while one and two remain empty. BTS quality checks were to cross reference the place dataset with the state dataset, to determine that the spatial data and attribute data were accurate. Names of current rail lines are interpreted from the FRA code for the rail line. Abandoned line names were often taken from the aerial photography, and may not reflect changes after rail lines were merged.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_QuantitativeAttributeAccuracy>
         </gmd:report>
         <gmd:report>
@@ -482,6 +488,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The horizontal accuracy for these data can be stated as being that associated with data compiled at the 1:100,000 scale.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -511,6 +518,7 @@
                     <gmd:title>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">1930s Aerial Photography</gco:CharacterString>
                     </gmd:title>
+                    <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                         <gmd:organisationName>
@@ -542,6 +550,7 @@
                     <gmd:alternateTitle>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">FRA</gco:CharacterString>
                     </gmd:alternateTitle>
+                    <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                         <gmd:organisationName>

@@ -135,9 +135,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This dataset identifies the spatial distribution and estimated thickness of unconsolidated deposits in Erie County. The original map only displays sediment thickness; no interpretation of surficial geology has been made for the County. The original map was digitized to provide an electronic version for GIS work. Potential users should read the Supplemental Information Section (below) to determine the appropriate scale for using these data. More detailed sediment thickness maps may exist within Erie County in either paper or electronic format. Researchers are encouraged to check with the U.S. Geological Survey, Pennsylvania Geologic Survey, PASDA, and/or Geology Departments at local universities and colleges for other maps.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Sediment thickness contours and associated attribute information are from the "Map Showing the Thickness of Unconsolidated Deposits, Location of Water Wells, and Seismic-Refraction Cross Sections", which is Plate 2 in the Pennsylvania Geological Survey Water Resources Report 62 (Groundwater Resources of Erie County) by Richards et al., 1987. General digital work (digitizing, attributing, and proofing) was performed by Allegheny College students Erin Cavagnero and Mingyuan Song. Specific digital work (transforming, adjusting, and documenting) and project oversight was conducted by Christopher L. Shaffer, GIS Manager, Allegheny College and Dr. Rachel O'Brien, Associate Professor of Geology, Allegheny College. Authorship for this work should be referenced as: Shaffer, C.L., R. O'Brien, E.M. Cavagnaro, and M. Song, 2010. Thickness of Unconsolidated Deposits of Erie County, Pennsylvania: A digitized version of the Richards et al. 1987 map.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -301,6 +298,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Penn State</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
@@ -573,11 +573,48 @@
     <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
         <gmd:maintenanceAndUpdateFrequency>
-          <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115"/>
+          <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115"/>
         </gmd:maintenanceAndUpdateFrequency>
         <gmd:maintenanceNote>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata was translated into ISO 19139 for inclusion in the Big Ten Academic Alliance Geoportal</gco:CharacterString>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata was created as or translated to ISO 19139 for inclusion in the Big Ten Academic Alliance Geoportal.</gco:CharacterString>
         </gmd:maintenanceNote>
+        <gmd:contact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Big Ten Academic Alliance Geospatial Data Project</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata Coordinator</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">btaa-gdp@umn.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://z.umn.edu/btaagdp</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Big Ten Academic Alliance Geospatial Data Project</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:function>
+                      <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="ISOTC211/19115"/>
+                    </gmd:function>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115"/>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:contact>
         <gmd:contact>
           <gmd:CI_ResponsibleParty>
             <gmd:organisationName>
@@ -594,11 +631,14 @@
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">University Park</gco:CharacterString>
                     </gmd:city>
                     <gmd:administrativeArea>
-                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">PA</gco:CharacterString>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Pennsylvania</gco:CharacterString>
                     </gmd:administrativeArea>
                     <gmd:postalCode>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">16802</gco:CharacterString>
                     </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">US</gco:CharacterString>
+                    </gmd:country>
                     <gmd:electronicMailAddress>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">UL-Maps@lists.psu.edu</gco:CharacterString>
                     </gmd:electronicMailAddress>
@@ -607,7 +647,7 @@
               </gmd:CI_Contact>
             </gmd:contactInfo>
             <gmd:role>
-              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+              <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115"/>
             </gmd:role>
           </gmd:CI_ResponsibleParty>
         </gmd:contact>

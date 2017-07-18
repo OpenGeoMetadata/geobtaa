@@ -61,7 +61,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-04-05T13:35:26</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-06-20T17:29:13</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -319,6 +319,7 @@
             <gmd:name>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Shapefile</gco:CharacterString>
             </gmd:name>
+            <gmd:version xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:MD_Format>
         </gmd:distributionFormat>
         <gmd:distributor>
@@ -372,6 +373,7 @@
                 <gmd:name>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">SDE Feature Class</gco:CharacterString>
                 </gmd:name>
+                <gmd:version xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
               </gmd:MD_Format>
             </gmd:distributorFormat>
           </gmd:MD_Distributor>
@@ -439,6 +441,7 @@
                 <gmd:name>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">shapefile</gco:CharacterString>
                 </gmd:name>
+                <gmd:version xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                 <gmd:fileDecompressionTechnique>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">zip</gco:CharacterString>
                 </gmd:fileDecompressionTechnique>
@@ -471,16 +474,6 @@
                 </gmd:protocol>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
-            <gmd:onLine>
-              <gmd:CI_OnlineResource>
-                <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/e1/c3/31/dc97544c40a09aa6177b3b6c69/iso19139.xml</gmd:URL>
-                </gmd:linkage>
-                <gmd:protocol>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
-                </gmd:protocol>
-              </gmd:CI_OnlineResource>
-            </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
         </gmd:transferOptions>
       </gmd:MD_Distribution>
@@ -499,6 +492,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">None</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_ConceptualConsistency>
         </gmd:report>
         <gmd:report>
@@ -506,6 +500,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">None</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_CompletenessOmission>
         </gmd:report>
         <gmd:report>
@@ -513,6 +508,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">None</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_QuantitativeAttributeAccuracy>
         </gmd:report>
         <gmd:report>
@@ -520,6 +516,7 @@
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">None</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_AbsoluteExternalPositionalAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -557,9 +554,11 @@
                   <gmd:LI_Source>
                     <gmd:sourceCitation>
                       <gmd:CI_Citation>
+                        <gmd:title xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                         <gmd:alternateTitle>
                           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Roads</gco:CharacterString>
                         </gmd:alternateTitle>
+                        <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                       </gmd:CI_Citation>
                     </gmd:sourceCitation>
                   </gmd:LI_Source>
@@ -586,6 +585,7 @@
                     <gmd:alternateTitle>
                       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Roads</gco:CharacterString>
                     </gmd:alternateTitle>
+                    <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
                     <gmd:citedResponsibleParty>
                       <gmd:CI_ResponsibleParty>
                         <gmd:organisationName>
