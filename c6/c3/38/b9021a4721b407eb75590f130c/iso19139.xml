@@ -61,7 +61,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-11-21T16:31:23</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-07-26T20:36:58</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -124,6 +124,7 @@
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The DuPage County Light Detection and Ranging (LIDAR) project is to provide high accuracy bare-earth processed LiDAR and a geodatabase containing bare earth points, breaklines, 2ft contours, a feature terrain dataset, and ties to adjacient counties for approximately 334 square miles.The project utilized data acquired in 2006 to post-process and classify the LiDAR data in 2008. The classified bare-earth data achieves the following: nominal horizontal spacing of 3.6 feet based on the Illinois State Plane Coordinate System, East Zone, related to the North American Datum of 1983 (NSRS2007). Vertical accuracy was to achieve a Fundamental Vertical Accuarcy at a 95% confidence level of less than 1.19 feet using the both FEMA and ASPRS category classification.Accuracy statement is based on the area of moderate to flat terrain. Diminished accuracies are to be expected in areas in dense vegetation. The accuracy of the LiDAR data as tested met the vertical accuracy to support the contour interval of 2 feet or less standards, however, derived products may be less accurate in areas of dense vegetation due to a lesser number of points defining the bare-earth in these areas.</gco:CharacterString>
         </gmd:purpose>
         <gmd:credit>
+          Illinois
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Aero-Metric, Inc.</gco:CharacterString>
         </gmd:credit>
         <gmd:status>
@@ -269,7 +270,7 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>http://data.isgs.illinois.edu/arcgis/rest/services/Elevation/IL_Statewide_Lidar_DEM_WGS/ImageServer</gmd:URL>
+                  <gmd:URL>https://data.isgs.illinois.edu/arcgis/rest/services/Elevation/IL_Statewide_Lidar_DEM_WGS/ImageServer</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
@@ -279,13 +280,11 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/c6/33/8b/9021a4721b407eb75590f130c/iso19139.xml</gmd:URL>
+                  <gmd:URL>https://opengeometadata.github.io/big-ten/c6/c3/38/b9021a4721b407eb75590f130c/iso19139.xml</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
                 </gmd:protocol>
-                <gmd:name/>
-                <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"/>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
