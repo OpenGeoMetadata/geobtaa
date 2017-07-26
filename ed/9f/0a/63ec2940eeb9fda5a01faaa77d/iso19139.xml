@@ -55,7 +55,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2016-11-21T17:35:30</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-07-26T20:36:55</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -262,14 +262,10 @@
             </gmd:geographicElement>
           </gmd:EX_Extent>
         </gmd:extent>
-        <gmd:extent>
-          <gmd:EX_Extent>
-            <gmd:geographicElement/>
-          </gmd:EX_Extent>
-        </gmd:extent>
         <gmd:supplementalInformation>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">LiDAR has been collected and processed for all areas within the project study area. In some areas of heavy vegetation and forest cover, there may be relatively few ground points in the LiDAR data. TINing the points produces large triangles and hence the elevations may be less accurate within such areas. In some areas with large bodies of water, competing water surface levels may be visible. This is due to seasonal water level fluctuation and intervals of time between acquisition of an area. LiDAR flight lines have been examined to ensure that there was at least 60% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data were examined at a 1:3000 scale. 4 point per meter collection rate: Average Point Spacing 0.5 meters Average Point Density 6.64 pulses per square meter Flying Height (Above Ground) 3,1396 meters Ground Speed 150 knots Field of View (FOV) 40 degrees Scan Rate Setting used 42 Hz Laser Pulse Rate used 194 kHz</gco:CharacterString>
         </gmd:supplementalInformation>
+        <gmd:credit>Illinois</gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
@@ -368,7 +364,7 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>http://data.isgs.illinois.edu/arcgis/rest/services/Elevation/IL_Statewide_Lidar_DEM_WGS/ImageServer</gmd:URL>
+                  <gmd:URL>https://data.isgs.illinois.edu/arcgis/rest/services/Elevation/IL_Statewide_Lidar_DEM_WGS/ImageServer</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ESRI:ArcGIS</gco:CharacterString>
@@ -378,13 +374,11 @@
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://opengeometadata.github.io/big-ten/ed/f0/a6/3ec2940eeb9fda5a01faaa77d/iso19139.xml</gmd:URL>
+                  <gmd:URL>https://opengeometadata.github.io/big-ten/ed/9f/0a/63ec2940eeb9fda5a01faaa77d/iso19139.xml</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">metadata</gco:CharacterString>
                 </gmd:protocol>
-                <gmd:name/>
-                <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"/>
               </gmd:CI_OnlineResource>
             </gmd:onLine>
           </gmd:MD_DigitalTransferOptions>
