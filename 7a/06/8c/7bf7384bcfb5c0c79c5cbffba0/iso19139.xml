@@ -67,7 +67,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-09T13:13:11</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-07-26T22:23:22</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -89,7 +89,7 @@
               <gco:Integer xmlns:gco="http://www.isotc211.org/2005/gco">15846</gco:Integer>
             </gmd:dimensionSize>
             <gmd:resolution>
-              <gco:Measure xmlns:gco="http://www.isotc211.org/2005/gco" uom="m">30.000000</gco:Measure>
+              <gco:Measure xmlns:gco="http://www.isotc211.org/2005/gco" uom="m">30</gco:Measure>
             </gmd:resolution>
           </gmd:MD_Dimension>
         </gmd:axisDimensionProperties>
@@ -102,7 +102,7 @@
               <gco:Integer xmlns:gco="http://www.isotc211.org/2005/gco">16995</gco:Integer>
             </gmd:dimensionSize>
             <gmd:resolution>
-              <gco:Measure xmlns:gco="http://www.isotc211.org/2005/gco" uom="m">30.000000</gco:Measure>
+              <gco:Measure xmlns:gco="http://www.isotc211.org/2005/gco" uom="m">30</gco:Measure>
             </gmd:resolution>
           </gmd:MD_Dimension>
         </gmd:axisDimensionProperties>
@@ -169,7 +169,7 @@
             <gmd:date>
               <gmd:CI_Date>
                 <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2007-12-30</gco:Date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2007-12-27</gco:Date>
                 </gmd:date>
                 <gmd:dateType>
                   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
@@ -286,7 +286,7 @@
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">These data can be used for watershed scale analysis in various arenas such as wetland invasives research, wetland restoration techniques analysis, and wetland restoration planning. The data have been developed for inclusion in the Potentially Restorable Wetlands Project. The data should be used at scales smaller than 1:40,000. It is also suggested that the data be used at no less than the one-half acre minimum mapping unit. ArcView with the Spatial Analyst Extension, ArcInfo/ArcGIS Grid, or comparable GIS software is needed to use the Grid format data meaningfully.</gco:CharacterString>
         </gmd:purpose>
         <gmd:credit>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin DNR</gco:CharacterString>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin</gco:CharacterString>
         </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
@@ -698,28 +698,7 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
               </gmd:MD_Format>
             </gmd:distributorFormat>
             <gmd:distributorTransferOptions>
-              <gmd:MD_DigitalTransferOptions>
-                <gmd:onLine>
-                  <gmd:CI_OnlineResource>
-                    <gmd:linkage>
-                      <gmd:URL>ftp://dnrftp01.wi.gov/geodata/landcover/reed_canary_grass.zip</gmd:URL>
-                    </gmd:linkage>
-                    <gmd:description>
-                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Data can be downloaded via the Surface Water Data Viewer Web Mapping Application, or from the DNR Public GIS FTP site.</gco:CharacterString>
-                    </gmd:description>
-                  </gmd:CI_OnlineResource>
-                </gmd:onLine>
-                <gmd:onLine>
-                  <gmd:CI_OnlineResource>
-                    <gmd:linkage>
-                      <gmd:URL>http://dnrmaps.wisconsin.gov/imf/imf.jsp?site=SurfaceWaterViewer</gmd:URL>
-                    </gmd:linkage>
-                    <gmd:description>
-                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Data can be downloaded via the Surface Water Data Viewer Web Mapping Application, or from the DNR Public GIS FTP site.</gco:CharacterString>
-                    </gmd:description>
-                  </gmd:CI_OnlineResource>
-                </gmd:onLine>
-              </gmd:MD_DigitalTransferOptions>
+              <gmd:MD_DigitalTransferOptions/>
             </gmd:distributorTransferOptions>
             <gmd:distributorTransferOptions>
               <gmd:MD_DigitalTransferOptions>
@@ -879,7 +858,7 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The image processing technique followed was published in the 'Development of a Landscape Level Monitoring Methodology Based on Mapping Invasive Species, Phase II: Statewide Mapping of Wetlands Dominated by Reed Canary Grass, Phalaris arundinacea L.' (2007). The report is accessible at &lt;URL: http://dnr.wi.gov/org/water/fhp/wetlands/assessment.shtml&gt;</gco:CharacterString>
                 </gmd:description>
                 <gmd:dateTime>
-                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2006-20-07T00:00:00</gco:DateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">Invalid DateT00:00:00</gco:DateTime>
                 </gmd:dateTime>
               </gmd:LI_ProcessStep>
             </gmd:processStep>
@@ -889,7 +868,7 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Changed name of file from 'rcggw930' to 'WI_Reed_Canary_Grass_2006'</gco:CharacterString>
                 </gmd:description>
                 <gmd:dateTime>
-                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-02-27T00:00:00</gco:DateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-02-24T00:00:00</gco:DateTime>
                 </gmd:dateTime>
                 <gmd:processor>
                   <gmd:CI_ResponsibleParty>
@@ -1086,7 +1065,7 @@ Augmented original metadata with UW-Madison specific elements.</gco:CharacterStr
                     <gmd:date>
                       <gmd:CI_Date>
                         <gmd:date>
-                          <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">1998-01-01</gco:Date>
+                          <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">1997-12-29</gco:Date>
                         </gmd:date>
                         <gmd:dateType>
                           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
