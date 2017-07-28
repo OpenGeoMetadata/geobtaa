@@ -167,9 +167,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The Minnesota Solar Suitability Analysis attempts to provide solar insolation analysis for the entire State of Minnesota. As far as we are aware, it is the only project of its scale in existence; similar studies have been limited to metro areas or focus on rooftop insolation. The project's existence is feasible because of statewide, freely available aerial lidar coverage. And the commitment of the team to work long hours on this unfunded project. The project finds itself at the intersection of renewable energy, big data analysis, geospatial technology, and open data availability. This data provides a measure of incedent solar radiation as it is intercepted by the earth surface, or features (such as vegetation and buildings) standing above the earth surface. The data is intended to be used to assess the suitability of a site for solar panel (photovoltaic cell) installations.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This data was developed by a group of Masters of GIS students at the University of Minnesota. Group members: Brink, Christopher; Gosack, Ben; Luo, Yuanyuan; Martin, Christopher; McDonald, Molly; Moore, Michael; Munsch, Andrew; Palka, Stephen; Piernot, Devon; Xie, Yiquan; Walz, Andrew. Faculty support and advising from Len Kne and Dan Thiede.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001"/>
         </gmd:status>
@@ -367,6 +364,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Minnesota</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:contentInfo>

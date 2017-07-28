@@ -149,10 +149,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This data set was compiled to replace/update the existing feature dataset (IL_Bedrock_Geology_500K_1967), based on the 1967 Willman et al. Geologic Map of Illinois. The data can be used for any project which requires bedrock data at a scale of 1:500,000. This data should not be used at a scale larger than 1:500,000. Not suitable for site specific work. The data are not appropriate as a geodetic, legal or engineering base. The data set was not and is not intended as a substitute for surveyed locations, such as can be determined by a registered Public Land Surveyor. Although useful in a GIS as a reference base layer for maps, the data set has no legal basis in the definition of boundaries or property lines.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">D. Kolata, P. Weibel, J. Nelson, C. McGarry, J. Devera, B. Denny, et al.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -390,6 +386,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

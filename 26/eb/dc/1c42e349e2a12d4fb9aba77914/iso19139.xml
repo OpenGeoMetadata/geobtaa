@@ -123,10 +123,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">These acquisitions of the LiDAR data and its derivatives were made possible by a grant from the National Geodetic Survey for the National Height Modernization Program. The program is in place to enable states access to accurate, reliable heights using global positioning satellite (GPS) technology in conjunction with traditional leveling, gravity, and modern remote sensing technologies. LiDAR data and its derivatives assist in real-world uses around the state of Illinois such as; highway engineering, flood prediction, agricultural land management, mining subsidence, monitoring archaeological features, locating sinkholes and applied geologic science. The data do not replace the need for detailed site-specific studies. The information is not appropriate for, and is not to be used as, a geodetic, legal, or engineering base. The information has no legal basis in the definition of boundaries or property lines and is not intended as a substitute for surveyed locations such as can be determined by a registered Public Land Surveyor.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois Department of Natural Resources, Illinois State Geological Survey, Illinois Department of Transportation and Surdex Corp.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -321,6 +317,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
