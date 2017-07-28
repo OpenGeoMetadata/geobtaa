@@ -126,10 +126,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The LiDAR data is updated to be more compatible within the guidelines of the National Digital Elevation Program. (NDEP) LAS data are updated to version 1.2 format. LiDAR point classes are updated to current ASPRS classification designations. Initial acquisition of Jo Daviess County, Illinois LiDAR Acquisition project provided high accuracy bare-earth processed LiDAR data suitable for FEMA National Flood Insurance Program (NFIP) for the approximately 613 square miles of the county. The project consists of acquisition, post-processing, and classification of LiDAR data. The data was acquired with a nominal horizontal spacing of 1.0 meters based on the Illinois State Plane Coordinate System, 1202, West Zone, related to the North American Datum of 1983 (NSRS2007). Vertical accuracy was to achieve a Fundamental Vertical Accuracy (FVA) at a 95% confidence level of less than 1.19 ft in the "Open Terrain" land cover category.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Quantum Spatial, Inc.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -274,6 +270,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

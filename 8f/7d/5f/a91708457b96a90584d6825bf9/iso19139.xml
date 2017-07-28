@@ -147,10 +147,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">LiDAR data was collected for the Illinois Department of Transportation. The Illinois Department of Transportation LiDAR Acquisition project is to acquire high accuracy bare-earth processed LiDAR data; to produce vector collection of water and drainage features, DAT files and Triangulated Integrated Network (TIN) files. The data referenced here is part of Illinois District 5, is preliminary, and refers to Douglas County, Illinois. The data was collected as one project including all counties of Illinois District 5. LiDAR data was placed into a tile layout and later divided by county boundaries. The data referenced is part of Illinois District 5 collection but refers only to Douglas County. Douglas County is 1080 square kilometers (417 square miles). The project consists of airborne acquisition, post-processing, classification of LiDAR data, collection of water and drainage and creation of final deliverable products. All areas are collected at a nominal pulse spacing (NPS) of 1.0 meters based on UTM16, related to the North American Datum of 1983 HARN. Vertical accuracy is to achieve a RMSE of 0.61 feet or better in the "Open Terrain" land cover category. At the time of delivery of the Douglas County LiDAR data the ground survey measurements necessary for vertical accuracy calculations are incomplete.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">AeroMetric, Inc.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -297,6 +293,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

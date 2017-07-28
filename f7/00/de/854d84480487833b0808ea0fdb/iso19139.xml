@@ -142,10 +142,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">DOQ's serve a variety of purposes, from interim maps to field references for earth science investigations and analysis. The DOQ is useful as a layer of a geographic information system and as a tool for revision of digital line graphs and topographic maps. These data are appropriate for use in local and regional thematic analysis. The data are not appropriate as a geodetic, legal or engineering base. It serves as an important base cartographic element for many types of maps and has been widely distributed and used outside the ISGS. The data set was not and is not intended as a substitute for surveyed locations, such as can be determined by a registered Public Land Surveyor. Although useful in a GIS as a reference base layer for maps, the data set has no legal basis in the definition of boundaries or property lines.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Metadata written by Chris McGarry, after USGS metadata.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -302,6 +298,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

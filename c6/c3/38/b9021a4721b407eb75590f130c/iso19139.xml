@@ -123,10 +123,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The DuPage County Light Detection and Ranging (LIDAR) project is to provide high accuracy bare-earth processed LiDAR and a geodatabase containing bare earth points, breaklines, 2ft contours, a feature terrain dataset, and ties to adjacient counties for approximately 334 square miles.The project utilized data acquired in 2006 to post-process and classify the LiDAR data in 2008. The classified bare-earth data achieves the following: nominal horizontal spacing of 3.6 feet based on the Illinois State Plane Coordinate System, East Zone, related to the North American Datum of 1983 (NSRS2007). Vertical accuracy was to achieve a Fundamental Vertical Accuarcy at a 95% confidence level of less than 1.19 feet using the both FEMA and ASPRS category classification.Accuracy statement is based on the area of moderate to flat terrain. Diminished accuracies are to be expected in areas in dense vegetation. The accuracy of the LiDAR data as tested met the vertical accuracy to support the contour interval of 2 feet or less standards, however, derived products may be less accurate in areas of dense vegetation due to a lesser number of points defining the bare-earth in these areas.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          Illinois
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Aero-Metric, Inc.</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115"/>
         </gmd:status>
@@ -216,6 +212,9 @@
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Illinois</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

@@ -182,9 +182,6 @@
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">These data are designed to be used in general mapping and in the analysis of surface-water systems using geographic information system (GIS) technology. In mapping, the NHD is used with other data themes such as elevation, boundaries, and transportation to produce general reference maps. These maps often serve as base maps for special purpose mapping. A geologic map, for example, may show base map information such as hydrography as a reference. In the analysis of surface water, scientists use the NHD and WBD by applying GIS technology. This application takes advantage of a rich set of embedded attributes that can be processed by a computer system to generate specialized information. This information then can be portrayed in customized maps to better understand the results. These analyses of hydrography are possible largely because the NHD contains the flow-direction network, and uses an addressing system to link specific information about the water from other related databases such as water discharge, water quality, and fish population. Using the basic water features, flow network, linked information, and other characteristics, it is possible to study cause and effect relationships, such as how a source of poor water quality upstream might affect a fish population downstream. The WBD plays an important role in this analysis by outlining the area on the landscape that drains into the flow network defined by the NHD. These data also are linked to the Geographic Names Information System to provide accurate hydrography names. The NHD and WBD often are used as a data source to specific applications such as StreamStats, ICWater, or ArcHydro.</gco:CharacterString>
         </gmd:purpose>
-        <gmd:credit>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">USGS</gco:CharacterString>
-        </gmd:credit>
         <gmd:status>
           <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001"/>
         </gmd:status>
@@ -400,6 +397,9 @@ A state subset of NHD is also available through the state's Geographic Data  Res
             </gmd:keyword>
           </gmd:MD_Keywords>
         </gmd:descriptiveKeywords>
+        <gmd:credit>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Minnesota</gco:CharacterString>
+        </gmd:credit>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:contentInfo>
