@@ -12,7 +12,7 @@ Geospatial metadata for the Big Ten Academic Alliance
 
 Our metadata is validated to be in compliance with the current [GeoBlacklight 1.0 schema](https://github.com/geoblacklight/geoblacklight/blob/master/schema/geoblacklight-schema.md) through Travis-CI. Click the "build-failing" button below to see which of our records (if any) have validation errors.
 
-[![Build Status](https://api.travis-ci.org/OpenGeoMetadata/big-ten.svg?branch=travis-test)](https://travis-ci.org/OpenGeoMetadata/edu.nyu)
+[![Build Status](https://api.travis-ci.org/OpenGeoMetadata/big-ten.svg?branch=travis-test)](https://travis-ci.org/OpenGeoMetadata/big-ten)
 
 #### Contribution and enhancement status
 
