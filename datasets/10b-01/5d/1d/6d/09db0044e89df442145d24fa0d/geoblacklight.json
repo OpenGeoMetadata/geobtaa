@@ -1,5 +1,4 @@
 {
-"geoblacklight_version": "1.0",
 "dc_description_s": "This polygon data layer represents tax parcels for Oneida County, Wisconsin in 2015. [Tax parcels were built using the current deed of record and were built by Oneida County contractors and Oneida County employees. All parcels are now in maintenance mode with edits occuring frequently or almost daily. Parcel data is published on a monthly basis so as to give the end user a fairly updated version of the parcels. Although the publication of the data is monthly there are areas that will be 'under construction' or incomplete due to the ongoing maintenance of the data. This feature class is most often joined with the tax roll data for publication with a different name, i.e. 'TaxDataParcels'.Those individula parcels where a clear boundary is not available from the current source documents, i.e. Condominiums, Manage Forest Law or poor descriptions, one feature is created encompassing all the area of the parcels. The parcels are then tracked in a separate table (MultiPIN) in the database and joined with the parcel feature for publication. This will then create one feature on top of the other so as to represent all tax roll records.]", 
 "layer_modified_dt": "2018-01-04T22:39:49Z", 
 "solr_geom": "ENVELOPE(-90.046438, -89.04266, 45.901742, 45.464447)", 
@@ -12,7 +11,9 @@
 "Real property", 
 "Land ownership"
 ], 
-"dct_temporal_sm": "2015", 
+"dct_temporal_sm": [
+"2015"
+], 
 "dct_issued_s": "2015-01-01", 
 "dc_format_s": "Shapefile", 
 "dc_creator_sm": [
@@ -20,7 +21,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "5d1d6d09-db00-44e8-9df4-42145d24fa0d", 
-"dct_isPartOf_sm": "Wisconsin Counties Open Data", 
+"dct_isPartOf_sm": [
+"Wisconsin Counties Open Data"
+], 
 "solr_year_i": 2015, 
 "dct_spatial_sm": [
 "Oneida County, Wisconsin, United States", 

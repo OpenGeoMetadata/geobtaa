@@ -1,12 +1,12 @@
 {
-"geoblacklight_version": "1.0",
-"dc_description_s": "DAMS_1996_EPA_IN is a point shapefile developed by the USEPA BASINS 3.0 program and clipped by Bernardin, Lochmueller and Associates. Clips were performed using the state field and selecting Indiana therefore some points located within the state but attributed to another were removed and some points located outside the state boundary but attributed to be inside are included. US Environmental Protection Agency BASINS metadata reports - This dataset provides a locational map of 75,187 dams in the conterminous United States. The National Inventory of Dams was originally developed by the U.S. Army Corps of Engineers and the Federal Emergency Management Agency. It was developed to track dam related problem areas. This database shows the age of the dam, number of people living downstream, and some inspection information. The dam inspection data also includes location information (such as latitude, longitude and nearest town), a description of a dam's size, reservoir capacity, the owner and the regulatory oversight agency. For distribution with BASINS v.2.0, the data layer was prepared in Arcview shape file format.", 
+"layer_geom_type_s": "Point", 
 "layer_modified_dt": "2017-12-27T20:50:43Z", 
 "solr_geom": "ENVELOPE(-88.1607, -84.6882, 41.7753, 37.7554)", 
 "dct_references_s": "{\"http://schema.org/downloadUrl\":\"http://maps.indiana.edu/download/Infrastructure/Dams_EPA.zip\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://maps.indiana.edu/arcgis/rest/services/Infrastructure/Dams_EPA/MapServer\",\"http://schema.org/url\":\"http://maps.indiana.edu/layerGallery.html\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://64.90.181.107/geonetwork/srv/api/records/6a388f6c-a0f0-47d4-91d9-a9ef4acfa755/formatters/xml\"}", 
 "dc_rights_s": "Public", 
-"uuid": "6a388f6c-a0f0-47d4-91d9-a9ef4acfa755", 
-"dct_provenance_s": "Purdue", 
+"b1g_centroid_ss": "39.76535,-86.42445", 
+"dc_description_s": "DAMS_1996_EPA_IN is a point shapefile developed by the USEPA BASINS 3.0 program and clipped by Bernardin, Lochmueller and Associates. Clips were performed using the state field and selecting Indiana therefore some points located within the state but attributed to another were removed and some points located outside the state boundary but attributed to be inside are included. US Environmental Protection Agency BASINS metadata reports - This dataset provides a locational map of 75,187 dams in the conterminous United States. The National Inventory of Dams was originally developed by the U.S. Army Corps of Engineers and the Federal Emergency Management Agency. It was developed to track dam related problem areas. This database shows the age of the dam, number of people living downstream, and some inspection information. The dam inspection data also includes location information (such as latitude, longitude and nearest town), a description of a dam's size, reservoir capacity, the owner and the regulatory oversight agency. For distribution with BASINS v.2.0, the data layer was prepared in Arcview shape file format.", 
+"dct_provenance_s": "Wisconsin", 
 "dc_subject_sm": [
 "Inland Waters", 
 "Environment", 
@@ -14,7 +14,9 @@
 "Hydrology", 
 "Dams"
 ], 
-"dct_temporal_sm": "2003", 
+"dct_temporal_sm": [
+"2003"
+], 
 "dct_issued_s": "2003-11-01", 
 "dc_format_s": "Shapefile", 
 "dc_creator_sm": [
@@ -23,7 +25,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "6a388f6c-a0f0-47d4-91d9-a9ef4acfa755", 
-"dct_isPartOf_sm": "IndianaMAP", 
+"dct_isPartOf_sm": [
+"IndianaMAP"
+], 
 "solr_year_i": 2003, 
 "dct_spatial_sm": [
 "Indiana, United States", 
@@ -34,7 +38,5 @@
 ], 
 "dc_title_s": "Inventory of Dams, Derived from EPA BASINS: Indiana, 2003", 
 "layer_slug_s": "6a388f6c-a0f0-47d4-91d9-a9ef4acfa755", 
-"centroid_s": "39.76535,-86.42445", 
-"layer_geom_type_s": "Point", 
 "dc_language_s": "English"
 }

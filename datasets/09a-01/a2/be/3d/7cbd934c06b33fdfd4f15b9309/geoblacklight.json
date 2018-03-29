@@ -1,12 +1,12 @@
 {
-"geoblacklight_version": "1.0",
-"dc_description_s": "This polygon layer represents floodplains created from FEMA Flood Rate Insurance Maps (FIRM). The layer can be symbolized to show the following flood hazard categories: Areas that are Floodways - (FLD_ZONE = 'AE' and FLOODWAY = 'Floodway') Areas of 1 % Risk (aka 100-year flood zone) - (FLD_ZONE = 'A%' and FLOODWAY = '') Areas of 0.2 % Risk (aka 500-year Flood Zone) - (FLD ZONE = '0.2 PCT ANNUAL CHANCE FLOOD HAZARD' and FLOODWAY = '') IDNR documentation states - This database is an interim version of the Digital Flood Insurance Rate Map (DFIRM) Database. It does not fully meet all DFIRM specifications as found in Guidelines and Specifications for Flood Hazard Mapping Partners, Appendix L: Guidance for Preparing Draft Digital Data and DFIRM Database. The DFIRM Database is derived from Flood Insurance Studies (FISs), previously published Flood Insurance Rate Maps (FIRMs), flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data, where available. The FISs and FIRMs are published by the Federal Emergency Management Agency (FEMA). The specifications for the horizontal control of DFIRM data files are consistent with those required for mapping at a scale of 1:12,000. The DFIRM Database presents the flood risk information depicted on the FIRM in a digital format suitable for use in electronic mapping applications. The DFIRM database is a subset of the Digital FIS database that serves to archive the information collected during the FIS.", 
+"layer_geom_type_s": "Polygon", 
 "layer_modified_dt": "2017-12-27T20:51:16Z", 
 "solr_geom": "ENVELOPE(-88.1607, -84.6882, 41.7753, 37.7554)", 
 "dct_references_s": "{\"http://schema.org/downloadUrl\":\"http://maps.indiana.edu/download/Hydrology/Floodplains_FIRM.zip\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://maps.indiana.edu/arcgis/rest/services/Hydrology/Floodplains_FIRM/MapServer\",\"http://schema.org/url\":\"http://maps.indiana.edu/layerGallery.html\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://64.90.181.107/geonetwork/srv/api/records/a2be3d7c-bd93-4c06-b33f-dfd4f15b9309/formatters/xml\"}", 
 "dc_rights_s": "Public", 
-"uuid": "a2be3d7c-bd93-4c06-b33f-dfd4f15b9309", 
-"dct_provenance_s": "Purdue", 
+"b1g_centroid_ss": "39.76535,-86.42445", 
+"dc_description_s": "This polygon layer represents floodplains created from FEMA Flood Rate Insurance Maps (FIRM). The layer can be symbolized to show the following flood hazard categories: Areas that are Floodways - (FLD_ZONE = 'AE' and FLOODWAY = 'Floodway') Areas of 1 % Risk (aka 100-year flood zone) - (FLD_ZONE = 'A%' and FLOODWAY = '') Areas of 0.2 % Risk (aka 500-year Flood Zone) - (FLD ZONE = '0.2 PCT ANNUAL CHANCE FLOOD HAZARD' and FLOODWAY = '') IDNR documentation states - This database is an interim version of the Digital Flood Insurance Rate Map (DFIRM) Database. It does not fully meet all DFIRM specifications as found in Guidelines and Specifications for Flood Hazard Mapping Partners, Appendix L: Guidance for Preparing Draft Digital Data and DFIRM Database. The DFIRM Database is derived from Flood Insurance Studies (FISs), previously published Flood Insurance Rate Maps (FIRMs), flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data, where available. The FISs and FIRMs are published by the Federal Emergency Management Agency (FEMA). The specifications for the horizontal control of DFIRM data files are consistent with those required for mapping at a scale of 1:12,000. The DFIRM Database presents the flood risk information depicted on the FIRM in a digital format suitable for use in electronic mapping applications. The DFIRM database is a subset of the Digital FIS database that serves to archive the information collected during the FIS.", 
+"dct_provenance_s": "Wisconsin", 
 "dc_subject_sm": [
 "Elevation", 
 "Environment", 
@@ -14,7 +14,9 @@
 "Floods", 
 "Hydrology"
 ], 
-"dct_temporal_sm": "2014", 
+"dct_temporal_sm": [
+"2014"
+], 
 "dct_issued_s": "2014-02-10", 
 "dc_format_s": "Shapefile", 
 "dc_creator_sm": [
@@ -22,7 +24,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "a2be3d7c-bd93-4c06-b33f-dfd4f15b9309", 
-"dct_isPartOf_sm": "IndianaMAP", 
+"dct_isPartOf_sm": [
+"IndianaMAP"
+], 
 "solr_year_i": 2014, 
 "dct_spatial_sm": [
 "Indiana, United States"
@@ -32,7 +36,5 @@
 ], 
 "dc_title_s": "FIRM Floodplains and Flood Hazard Zones: Indiana, 2014", 
 "layer_slug_s": "a2be3d7c-bd93-4c06-b33f-dfd4f15b9309", 
-"centroid_s": "39.76535,-86.42445", 
-"layer_geom_type_s": "Polygon", 
 "dc_language_s": "English"
 }

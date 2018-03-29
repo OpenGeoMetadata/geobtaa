@@ -1,19 +1,21 @@
 {
-"geoblacklight_version": "1.0",
-"dc_description_s": "CENSUS_TRACTS_TIGER2011_IN.SHP is a polygon shapefile that contains 2011 census block boundaries for the state of Indiana. Census blocks are not legal boundaries, but are considered stable geographic units used for the presentation of decennial census data. The following is excerpted from an Adobe Acrobat PDF document named TGRSHP2011_TECHDOC.PDF (U.S. Census Bureau): Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad tracks, and by non-visible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of streets and roads. Generally, census blocks are small in area; for example, a block in a city. Census blocks in suburban and rural areas may be large, irregular, and bounded by a variety of features, such as roads, streams, and/or transmission line rights-of-way. In remote areas census blocks may encompass hundreds of square miles. Census blocks cover all territory in the United States, Puerto Rico, and the Island areas. A block may consist of one or more faces. Blocks never cross county or census tract boundaries (See Figures 3 and 4). They do not cross the boundaries of any entity for which the Census Bureau tabulates data, including American Indian, Alaska Native, and Native Hawaiian areas, congressional districts, county subdivisions, places, state legislative districts, urbanized areas, urban clusters, school districts, voting districts, or ZIP Code Tabulation Areas (ZCTAs) or some special administrative areas such as military installations, and national parks and monuments. Census 2010 blocks are numbered uniquely within the 2010 boundaries of each state/county/census tract with a 4-digit census block number. The first digit of the tabulation block number identifies the block group.", 
+"layer_geom_type_s": "Polygon", 
 "layer_modified_dt": "2017-12-27T20:50:50Z", 
 "solr_geom": "ENVELOPE(-88.161392, -84.688378, 41.781127, 37.755397)", 
 "dct_references_s": "{\"http://schema.org/downloadUrl\":\"http://maps.indiana.edu/download/Demographics/Census_Blocks_2011.zip\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://maps.indiana.edu/arcgis/rest/services/Demographics/Census_Blocks_2011/MapServer\",\"http://schema.org/url\":\"http://maps.indiana.edu/layerGallery.html\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://64.90.181.107/geonetwork/srv/api/records/65b21cf9-d916-4047-a436-44d1de97c5e7/formatters/xml\"}", 
 "dc_rights_s": "Public", 
-"uuid": "65b21cf9-d916-4047-a436-44d1de97c5e7", 
-"dct_provenance_s": "Purdue", 
+"b1g_centroid_ss": "39.768262,-86.424885", 
+"dc_description_s": "CENSUS_TRACTS_TIGER2011_IN.SHP is a polygon shapefile that contains 2011 census block boundaries for the state of Indiana. Census blocks are not legal boundaries, but are considered stable geographic units used for the presentation of decennial census data. The following is excerpted from an Adobe Acrobat PDF document named TGRSHP2011_TECHDOC.PDF (U.S. Census Bureau): Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad tracks, and by non-visible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of streets and roads. Generally, census blocks are small in area; for example, a block in a city. Census blocks in suburban and rural areas may be large, irregular, and bounded by a variety of features, such as roads, streams, and/or transmission line rights-of-way. In remote areas census blocks may encompass hundreds of square miles. Census blocks cover all territory in the United States, Puerto Rico, and the Island areas. A block may consist of one or more faces. Blocks never cross county or census tract boundaries (See Figures 3 and 4). They do not cross the boundaries of any entity for which the Census Bureau tabulates data, including American Indian, Alaska Native, and Native Hawaiian areas, congressional districts, county subdivisions, places, state legislative districts, urbanized areas, urban clusters, school districts, voting districts, or ZIP Code Tabulation Areas (ZCTAs) or some special administrative areas such as military installations, and national parks and monuments. Census 2010 blocks are numbered uniquely within the 2010 boundaries of each state/county/census tract with a 4-digit census block number. The first digit of the tabulation block number identifies the block group.", 
+"dct_provenance_s": "Wisconsin", 
 "dc_subject_sm": [
 "Society", 
 "Boundaries", 
 "Census", 
 "Demographics"
 ], 
-"dct_temporal_sm": "2012", 
+"dct_temporal_sm": [
+"2012"
+], 
 "dct_issued_s": "2012-08-27", 
 "dc_format_s": "Shapefile", 
 "dc_creator_sm": [
@@ -22,7 +24,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "65b21cf9-d916-4047-a436-44d1de97c5e7", 
-"dct_isPartOf_sm": "IndianaMAP", 
+"dct_isPartOf_sm": [
+"IndianaMAP"
+], 
 "solr_year_i": 2012, 
 "dct_spatial_sm": [
 "Indiana, United States"
@@ -32,7 +36,5 @@
 ], 
 "dc_title_s": "Census Block Areas: Indiana, 2011", 
 "layer_slug_s": "65b21cf9-d916-4047-a436-44d1de97c5e7", 
-"centroid_s": "39.768262,-86.424885", 
-"layer_geom_type_s": "Polygon", 
 "dc_language_s": "English"
 }

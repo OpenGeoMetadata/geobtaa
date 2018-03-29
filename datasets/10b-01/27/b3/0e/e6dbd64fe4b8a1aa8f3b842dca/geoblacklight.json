@@ -1,5 +1,4 @@
 {
-"geoblacklight_version": "1.0",
 "dc_description_s": "This point data layer represents addresses for Clark County, WI in 2017. It is a feature class within the geodatabase Clark_Addresses_2017.gdb.[This data layer is an inventory for both rural and city/village addressing. The rural addressing system is based on the emergency response/rural address ordinance and managed through the Planning, Zoning & Land Information Office (PZ&LI). The rural address system runs on a N and W grid from the south east corner of the county. All unincorporated municipalities use the county rural address grid and are managed through PZ&LI. The address number for a location is determined based on the location of the driveway entrance to the named road. No address numbers are given from a private road. In cases such as that, unique address or a lot designation are assigned from the proximity to the driveway/road intersection.City/Village address number locations are entered by PZ&LI, however, the addressing in these locations is managed by each municipality and is not communicated directly with the county. Each municipality has a different origin location and directions for their address grid. Some cities and villages also extend into other counties and their locations are not included. The point locations are either directly in front the addressed structure or on the structure. City and village addresses in the database should not be considered as a complete inventory.]", 
 "layer_modified_dt": "2018-01-04T22:39:14Z", 
 "solr_geom": "ENVELOPE(-90.924365, -90.312112, 45.034181, 44.421519)", 
@@ -11,7 +10,9 @@
 "Location", 
 "Street addresses"
 ], 
-"dct_temporal_sm": "2017", 
+"dct_temporal_sm": [
+"2017"
+], 
 "dct_issued_s": "2017-03-27", 
 "dc_format_s": "Geodatabase", 
 "dc_creator_sm": [
@@ -19,7 +20,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "27B30EE6-DBD6-4FE4-B8A1-AA8F3B842DCA", 
-"dct_isPartOf_sm": "Wisconsin Counties Open Data", 
+"dct_isPartOf_sm": [
+"Wisconsin Counties Open Data"
+], 
 "solr_year_i": 2017, 
 "dct_spatial_sm": [
 "Clark County, Wisconsin, United States", 

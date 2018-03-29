@@ -1,5 +1,4 @@
 {
-"geoblacklight_version": "1.0",
 "dc_description_s": "This polygon data layer represents tax parcels for Brown County, Wisconsin in 2015. It is a feature class within the geodatabase, Brown_Parcels_2015.gdb. [TaxParcel depicts parcels of land as polygon features. Attributes include ParcelType, ParcelID, LegalLabel, MapAreaTxt, CSM, Lot, Municipality and more. The ParcelType is a subtype code which indicates whether a parcel polygon is a regular Tax Parcel or if it's a Condominium. Condominiums are currently mapped as overlapping (stacked) polygons so that a 1:1 join can be used to link up tax assessment records with the parcel. For other areas of land where records are ambiguous and ownership is uncertain, ParcelType may show Gap, Overlap or Undetermined. In some areas, private roadways, public road rights-of-way, and railroad rights-of-way are also coded. ParcelID is the parcel identification number which can be used to relate or join the TaxParcel polygon to assessment records and other information. In the GeoDatabase version of this dataset, the ParcelID is set up as a 1:M Relate to various tables within the geodatabase to link ownership, tax information, assessment, and more. LegalLabel depicts the document of record that CREATED or MODIFIED the shape of the parcel (this document reference does NOT necessarily show the latest document of record (the latest document of record number is instead obtained through the joined/related table in the DocID field). The document numbers on the LegalLabel as well as the DocID number in the related table can be used to look up the deed or other document recorded in the Brown County Register of Deeds office. MapAreaTxt is the size of the parcel, generally the size recorded on the plat, CSM or other legal document. The format follows that shown on the legal document (which may be square feet -- SF -- or Acreage). If the parcel was recently created using a Certified Survey Map (CSM) then that CSM number may be recorded in the ParcelPolygon attributes, which is graphically feature-linked to the CSM text annotation on the map. Lot numbers for some of the recent parcels may also be held as an attribute. The Lot Number is based on the lot shown on the source subdivision plat or CSM. Please refer to the LotNumber annotation feature class, as this text layer contains many more lot numbers. The Lot attribute field in this parcel polygon layer is primarily used to generate feature-linked text on the map for newly-created lots. Please keep in mind that lots are often split, merged and otherwise changed from their original shape and size. In these cases, the legally-recorded lot does not change in size or shape, but the TaxParcel polygon does. MashedWorld is a computed field used to view the parcel from the Google StreetView and Microsoft Virtual Earth perspectives. Created_User and Created_Date fields in TaxParcel polygons tracks the GIS editor who digitized the parcel and the date it was digitized (NOT necessarily the date the parcel was recorded!). Last_Editied_User and Date are automatic GIS data tracking fields to indicate when a parcel was modiefied on the GIS database.]", 
 "layer_modified_dt": "2018-01-04T22:36:58Z", 
 "solr_geom": "ENVELOPE(-88.252631, -87.76215, 44.680133, 44.240216)", 
@@ -12,7 +11,9 @@
 "Real property", 
 "Land ownership"
 ], 
-"dct_temporal_sm": "2015", 
+"dct_temporal_sm": [
+"2015"
+], 
 "dct_issued_s": "2015-01-01", 
 "dc_format_s": "Geodatabase", 
 "dc_creator_sm": [
@@ -20,7 +21,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "8461f1d0-3b8a-400d-968d-203710a36ee1", 
-"dct_isPartOf_sm": "Wisconsin Counties Open Data", 
+"dct_isPartOf_sm": [
+"Wisconsin Counties Open Data"
+], 
 "solr_year_i": 2015, 
 "dct_spatial_sm": [
 "Brown County, Wisconsin, United States", 

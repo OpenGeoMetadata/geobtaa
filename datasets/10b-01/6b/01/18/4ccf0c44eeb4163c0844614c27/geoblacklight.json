@@ -1,5 +1,4 @@
 {
-"geoblacklight_version": "1.0",
 "dc_description_s": "This point data layer represents addresses for Milwaukee County, Wisconsin in YE2016. It is a feature class within the geodatabase Milwaukee_Addresses_YE2016.[points representing locations of addresses - points are placed within the parcel with which the address is associated - when possible, points are placed within the footprint of the building with which the address is associated - when a parcel or building is associated with multiple addresses, multiple points will be placed per parcel or building ]", 
 "layer_modified_dt": "2018-01-04T22:38:49Z", 
 "solr_geom": "ENVELOPE(-88.076852, -87.817516, 43.199771, 42.839709)", 
@@ -11,7 +10,9 @@
 "Location", 
 "Street addresses"
 ], 
-"dct_temporal_sm": "2016", 
+"dct_temporal_sm": [
+"2016"
+], 
 "dct_issued_s": "2017-04-20", 
 "dc_format_s": "Geodatabase", 
 "dc_creator_sm": [
@@ -19,7 +20,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "6B01184C-CF0C-44EE-B416-3C0844614C27", 
-"dct_isPartOf_sm": "Wisconsin Counties Open Data", 
+"dct_isPartOf_sm": [
+"Wisconsin Counties Open Data"
+], 
 "solr_year_i": 2016, 
 "dct_spatial_sm": [
 "Milwaukee County, Wisconsin, United States", 

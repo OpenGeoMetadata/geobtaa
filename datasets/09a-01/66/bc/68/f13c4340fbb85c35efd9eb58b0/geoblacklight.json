@@ -1,17 +1,19 @@
 {
-"geoblacklight_version": "1.0",
-"dc_description_s": "The following is excerpted from the metadata provided by NASS (USDA) for the source data set IN02NASS.TIF: The USDA-NASS 2002 Indiana Cropland Data Layer is a raster, geo-referenced, categorized land cover data layer produced using satellite imagery from the Thematic Mapper (TM) instrument on Landsat 5 and the Enhanced Thematic Mapper (ETM+) on Landsat 7. The imagery was collected between the dates of April 25, 2002 and September 7, 2002. The approximate scale is 1:100,000 with a ground resolution of 30 meters by 30 meters. The Indiana data layer is aggregated to 13 standardized categories for display purposes with the emphasis being agricultural land cover. This is part of an annual series in which several states are categorized annually based on the extensive field observations collected during the annual NASS June Agricultural Survey. However, no farmer reported data is included or derivable on the Cropland Data Layer CD-ROM.", 
+"layer_geom_type_s": "Raster", 
 "layer_modified_dt": "2017-12-27T20:51:04Z", 
 "solr_geom": "ENVELOPE(-88.1614, -84.8183, 41.7753, 37.7553)", 
 "dct_references_s": "{\"http://schema.org/downloadUrl\":\"http://maps.indiana.edu/download/Environment/Crops_2002.zip\",\"http://schema.org/url\":\"http://maps.indiana.edu/layerGallery.html\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://64.90.181.107/geonetwork/srv/api/records/66bc68f1-3c43-40fb-b85c-35efd9eb58b0/formatters/xml\"}", 
 "dc_rights_s": "Public", 
-"uuid": "66bc68f1-3c43-40fb-b85c-35efd9eb58b0", 
-"dct_provenance_s": "Purdue", 
+"b1g_centroid_ss": "39.7653,-86.48985", 
+"dc_description_s": "The following is excerpted from the metadata provided by NASS (USDA) for the source data set IN02NASS.TIF: The USDA-NASS 2002 Indiana Cropland Data Layer is a raster, geo-referenced, categorized land cover data layer produced using satellite imagery from the Thematic Mapper (TM) instrument on Landsat 5 and the Enhanced Thematic Mapper (ETM+) on Landsat 7. The imagery was collected between the dates of April 25, 2002 and September 7, 2002. The approximate scale is 1:100,000 with a ground resolution of 30 meters by 30 meters. The Indiana data layer is aggregated to 13 standardized categories for display purposes with the emphasis being agricultural land cover. This is part of an annual series in which several states are categorized annually based on the extensive field observations collected during the annual NASS June Agricultural Survey. However, no farmer reported data is included or derivable on the Cropland Data Layer CD-ROM.", 
+"dct_provenance_s": "Wisconsin", 
 "dc_subject_sm": [
 "Farming", 
 "Agriculture"
 ], 
-"dct_temporal_sm": "2002", 
+"dct_temporal_sm": [
+"2002"
+], 
 "dct_issued_s": "2003-03-12", 
 "dc_format_s": "GeoTIFF", 
 "dc_creator_sm": [
@@ -19,7 +21,9 @@
 ], 
 "dc_type_s": "Dataset", 
 "dc_identifier_s": "66bc68f1-3c43-40fb-b85c-35efd9eb58b0", 
-"dct_isPartOf_sm": "IndianaMAP", 
+"dct_isPartOf_sm": [
+"IndianaMAP"
+], 
 "solr_year_i": 2003, 
 "dct_spatial_sm": [
 "Indiana, United States"
@@ -29,7 +33,5 @@
 ], 
 "dc_title_s": "Crops for 2002, Derived from National Agricultural Statistics Service: Indiana, 2003", 
 "layer_slug_s": "66bc68f1-3c43-40fb-b85c-35efd9eb58b0", 
-"centroid_s": "39.7653,-86.48985", 
-"layer_geom_type_s": "Raster", 
 "dc_language_s": "English"
 }

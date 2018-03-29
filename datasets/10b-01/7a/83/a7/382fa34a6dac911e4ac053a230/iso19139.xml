@@ -64,7 +64,7 @@
       </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2018-01-04T22:38:28</gco:DateTime>
+      <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2018-03-09T23:16:02</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -73,7 +73,7 @@
       <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">2007</gco:CharacterString>
     </gmd:metadataStandardVersion>
     <gmd:dataSetURI>
-      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vilas_Trails_2017</gco:CharacterString>
+      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vilas_Trails_YE2016</gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
@@ -123,7 +123,7 @@
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">EPSG</gco:CharacterString>
             </gmd:codeSpace>
             <gmd:version>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">10.3.1</gco:CharacterString>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">9.2.0</gco:CharacterString>
             </gmd:version>
           </gmd:RS_Identifier>
         </gmd:referenceSystemIdentifier>
@@ -134,12 +134,12 @@
         <gmd:citation>
           <gmd:CI_Citation>
             <gmd:title>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Trails Vilas County, Wisconsin, 2017</gco:CharacterString>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Trails Vilas County, Wisconsin YE2016</gco:CharacterString>
             </gmd:title>
             <gmd:date>
               <gmd:CI_Date>
                 <gmd:date>
-                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-29</gco:Date>
+                  <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2017-03-28</gco:Date>
                 </gmd:date>
                 <gmd:dateType>
                   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115"/>
@@ -253,7 +253,7 @@
           </gmd:CI_Citation>
         </gmd:citation>
         <gmd:abstract>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This line data layer represents trails for Vilas County, Wisconsin in 2017. It is a feature class within the geodatabase Vilas_Trails_2017.gdb.</gco:CharacterString>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This line data layer represents trails for Vilas County, Wisconsin at year-end 2016. It is a feature class within the geodatabase Vilas_Trails_YE2016.gdb.</gco:CharacterString>
         </gmd:abstract>
         <gmd:purpose>
           <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">This layer is intended for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
@@ -357,6 +357,72 @@
             </gmd:contact>
           </gmd:MD_MaintenanceInformation>
         </gmd:resourceMaintenance>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Trails</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Recreation</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">LCSH</gco:CharacterString>
+                </gmd:title>
+                <gmd:date xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Downloadable Data</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Geonames</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date xmlns:gco="http://www.isotc211.org/2005/gco">2017</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="" codeListValue="revision"/>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">http://www.geonames.org/ontology#</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vilas County, Wisconsin, United States</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin, United States</gco:CharacterString>
+            </gmd:keyword>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
         <gmd:resourceConstraints>
           <gmd:MD_LegalConstraints>
             <gmd:useLimitation>
@@ -377,7 +443,7 @@
           <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
         </gmd:topicCategory>
         <gmd:environmentDescription>
-          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
+          <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.1.7333</gco:CharacterString>
         </gmd:environmentDescription>
         <gmd:extent>
           <gmd:EX_Extent>
@@ -400,10 +466,9 @@
             <gmd:temporalElement>
               <gmd:EX_TemporalExtent>
                 <gmd:extent>
-                  <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml">
-                    <gml:beginPosition>2017</gml:beginPosition>
-                    <gml:endPosition>2017</gml:endPosition>
-                  </gml:TimePeriod>
+                  <gml:TimeInstant xmlns:gml="http://www.opengis.net/gml" gml:id="d162420e674">
+                    <gml:timePosition>2017-01-01T00:00:00</gml:timePosition>
+                  </gml:TimeInstant>
                 </gmd:extent>
               </gmd:EX_TemporalExtent>
             </gmd:temporalElement>
@@ -437,32 +502,6 @@
 
 This data was submitted to the UW geospatial archive in 2017. Content may be considered current as of December 31, 2016. It was published to the UW geospatial archive as part of the Wisconsin Department of Administration Land Information Program annual collection of public data for the year 2017.</gco:CharacterString>
         </gmd:supplementalInformation>
-        <gmd:descriptiveKeywords>
-          <gmd:MD_Keywords>
-            <gmd:type>
-              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
-            </gmd:type>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Vilas County, Wisconsin, United States</gco:CharacterString>
-            </gmd:keyword>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Wisconsin, United States</gco:CharacterString>
-            </gmd:keyword>
-          </gmd:MD_Keywords>
-        </gmd:descriptiveKeywords>
-        <gmd:descriptiveKeywords>
-          <gmd:MD_Keywords>
-            <gmd:type>
-              <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
-            </gmd:type>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Recreation</gco:CharacterString>
-            </gmd:keyword>
-            <gmd:keyword>
-              <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Trails</gco:CharacterString>
-            </gmd:keyword>
-          </gmd:MD_Keywords>
-        </gmd:descriptiveKeywords>
       </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
@@ -592,7 +631,7 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
             <gmd:onLine>
               <gmd:CI_OnlineResource>
                 <gmd:linkage>
-                  <gmd:URL>https://gisdata.wisc.edu/public/Vilas_Trails_2017.zip</gmd:URL>
+                  <gmd:URL>https://gisdata.wisc.edu/public/Vilas_Trails_YE2016.zip</gmd:URL>
                 </gmd:linkage>
                 <gmd:protocol>
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
@@ -642,6 +681,7 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
             <gmd:measureDescription>
               <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Attribute information remains the same as given by the author of the data.</gco:CharacterString>
             </gmd:measureDescription>
+            <gmd:result xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
           </gmd:DQ_QuantitativeAttributeAccuracy>
         </gmd:report>
         <gmd:lineage>
@@ -652,7 +692,7 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
                   <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Exported original feature class into a new file geodatabase to maintain the original file format of the data and to conform to UW-Madison's data distribution plan.</gco:CharacterString>
                 </gmd:description>
                 <gmd:dateTime>
-                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-24T00:00:00</gco:DateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-23T00:00:00</gco:DateTime>
                 </gmd:dateTime>
                 <gmd:processor>
                   <gmd:CI_ResponsibleParty>
@@ -711,10 +751,10 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
             <gmd:processStep>
               <gmd:LI_ProcessStep>
                 <gmd:description>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Created new feature dataset 'Vilas_Trails_2017' within the geodatabase 'Vilas_Trails_2017.gdb'.</gco:CharacterString>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">Created new feature dataset 'Vilas_Trails_YE2016' within the geodatabase 'Vilas_Trails_YE2016.gdb'.</gco:CharacterString>
                 </gmd:description>
                 <gmd:dateTime>
-                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-24T00:00:00</gco:DateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-23T00:00:00</gco:DateTime>
                 </gmd:dateTime>
                 <gmd:processor>
                   <gmd:CI_ResponsibleParty>
@@ -770,10 +810,10 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
             <gmd:processStep>
               <gmd:LI_ProcessStep>
                 <gmd:description>
-                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The data for this layer was published with multiple feature classes, and the metadata was generated at the feature dataset level  'Vilas_Trails_2017'.</gco:CharacterString>
+                  <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco">The data for this layer was published with multiple feature classes, and the metadata was generated at the feature dataset level  'Vilas_Trails_YE2016'.</gco:CharacterString>
                 </gmd:description>
                 <gmd:dateTime>
-                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-24T00:00:00</gco:DateTime>
+                  <gco:DateTime xmlns:gco="http://www.isotc211.org/2005/gco">2017-08-23T00:00:00</gco:DateTime>
                 </gmd:dateTime>
                 <gmd:processor>
                   <gmd:CI_ResponsibleParty>
@@ -832,6 +872,7 @@ This data was submitted to the UW geospatial archive in 2017. Content may be con
     </gmd:dataQualityInfo>
     <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
+        <gmd:maintenanceAndUpdateFrequency xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
         <gmd:updateScopeDescription>
           <gmd:MD_ScopeDescription>
             <gmd:other>
