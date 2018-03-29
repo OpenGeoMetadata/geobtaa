@@ -1,4 +1,5 @@
 desc "Validate all geoblacklight.json records"
+Rake.application.options.trace = true
 task :validate_all do
   require 'geo_combine'
   require 'find'
