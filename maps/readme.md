@@ -1,15 +1,19 @@
-| Collection Code | Collection Title                                | Records 			| Provenance     | Source website                                                                                                                        | Image or Web Service    |
-|-----------------|-------------------------------------------------|-------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| 01d-01          | Indiana Historic Maps                           | 664               | Indiana        | http://webapp1.dlib.indiana.edu/images/splash.htm?scope=IUBMaps                                                                       | none                    |
-| 03d-01          | Iowa Historical County Atlases                  | 250               | Iowa           | http://digital.lib.uiowa.edu/cdm/landingpage/collection/atlases                                                                       | 15 have Esri Map Server |
-| 03d-02          | Hixson Plat Map Atlases of Iowa                 | 93                | Iowa           | http://digital.lib.uiowa.edu/cdm/landingpage/collection/hixson                                                                        | none                    |
-| 04d-01          | University of Maryland Digital Collections      | 35                | Maryland       | https://www.lib.umd.edu/mdmap/?pid=umd:57340                                                                                          | IIIF                    |
-| 05d-01          | John R. Borchert Map Library                    | 626               | Minnesota      | http://umedia.lib.umn.edu/                                                                                                            | IIIF                    |
-| 05d-05          | Minnesota Geological Survey from MN Reflections | 595               | Minnesota      | https://reflections.mndigital.org/?f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Geological+Survey&f%5Bphysical_format_ssi%5D%5B%5D=Maps | IIIF                    |
-| 05d-06          | Polar Geospatial Center                         | 398               | Minnesota      | http://maps.apps.pgc.umn.edu/                                                                                                         | none                    |
-| 06d-01          | Michigan State University Libraries Maps        | 126               | Michigan State | https://lib.msu.edu/branches/map/scannedmaps/intro/                                                                                   | none                    |
-| 07d-01          | Clark Library Scanned Maps                      | 802               | Michigan       | https://quod.lib.umich.edu/c/clark1ic?page=index                                                                                      | IIIF                    |
-| 08d-01          | Penn State Rare Maps                            | 331               | Penn State     | https://libraries.psu.edu/about/collections/digital-map-drawer                                                                        | none                    |
-| 08d-02          | Sanborn Maps from Penn State                    | 2,081             | Penn State     | https://libraries.psu.edu/about/collections/sanborn-fire-insurance-maps                                                               | none                    |
-| 12d-01          | Social Scientists Map Chicago Collection        | 45                | Chicago        | https://www.lib.uchicago.edu/e/collections/maps/                                                                                      | none (Luna)             |
-|                 |                                                 |                   |                |                                                                                                                                       |                         |
+### Summary of scanned map records from the BTAA
+
+
+| Collection Code | Collection Title                                | Published Records | Institution    |
+|-----------------|-------------------------------------------------|-------------------|----------------|
+| 01d-01          | Indiana Historic Maps                           | 664               | Indiana        |
+| 03d-01          | Iowa Historical County Atlases                  | 250               | Iowa           |
+| 03d-02          | Hixson Plat Map Atlases of Iowa                 | 93                | Iowa           |
+| 04d-01          | University of Maryland Digital Collections      | 35                | Maryland       |
+| 05d-01          | John R. Borchert Map Library                    | 626               | Minnesota      |
+| 05d-05          | Minnesota Geological Survey from MN Reflections | 595               | Minnesota      |
+| 05d-06          | Polar Geospatial Center                         | 398               | Minnesota      |
+| 06d-01          | Michigan State University Libraries Maps        | 126               | Michigan State |
+| 07d-01          | Clark Library Scanned Maps                      | 802               | Michigan       |
+| 08d-01          | Penn State Rare Maps                            | 331               | Penn State     |
+| 08d-02          | Sanborn Maps from Penn State                    | 2,081             | Penn State     |
+| 12d-01          | Social Scientists Map Chicago Collection        | 45                | Chicago        |
+
+See B1G_ScannedMaps.csv for more details.
