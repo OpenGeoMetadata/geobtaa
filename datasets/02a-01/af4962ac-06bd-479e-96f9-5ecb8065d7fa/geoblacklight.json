@@ -1,0 +1,47 @@
+{
+  "dc_identifier_s": "af4962ac-06bd-479e-96f9-5ecb8065d7fa",
+  "dc_title_s": "USGS Quadrangle Boundaries and Corner Points in NAD83: Illinois, 2002",
+  "dc_description_s": "This feature dataset contains point, line and polygon data that describe ideal USGS quadrangle boundaries and corner points for quadrangles that intersect the state of Illinois. The attribute data include quadrangle name and index number, longitude and latitude values for quadrangle boundaries, X and Y coordinate values in decimal degrees for quadrangle corners, and boolean indicators of which lines to use to construct index maps for common map series (by scale or extent). This feature dataset includes line and polygon feature classes for each of the following scales/extents: 3.75-minute x 3.75-minute, commonly called quarter-quadrangles, typically used for a 1:12,000-scale index, 7.5-minute x 7.5-minute, the common USGS topographic sheet extent, typically 1:24,000-scale in Illinois, 15-minute x 15-minute, typically used for 1:62,500-scale index, 30-minute x 1 degree, typically used for 1:100,000-scale index, 1-degree x 2-degree, typically used for 1:250,000-scale index. Also included are master line, polygon, and corner point (tic) templates from which the above were generated. These are entitled Base_Template_Ln, Base_Template_Py and Corner_Tic_Pt respectively, and include of all the 3.75-minute x 3.75-minute quarter-quadrangles and corners from 36 to 43 degrees north latitude and 86 to 92 west longitude, with an indication of which are within Illinois. Each boundary line is composed of segments that are 18 arc-seconds in length. To provide some reference, there are 25 such segments in a line 7.5 minutes long. These vertices are included so that on reprojection of the data into a different coordinate system the quadrangle boundaries will 'curve' to maintain a realistic representation of quadrangle shape in relation to real world coordinates. The data were generated as a mathematical construct, independent of ground condition. That is, they were generated from a digital file of decimal degree-minute-second locations for each quadrangle corner, using the ArcInfo Workstation GENERATE command. Tics were generated in this manner as well, one at each quarter-quad corner. Thus quadrangle corners are exact within ideal geographic decimal degree NAD83 coordinate space. Some non-ideal quadrangle boundaries have been added to the dataset to account for quadrangle maps with irregular boundaries, for example 15-minute quadrangles in the Chicago area. The nominal scale is as stated above for each feature class. However, these data are in fact scale-less because they are a mathematical construct independent of ground condition. The spatial reference is the Geographic Coordinate System, decimal degrees, NAD83.",
+  "dc_rights_s": "Public",
+  "dc_format_s": "Shapefile",
+  "dc_language_sm": "English",
+  "dc_type_sm": [
+    "Dataset"
+  ],
+  "dc_publisher_sm": [
+    "Illinois State Geological Survey"
+  ],
+  "dc_creator_sm": [
+    "Illinois State Geological Survey"
+  ],
+  "dc_subject_sm": [
+    "Planning and Cadastral"
+  ],
+  "dct_provenance_s": "Illinois",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://clearinghouse.isgs.illinois.edu/data/reference/usgs-quadrangle-boundaries-and-corner-points-illinois\",\"http://schema.org/downloadUrl\":\"https://clearinghouse.isgs.illinois.edu/sites/clearinghouse.isgs/files/Clearinghouse/data/ISGS/Reference/zips/IL_QUAD_Usgs_Quadrangle_Index_Nad83.zip\"}",
+  "dct_isPartOf_sm": [
+    "Illinois Geospatial Data Clearinghouse"
+  ],
+  "dct_issued_s": "1998-02-22",
+  "dct_temporal_sm": [
+    "1998"
+  ],
+  "dct_spatial_sm": [
+    "Illinois, United States"
+  ],
+  "layer_slug_s": "af4962ac-06bd-479e-96f9-5ecb8065d7fa",
+  "layer_geom_type_s": "Mixed",
+  "layer_modified_dt": "2018-07-13T20:41:55Z",
+  "solr_geom": "ENVELOPE(-92, -86, 43, 36)",
+  "solr_year_i": 1998,
+  "b1g_genre_sm": [
+    "Geospatial data"
+  ],
+  "b1g_centroid_ss": "39.5,-89",
+  "b1g_geonames_sm": [
+
+  ],
+  "b1g_image_ss": "",
+  "b1g_collection_sm": "02a-01",
+  "geoblacklight_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "dc_identifier_s": "6e6e45e2-0050-438e-830b-205781ccb7c9",
+  "dc_title_s": "Lakes, Ponds, Reservoirs, Swamps, and Marshes in Watersheds: Indiana",
+  "dc_description_s": "HYDROGRAPHY_HIGHRES_WATERBODYDISCRETE_NHD_IN.SHP is a polygon shapefile that contains features of lakes, ponds, reservoirs, swamps and marshes in watersheds in and around Indiana. HYDROGRAPHY_HIGHRES_WATERBODYDISCRETE_NHD_USGS.SHP is derived from the local-resolution (scale 1:2,400) version of the National Hydrography Dataset (NHD), and is current as of November 30, 2016.  This dataset is complete and includes data for all of the following thirty-eight HUC08 subbasins in Indiana: Auglaize (0410007), Blue-Sinking (05140104), Chicago (07120003), Driftwood (05120204), Eel (05120104), Eel (05120203), Flatrock-Haw (05120205), Highland-Pigeon (05140202), Iroquois (07120002), Kankakee (07120001) Little Calumet-Galien (04040001), Lower East Fork White (05120208), Lower Great Miami (05080002), Lower Ohio-Little Pigeon (05140201), Lower Wabash (05120113), Lower White (05120202), Middle Wabash-Busseron (05120111), Middle Wabash-Deer (05120105), Middle Wabash-Little Vermilion (05120108), Middle Ohio-Laughery (05090203), Mississinewa (05120103), Muscatatuck (05120207), Patoka (05120209), Salamonie (05120102), Silver-Little Kentucky (05140101), St. Joseph (04050001), St. Joseph-Maumee (04100003), St. Maryâs (04100004), Sugar (05120110), Tippecanoe (05120106), Upper East Fork White (05120206), Upper Great Miami (05080001), Upper Maumee (04100005), Upper Wabash (05120101), Upper White (05120201), Vermilion (05120109), Whitewater (05080003), Wildcat (05120107).  The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named \"NHD_LOCALRES_WATERBODY_IN\":  \"This dataset was improved to local resolution (1:2,400) as part of the Indiana Local Resolution NHD Project. The following process is done by subbasin: high-resolution NHD geodatabase is checked out from USGS; six-acre catchment areas and streams are generated using best-available digital elevation model; areas, flowlines, and waterbodies are digitized to the 6-acre limit using the best available aerial photography, adding ftype to each feature; attributes from high-resolution NHD are conflated to the new linework; subbasin geodatabase is checked back in to USGS.. After the successful completion of the previous steps, the subbasin is downloaded from USGS; the NHDArea, NHDFlowline, and NHDWaterbody feature classes are reprojected to UTM NAD 83 Zone 16N; the reprojected NHDArea features are loaded into this dataset. DESCRIPTION FROM USGS: The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.) Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.\"",
+  "dc_rights_s": "Public",
+  "dc_format_s": "Shapefile",
+  "dc_language_sm": [
+    "English"
+  ],
+  "dc_type_sm": [
+    "Dataset",
+    "Service"
+  ],
+  "dc_publisher_sm": [
+    "United States Geological Survey"
+  ],
+  "dc_creator_sm": [
+    "United States Geological Survey and the United States Environmental Protection Agency"
+  ],
+  "dc_subject_sm": [
+    "Inland Waters",
+    "Environment",
+    "Lakes",
+    "Hydrology"
+  ],
+  "dct_provenance_s": "Purdue",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://maps.indiana.edu/layerGallery.html\",\"http://schema.org/downloadUrl\":\"http://maps.indiana.edu/download/Hydrology/Water_Bodies_Lakes_LocalRes.zip\",\"http://schema.org/image\":\"http://maps.indiana.edu/images/Hydrology/Water_Bodies_Lakes_LocalRes.png\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://maps.indiana.edu/arcgis/rest/services/Hydrology/Water_Bodies_Lakes_LocalRes/MapServer/0\",\"http://www.opengis.net/cat/csw/csdgm\":\"http://maps.indiana.edu/metadata/Hydrology/Water_Bodies_Lakes_LocalRes.xml\"}",
+  "dct_isPartOf_sm": [
+    "IndianaMAP"
+  ],
+  "dct_issued_s": "2016-11-30",
+  "dct_temporal_sm": [
+    "2016"
+  ],
+  "dct_spatial_sm": [
+    "Indiana, United States"
+  ],
+  "layer_slug_s": "6e6e45e2-0050-438e-830b-205781ccb7c9",
+  "layer_geom_type_s": "Polygon",
+  "layer_modified_dt": "2018-06-26T21:08:28Z",
+  "solr_geom": "ENVELOPE(-88.845514, -83.559014, 46.102346, 37.134628)",
+  "solr_year_i": 2016,
+  "b1g_genre_sm": [
+    "Geospatial data"
+  ],
+  "b1g_centroid_ss": "41.618487,-86.202264",
+  "b1g_geonames_sm": [
+    "http://sws.geonames.org/4921868"
+  ],
+  "b1g_image_ss": "http://maps.indiana.edu/images/Hydrology/Water_Bodies_Lakes_LocalRes.png",
+  "b1g_collection_sm": "09a-01",
+  "geoblacklight_version": "1.0"
+}

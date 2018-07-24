@@ -1,0 +1,48 @@
+{
+  "dc_identifier_s": "ab58e3ae-d2ca-49b4-b894-fa34859bdcba",
+  "dc_title_s": "Landcover - Delaware River Basin NY and PA",
+  "dc_description_s": "High resolution land cover dataset for the Delaware River Basin, an area comprised of parts of six counties in the state of New York and four counties in Pennsylvania. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces. The minimum mapping unit for the delineation of features was set at six square meters. The primary sources used to derive this land cover layer were 2008 LiDAR data and 2010 - 2011 NAIP imagery. LiDAR coverage was complete for the Pennsylvaia portion of the AOI, however, LiDAR was unavailable for large portions of the New York portion. Where LiDAR was not available, imagery was the primary data source. Ancillary data sources included GIS data (eg. such as hydrology, breakline and buildings) provided by the counties of Lackawana, Monroe, Pike and Wayne, PA, as well as the New York State GIS Clearinghouse. Some of these vector datasets were edited by the UVM Spatial Analysis lab through manual interpretation. Other datasets, such as bare soil, were created by the UVM Spatial Anyslsis Lab in order to assist in landcover creation. This land cover dataset is considered current for Pennsylvania portion of the study area as of summer 2010. The dataset is current as of summer 2011 for the New York counties of Chenango, Delaware, Orange and Sullivan. Broome County, NY, is considered current as of summer 2010. Ulster County, NY, employed data from both summer 2010 and summer 2011, therefore currentness varies throughout the county. Object-based image analysis techniques (OBIA) were employed to extract land cover information using the best available remotely sensed and vector GIS datasets. OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. No accuracy assessment was conducted, but the dataset was subject to a thorough manual quality control.",
+  "dc_rights_s": "Public",
+  "dc_format_s": "Files",
+  "dc_language_sm": [
+    "English"
+  ],
+  "dc_type_sm": "Dataset",
+  "dc_publisher_sm": [
+    "University of Vermont Spatial Analysis Laboratory"
+  ],
+  "dc_creator_sm": [
+    "University of Vermont Spatial Analysis Laboratory"
+  ],
+  "dc_subject_sm": [
+    "Imagery and Base Maps",
+    "Land cover"
+  ],
+  "dct_provenance_s": "Penn State",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3166\",\"http://schema.org/downloadUrl\":\"http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3166\"}",
+  "dct_isPartOf_sm": [
+    "Pennsylvania Spatial Data Access (PASDA)"
+  ],
+  "dct_issued_s": "",
+  "dct_temporal_sm": [
+    "2010"
+  ],
+  "dct_spatial_sm": [
+    "Delaware River, Delaware, United States"
+  ],
+  "layer_slug_s": "ab58e3ae-d2ca-49b4-b894-fa34859bdcba",
+  "layer_geom_type_s": "Mixed",
+  "layer_modified_dt": "2018-06-26T21:07:28Z",
+  "solr_geom": "ENVELOPE(-74.416169, -75.688162, 42.222981, 40.81375)",
+  "solr_year_i": 2010,
+  "b1g_genre_sm": [
+    "Geospatial data"
+  ],
+  "b1g_centroid_ss": "41.5183655,-75.0521655",
+  "b1g_geonames_sm": [
+    "http://sws.geonames.org/4142210"
+  ],
+  "b1g_image_ss": "",
+  "b1g_collection_sm": "08a-01",
+  "geoblacklight_version": "1.0"
+}

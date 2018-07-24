@@ -14,6 +14,7 @@
 | 07d-01          | Clark Library Scanned Maps                      | 802               | Michigan       |
 | 08d-01          | Penn State Rare Maps                            | 331               | Penn State     |
 | 08d-02          | Sanborn Maps from Penn State                    | 2,081             | Penn State     |
+| 09d-01          | Purdue Georeferenced Imagery                    | 117               | Purdue         |
 | 12d-01          | Social Scientists Map Chicago Collection        | 45                | Chicago        |
 
 See B1G_ScannedMaps.csv for more details.
