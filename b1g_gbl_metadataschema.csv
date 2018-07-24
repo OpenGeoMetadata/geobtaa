@@ -1,29 +1,29 @@
-Name,uri,GBL Schema 1.0,Multiplicity,Type,Description,Element Set
-Centroid,b1g_centroid_ss,FALSE,Single,string,Single point at the center of the bounding box that is used for searching by map in the geoportal,B1G
-Genre,b1g_genre_sm,FALSE,Multiple,array,"Chosen from: Geospatial data, Maps, or Aerial imagery",B1G
-GeoNames URI,b1g_geonames_sm,FALSE,Multiple,array,"The GeoNames URI in the form ""http://sws.geonames.org/URI""",B1G
-Image,b1g_image_ss,FALSE,Single,string,Custom field for storing the link to a high quality image hosted online. Used for both thumbnails and item view pages,B1G
-Creator,dc_creator_sm,TRUE,Multiple,array,The person(s) or organization that created the resource,Dublin Core Metadata Element Set
-Description,dc_description_s,TRUE,Single,string,"At minimum, this is a reiteration of the title in sentence format. Other relevant information, such as data creation methods, data sources, and special licenses, may also be included.",Dublin Core Metadata Element Set
-Format,dc_format_s,TRUE,Single,string,"This indicates the file format of the data. If unknown or multiple, the term ""Files"" is used.",Dublin Core Metadata Element Set
-Identifier,dc_identifier_s,TRUE,Single,string,"Unique identifier for layer as a URI. If available and appropriately unique, the original ID for a resource will be used. Otherwise, a new one is generated.",Dublin Core Metadata Element Set
-Language,dc_language_sm,TRUE,Multiple,array,"Indicates the language of the data or map spelled out in English. (Ex. ""French"")",Dublin Core Metadata Element Set
-Publisher,dc_publisher_sm,TRUE,Multiple,array,The organization that made the original resource available,Dublin Core Metadata Element Set
-Rights,dc_rights_s,TRUE,Single,string,"All BTAA records are ""Public""",Dublin Core Metadata Element Set
-Source,dc_source_sm,TRUE,Multiple,array,This is used for parent/child relationships and activates the Data Relations widget in GeoBlacklight.,Dublin Core Metadata Element Set
-Subject,dc_subject_sm,TRUE,Multiple,array,Theme keywords chosen from ISO Topic Categories or Library of Congress Subject Authorities,Dublin Core Metadata Element Set
-Title,dc_title_s,TRUE,Single,string,"The name of the resource. Map titles match the original MARC record. Dataset titles altered to match the form Theme: Place, Date",Dublin Core Metadata Element Set
-Type,dc_type_sm,TRUE,Multiple,array,"Uses Dublin Core Type vocabulary: Dataset, Image, Service, Collection, Interactive Resource",Dublin Core Metadata Element Set
-Is Part Of,dct_isPartOf_sm,TRUE,Multiple,array,"Holding entity for the layer, such as the title of a collection",DCMI Metadata Terms
-Date Issued,dct_issued_dt,TRUE,Single,date-time,This is the publication date for the resource in the format YYYY-MM-DD,DCMI Metadata Terms
-Provenance,dct_provenance_s,TRUE,Single,string,The name of the institution that holds the resource or acts as the custodian for the metadata record.,DCMI Metadata Terms
-References,dct_references_s,TRUE,Single,string,This element is a hash of key/value pairs for different types of external links. It external services and references using the CatInterOp approach.,DCMI Metadata Terms
-Spatial Coverage,dct_spatial_sm,TRUE,Multiple,array,"Place names specified out to the nation level. Ex. ""Minneapolis, Minnesota, United States""",DCMI Metadata Terms
-Temporal Coverage,dct_temporal_sm,TRUE,Multiple,array,"Free form text string to represent the ""Ground Condition"" of the resource, meaning the time period data was collected or is intended to represent.",DCMI Metadata Terms
-Schema Version,geoblacklight_version,TRUE,Single,string,"Indicates which version of the GeoBlacklight schema is in use. Currently version ""1.0""",GeoBlacklight
-Geometry Type,layer_geom_type_s,TRUE,Single,string,"Chosen from: Point, Line, Polygon, Raster, Image, or Mixed",GeoBlacklight
-Layer ID,layer_id_s,TRUE,Single,string,This indicates the layer name of GeoServer web services,GeoBlacklight
-Modified Date,layer_modified_dt,TRUE,Single,date-time,Last modification date for the metadata record,GeoBlacklight
-Slug,layer_slug_s,TRUE,Single,string,This is a string appended to the base URL of a GeoBlacklight installation to create a unique landing page for each resource. It is visible to the user and is used for Permalinks.,GeoBlacklight
-Bounding Box,solr_geom,TRUE,Single,string,The rectangular extents of the resource.,GeoBlacklight
-Solr Year,solr_year_i,FALSE,Single,integer,This is a single integer (YYYY) that is used to index the record in the Year and Time Period facets.,GeoBlacklight
+Name,uri,Description,Element Set,GBL Schema 1.0,Multiplicity,Type
+Creator,dc_creator_sm,The person(s) or organization that created the resource,Dublin Core Metadata Element Set,TRUE,Multiple,array
+Description,dc_description_s,"At minimum, this is a reiteration of the title in sentence format. Other relevant information, such as data creation methods, data sources, and special licenses, may also be included.",Dublin Core Metadata Element Set,TRUE,Single,string
+Format,dc_format_s,"This indicates the file format of the data. If unknown or multiple, the term ""Files"" is used.",Dublin Core Metadata Element Set,TRUE,Single,string
+Identifier,dc_identifier_s,"Unique identifier for layer as a URI. If available and appropriately unique, the original ID for a resource will be used. Otherwise, a new one is generated.",Dublin Core Metadata Element Set,TRUE,Single,string
+Language,dc_language_sm,"Indicates the language of the data or map spelled out in English. (Ex. ""French"")",Dublin Core Metadata Element Set,TRUE,Multiple,array
+Publisher,dc_publisher_sm,The organization that made the original resource available,Dublin Core Metadata Element Set,TRUE,Multiple,array
+Rights,dc_rights_s,"All BTAA records are ""Public""",Dublin Core Metadata Element Set,TRUE,Single,string
+Source,dc_source_sm,This is used for parent/child relationships and activates the Data Relations widget in GeoBlacklight.,Dublin Core Metadata Element Set,TRUE,Multiple,array
+Subject,dc_subject_sm,Theme keywords chosen from ISO Topic Categories or Library of Congress Subject Authorities,Dublin Core Metadata Element Set,TRUE,Multiple,array
+Title,dc_title_s,"The name of the resource. Map titles match the original MARC record. Dataset titles altered to match the form Theme: Place, Date",Dublin Core Metadata Element Set,TRUE,Single,string
+Type,dc_type_sm,"Uses Dublin Core Type vocabulary: Dataset, Image, Service, Collection, Interactive Resource",Dublin Core Metadata Element Set,TRUE,Multiple,array
+Is Part Of,dct_isPartOf_sm,"Holding entity for the layer, such as the title of a collection",DCMI Metadata Terms,TRUE,Multiple,array
+Date Issued,dct_issued_dt,This is the publication date for the resource in the format YYYY-MM-DD,DCMI Metadata Terms,TRUE,Single,date-time
+Provenance,dct_provenance_s,The name of the institution that holds the resource or acts as the custodian for the metadata record.,DCMI Metadata Terms,TRUE,Single,string
+References,dct_references_s,This element is a hash of key/value pairs for different types of external links. It external services and references using the CatInterOp approach.,DCMI Metadata Terms,TRUE,Single,string
+Spatial Coverage,dct_spatial_sm,"Place names specified out to the nation level. Ex. ""Minneapolis, Minnesota, United States""",DCMI Metadata Terms,TRUE,Multiple,array
+Temporal Coverage,dct_temporal_sm,"Free form text string to represent the ""Ground Condition"" of the resource, meaning the time period data was collected or is intended to represent.",DCMI Metadata Terms,TRUE,Multiple,array
+Schema Version,geoblacklight_version,"Indicates which version of the GeoBlacklight schema is in use. Currently version ""1.0""",GeoBlacklight,TRUE,Single,string
+Geometry Type,layer_geom_type_s,"Chosen from: Point, Line, Polygon, Raster, Image, or Mixed",GeoBlacklight,TRUE,Single,string
+Layer ID,layer_id_s,This indicates the layer name of GeoServer web services,GeoBlacklight,TRUE,Single,string
+Modified Date,layer_modified_dt,Last modification date for the metadata record,GeoBlacklight,TRUE,Single,date-time
+Slug,layer_slug_s,This is a string appended to the base URL of a GeoBlacklight installation to create a unique landing page for each resource. It is visible to the user and is used for Permalinks.,GeoBlacklight,TRUE,Single,string
+Bounding Box,solr_geom,The rectangular extents of the resource.,GeoBlacklight,TRUE,Single,string
+Solr Year,solr_year_i,This is a single integer (YYYY) that is used to index the record in the Year and Time Period facets.,GeoBlacklight,FALSE,Single,integer
+Centroid,b1g_centroid_ss,Single point at the center of the bounding box that is used for searching by map in the geoportal,B1G,FALSE,Single,string
+Genre,b1g_genre_sm,"Chosen from: Geospatial data, Maps, or Aerial imagery",B1G,FALSE,Multiple,array
+GeoNames URI,b1g_geonames_sm,"The GeoNames URI in the form ""http://sws.geonames.org/URI""",B1G,FALSE,Multiple,array
+Image,b1g_image_ss,Custom field for storing the link to a high quality image hosted online. Used for both thumbnails and item view pages,B1G,FALSE,Single,string

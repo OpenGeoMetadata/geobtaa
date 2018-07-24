@@ -6,7 +6,7 @@ Geospatial metadata for the Big Ten Academic Alliance
 
 
 ### Metadata Schema
-The metadata schema used by this project is documented at b1g_GBL_metadataSchema.csv
+The metadata schema used by this project is documented at [b1g_GBL_metadataSchema.csv](https://github.com/OpenGeoMetadata/big-ten/blob/master/b1g_gbl_metadataschema.csv)
 
 
 ### For more information, see:
