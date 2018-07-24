@@ -1,8 +1,8 @@
 # big-ten
 Geospatial metadata for the Big Ten Academic Alliance
 
-### MAPS: GeoBlacklight Schema records for scanned maps from university libraries
-### DATASETS: GeoBlacklight Schema records for GIS data hosted on university servers and government web portals
+- MAPS: GeoBlacklight Schema records for scanned maps from university libraries
+- DATASETS: GeoBlacklight Schema records for GIS data hosted on university servers and government web portals
 
 
 ### Metadata Schema
