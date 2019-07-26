@@ -4,7 +4,7 @@ Description,dc_description_s,"At minimum, this is a reiteration of the title in 
 Format,dc_format_s,"This indicates the file format of the data. If unknown or multiple, the term ""Files"" is used.",Dublin Core Metadata Element Set,TRUE,Single,string
 Identifier,dc_identifier_s,"Unique identifier for layer as a URI. If available and appropriately unique, the original ID for a resource will be used. Otherwise, a new one is generated.",Dublin Core Metadata Element Set,TRUE,Single,string
 Language,dc_language_sm,"Indicates the language of the data or map spelled out in English. (Ex. ""French"")",Dublin Core Metadata Element Set,TRUE,Multiple,array
-Publisher,dc_publisher_sm,The organization that made the original resource available,Dublin Core Metadata Element Set,TRUE,Multiple,array
+Publisher,dc_publisher_sm,The organization(s) that made the original resource available,Dublin Core Metadata Element Set,TRUE,Multiple,array
 Rights,dc_rights_s,"All BTAA records are ""Public""",Dublin Core Metadata Element Set,TRUE,Single,string
 Source,dc_source_sm,This is used for parent/child relationships and activates the Data Relations widget in GeoBlacklight.,Dublin Core Metadata Element Set,TRUE,Multiple,array
 Subject,dc_subject_sm,Theme keywords chosen from ISO Topic Categories or Library of Congress Subject Authorities,Dublin Core Metadata Element Set,TRUE,Multiple,array
@@ -27,3 +27,4 @@ Centroid,b1g_centroid_ss,Single point at the center of the bounding box that is 
 Genre,b1g_genre_sm,"Chosen from: Geospatial data, Maps, or Aerial imagery",B1G,FALSE,Multiple,array
 GeoNames URI,b1g_geonames_sm,"The GeoNames URI in the form ""http://sws.geonames.org/URI""",B1G,FALSE,Multiple,array
 Image,b1g_image_ss,Custom field for storing the link to a high quality image hosted online. Used for both thumbnails and item view pages,B1G,FALSE,Single,string
+Code,b1g_code_s,Internal code that organizes items by their source collection,B1G,FALSE,Single,string
