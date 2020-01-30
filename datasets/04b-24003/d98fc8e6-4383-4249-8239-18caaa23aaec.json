@@ -1,0 +1,36 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-30T17:05:08Z",
+  "dc_identifier_s": "d98fc8e6-4383-4249-8239-18caaa23aaec",
+  "dc_title_s": "Road Edges: Anne Arundel County, Maryland",
+  "dc_description_s": "Road edges can include roads, driveways, parking areas, and runways / taxiway features and are represented by polylines. Detailed descriptions of the individual features are below.Road edges, including alleyways that are greater than 10 feet in width are captured. Road edges are defined as the edge of the improved or unimproved surface (including the shoulder if improved) and attributed with the appropriate surface type. Road edges are compiled through bridge polygons and can overlap bridge polygons. Roads have precedence over parking areas and are used for sides of parking areas. Road polylines are created based on surface type and connect the road intersections to form an X within the intersection with the midpoint of the X being the center of the intersection. This X is snapped to the road centerline at the midpoint of the X as well. For roads that do not fully intersect, a line is drawn straight across where the two roads meet or a Y intersection is used. These lines are assigned a feature code of intersection line. The road network is compiled to have all open intersections unless the surface type changes. For areas where surface type has changed, a pavement change line is drawn connecting the edge of the road at the change to the centerline at the change and then to the other side of the road edge at the change. Roads are attributed by surface type of paved, unpaved, or under construction. Roads are attributed by status type in the form of closed for road sections that have curb / gutter and open for open road sections. All roads in the County centerline are captured if they exist as of the 2011 imagery.Driveways are captured and attributed as paved or unpaved. Other feature classes may have coincident geometry to one or more sides of a driveway. Parking areas are captured to the outer extents of the parking area including the driving lanes and access roads connecting to the main road. Other feature classes may have coincident geometry with the sides of a parking area. Parking areas are attributed as paved or unpaved. Parking areas are attributed by status type in the form of closed for sections that have curb / gutter and open for open sections.All airport runways and taxiways are captured and attributed with surface type and open / closed status.Domain values for this feature include ROAD, DRIVEWAY, PARKING AREA, RUNWAY / TAXIWAY, and INTERSECTION LINE with statuses of OPEN, CLOSED or NA and surfaces of PAVED, UNPAVED, UNDER CONSTRUCTION, or NA.",
+  "dc_creator_sm": [
+    ""
+  ],
+  "dc_publisher_sm": [
+    "Anne Arundel County, Maryland"
+  ],
+  "dc_subject_sm": [
+    "Transportation"
+  ],
+  "dc_format_s": "Shapefile",
+  "layer_geom_type_s": "Vector",
+  "dct_provenance_s": "Maryland",
+  "dct_issued_s": "",
+  "dct_temporal_sm": [
+    "2011"
+  ],
+  "solr_year_i": "2011",
+  "dct_spatial_sm": [
+    "Anne Arundel County, Maryland",
+    "Maryland"
+  ],
+  "solr_geom": "ENVELOPE(-76.843021,-76.393497,39.239111,38.711192)",
+  "dc_language_sm": [
+    "English"
+  ],
+  "b1g_code_s": "04b-24003",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://www.aacounty.org/county-maps/index.html\",\"http://schema.org/downloadUrl\":\"https://www.aacounty.org/county-maps/data-download/aaco_roadedges.zip\"}",
+  "b1g_image_ss": ""
+}

@@ -1,0 +1,35 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-30T17:05:08Z",
+  "dc_identifier_s": "439f33ca-37b2-4687-bdca-ba7119e347d6",
+  "dc_title_s": "Land Surface Temperature for Climate Vulnerability Analysis: Minnesota",
+  "dc_description_s": "The Land Surface Temperature (LST) raster dataset is a dataset derived from a satellite image from Landsat 8 to show the land surface temperature for the seven-county metropolitan region of the Twin Cities, in degrees Fahrenheit. In essence, this map shows how hot the ground was to the touch at any given location. This satellite image was taken at 11:59 am CDT on July 22, 2016. At this time, the air temperature was 90F with a heat index of 90.3F, as taken at the Minneapolis-St. Paul International Airport (Minneapolis-St Paul International Airport, 2016). This was the third day of a regional heat wave , and while temperatures overnight had dipped down to around 74F, temperatures had climbed up to a maximum temperature of 97F  by around 5-6pm, resulting in the hottest day in roughly three years (Midwestern Regional Climate Center, 2016). The original thermal image was taken at a 100 x 100 meter resolution, but was re-scaled and processed at the 30 x 30 meter scale. (Landsat 8 collects image data at a spatial resolution of 30 meters (visible, NIR, SWIR); 100 meters (thermal); and 15 meters (panchromatic).)  This Landsat 8 raster image was first used to create a NDVI raster dataset. Using that NDVI dataset with Bands 10 and 11 of the Landsat 8 raster dataset, a Land Surface Temperature raster can be derived. That raster is further processed from celsius to fahrenheit, then clipped to the 7-county metropolitan area, and all water bodies removed from the final image.   The LST values without regional water bodies is the primary basis for the Metropolitan Council Climate Vulnerability Assessment Report. Part of this report specifically considers the urban heat island effect, or the effect of human activity and the built environment on increases in urban temperature on human life, and as water has different heat retention properties than most land surfaces, we chose to do our analysis without regional water bodies. It should be noted that the lowest original LST values were water bodies, and so by removing the water bodies from the map the minimum LST value raised 0.6F. This is not particularly significant, except that it would minimally affect which values would be highlighted in the third layer of this package.",
+  "dc_creator_sm": [
+    ""
+  ],
+  "dc_publisher_sm": [
+    "Metropolitan Council, Twin Cities, Minnesota"
+  ],
+  "dc_subject_sm": [
+    "Environment"
+  ],
+  "dc_format_s": "Geodatabase",
+  "layer_geom_type_s": "Raster",
+  "dct_provenance_s": "Minnesota",
+  "dct_issued_s": "2017-10-10",
+  "dct_temporal_sm": [
+    "2017"
+  ],
+  "solr_year_i": "2017",
+  "dct_spatial_sm": [
+    "Minnesota"
+  ],
+  "solr_geom": "ENVELOPE(-94.012,-92.732,45.415,44.471)",
+  "dc_language_sm": [
+    "English"
+  ],
+  "b1g_code_s": "05a-01",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://gisdata.mn.gov/dataset/439f33ca-37b2-4687-bdca-ba7119e347d6\",\"http://www.w3.org/1999/xhtml\":\"https://btaagdp.org/metadata/05a-01/pub/gdrs/data/pub/us_mn_state_metc/env_cva_lst2016/metadata/metadata.html\",\"http://schema.org/downloadUrl\":\"ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/env_cva_lst2016/fgdb_env_cva_lst2016.zip\"}",
+  "b1g_image_ss": "https://btaagdp.org/metadata/05a-01/pub/gdrs/data/pub/us_mn_state_metc/env_cva_lst2016/metadata/preview.jpg"
+}

@@ -1,0 +1,36 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-30T17:05:08Z",
+  "dc_identifier_s": "10DBAA62-DD46-4D44-B627-D78D0FBA0794",
+  "dc_title_s": "Addresses: Winnebago County, Wisconsin, 2019",
+  "dc_description_s": "This data represents addresses for Winnebago County, Wisconsin in 2019. [An Address point layer for Winnebago County, Wisconsin. This was derived from taking a copy of the parcel number tag locations from all of the tax parcels in the county and generating first a point file which continued to have the parcel numbers as their tag and in turn became the link to the address database. Once the point file was generated, the points had to be moved to the center of the driveway location on the parcel of land. Using the tax parcel layer, 1994 and 1997 digital orthophotography and the existing building footprint layer as the background layers, the address point (tax parcel number) was moved to the driveway centerline location. This was done for every township in the county and for the City of Omro and the Village of Winneconne. The cities of Neenah, Menasha and Oshkosh had done theirs on their own. Once all of the points were moved, then an INFORMIX database was generated to include the parcel number as the address point tag (link to the graphics) followed by the address number 1; address number 2; the apartment number if any; street name; city, state and zip code; last updated date; comment line; the owner name. If there were building footprints but no parcel address information downloaded from the tax parcel mapping system the needed information was taken from the current phone book or field checked. The address point file was saved to a file called gm_cop.]",
+  "dc_creator_sm": [
+    "Winnebago County, Wisconsin"
+  ],
+  "dc_publisher_sm": [
+    ""
+  ],
+  "dc_subject_sm": [
+    "Location"
+  ],
+  "dc_format_s": "Geodatabase",
+  "layer_geom_type_s": "Point",
+  "dct_provenance_s": "Wisconsin",
+  "dct_issued_s": "",
+  "dct_temporal_sm": [
+    "2019"
+  ],
+  "solr_year_i": "2019",
+  "dct_spatial_sm": [
+    "Winnebago County, Wisconsin",
+    "Wisconsin"
+  ],
+  "solr_geom": "ENVELOPE(-88.893044,-88.403672,44.249511,43.889967)",
+  "dc_language_sm": [
+    "English"
+  ],
+  "b1g_code_s": "10d",
+  "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://gisdata.wisc.edu/public/Winnebago_Addresses_2019.zip\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://gisdata.wisc.edu/public/metadata/Winnebago_Addresses_2019.xml\"}",
+  "b1g_image_ss": ""
+}

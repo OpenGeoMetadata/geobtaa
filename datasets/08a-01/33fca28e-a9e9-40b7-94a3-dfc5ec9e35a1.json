@@ -1,0 +1,36 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-30T17:05:08Z",
+  "dc_identifier_s": "33fca28e-a9e9-40b7-94a3-dfc5ec9e35a1",
+  "dc_title_s": "Street Centerlines: Allegheny County, Pennsylvania, 2018",
+  "dc_description_s": "This dataset contains street centerlines for vehicular and foot traffic in Allegheny County. Street Centerlines are classified as Primary Road, Secondary Road, Unpaved Road, Limited Access Road, Connecting Road, Jeep Trail, Walkway, Stairway, Alleyway and Unknown. A Primary Road is a street paved with either concrete or asphalt that has two (2) or more lanes in each direction. A Secondary Road is a residential type hard surface road, or any hard surface road with only one (1) lane in each direction. An Unpaved Road is any road covered with packed dirt or gravel. A Limited Access Road is one that can only be accessed from a Connecting Road such as an Interstate Highway. A Connecting Road is a ramp connecting a Limited Access Road to a surface street. A Walkway is a paved or unpaved foot track that connects two (2) roads together. Walkways within College Campuses will also be shown. Recreational pedestrian trails and walkways through parks and wooded areas are not considered transportation and will not be digitized during this update. Walkways will not have an Edge of Pavement feature. A Stairway is a paved or wooden structure that connects two (2) roads together. Recreational pedestrian trails and walkways through parks and wooded areas are not considered transportation and will not be digitized during this update. An Alleyway is a road, usually narrower than a Secondary Road that runs between, but parallel to, two (2) Secondary Roads. Generally, Outbuildings will be adjacent to Alleyways. A Jeep Trail is a vehicular trail used for recreation. A Jeep Trail will not have an associated edge of pavement feature. A road coded as Unknown is a road, which in the judgment of the photogrammetrist, does not fall into any of the categories listed. Centerlines will be visually placed between the edges of pavement. One (1) centerline will be placed between each edge of pavement. Roads with medial strips, such as Limited Access Roads, will have two (2) centerlines for those portions of the road where the medial strip is present. For roads that terminate with a cul-de-sac, the centerline shall continue through the center of the cul-de-sac and stop at the edge of pavement. All attribute data will remain for all Street Centerlines that are not updated. For Street Centerlines that are new, the only attribute field that will be populated is the FeatureCode and UPDATE_YEAR. If a Street Centerline is graphically modified, the existing attribute data will remain and the UPDATE_YEAR will be set to 2004. The attribute values for 2004 Street Centerlines should be considered suspicious until verified. The ArcInfo Street Centerline coverage that is being updated has 800 segments of Paper Streets, 66 segments of Vacated Streets and 78 segments of Steps. Street Centerlines that are coded as Paper Streets in the OWNER field will remain unchanged in the updated dataset unless the area has been developed. In the event the area has been developed, the Street Centerlines will be modified to reflect the true condition of the visible roads. Street Centerlines that are coded as Vacated in the OWNER field will also remain unchanged in the updated dataset. In the event the area coinciding with the Vacated Streets has been developed, the Vacated Street Centerlines will be removed in order to reflect the true condition of the area. Street Centerlines that are coded as Steps in the OWNER field will be updated to reflect the current condition of the area. The Street Centerlines dataset consists of an external table that links to the supplied coverages and the Geodatabase created for this project using the \"-ID\" (UserID) field. In order to maintain the link to the external table and not loose valuable data the decision was made to keep all database information currently in the Street Centerline dataset. When a Street Centerline is modified during the update process, the field \"UPDATE_YEAR\" is set to 2004. All other database attributes will remain unchanged from the original values. All Street Centerline database data with an \"UPDATE_YEAR\" of 2004 should be verified before used. In some occasions the Street Centerline was divided into two (2) sections to allow for a new road intersection. Both sections of the resulting Street Centerline will have the same database attributes including Address Range. All new Street Centerlines will have zero (0) for \"SystemID\" and \"UserID\".",
+  "dc_creator_sm": [
+    "Allegheny County Division of Computer Services Geographic Information Systems Group"
+  ],
+  "dc_publisher_sm": [
+    "Allegheny County, Pennsylvania"
+  ],
+  "dc_subject_sm": [
+    "Transportation"
+  ],
+  "dc_format_s": "Files",
+  "layer_geom_type_s": "Vector",
+  "dct_provenance_s": "Penn State",
+  "dct_issued_s": "",
+  "dct_temporal_sm": [
+    "2018"
+  ],
+  "solr_year_i": "2018",
+  "dct_spatial_sm": [
+    "Allegheny County, Pennsylvania",
+    "Pennsylvania"
+  ],
+  "solr_geom": "ENVELOPE(-79.919319,-79.959468,40.430509,40.397843)",
+  "dc_language_sm": [
+    "English"
+  ],
+  "b1g_code_s": "08a-01",
+  "dct_references_s": "{\"http://schema.org/downloadUrl\":\"ftp://ftp.pasda.psu.edu/pub/pasda/alleghenycounty/historic\",\"http://www.w3.org/1999/xhtml\":\"https://btaagdp.org/metadata/08a-01/FullMetadataDisplay.aspx%3ffile=AlleghenyCounty_StreetCenterlines201809.html\"}",
+  "b1g_image_ss": ""
+}

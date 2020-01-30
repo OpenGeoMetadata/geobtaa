@@ -1,0 +1,36 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-30T17:05:08Z",
+  "dc_identifier_s": "045ea858-52c4-43f2-a7b1-8c3c8da9dd79",
+  "dc_title_s": "Property Parcels: Prince George's County, Maryland",
+  "dc_description_s": "This layer was created and is maintained to form the basis for a number of other maps, notably zoning, land use, and development activity cases. It often takes a central role in mapping and analyses for various planning projects, and is frequently referenced by the general public via the M-NCPPC's web portal, www.PGAtlas.com. As part of the GEOMAP agreement in 1993 the M-NCPPC contracted with ASI to transfer the property lines from the M-NCPPC's Mylar base maps into a tiled series of Arc/INFO coverages. In subsequent years the M-NCPPC improved the accuracy and completeness of the original data in several ways. These ways include normalizing the data structure, correcting for topological errors, establishing a many-to-many relationship between the property shapes and the Maryland State Department of Assessment and Taxation tax accounts, and combining the property coverages within an ArcGIS feature dataset. Starting in 2001 and continuing to the present time, new and old property shapes and tax accounts are captured and maintained using the survey information from recorded plats, deeds, and right-of-way plats with an estimated positional accuracy of 2.0' +/-. The Property_Poly layer is maintained as part of the property dataset by the M-NCPPC GIS staff. Constraints on accessing and using the data: The Property_Poly layer is a graphical representation of data taken from many sources - recorded plats of subdivision, deeds, the Maryland Department of Planning's tax maps, and the Maryland State Highway Administration's road right-of-way plats. The level of accuracy accordingly varies as these sources are of varying quality and the M-NCPPC's capture techniques have changed over time. Maps of this layer therefore should not be substituted for a survey from a registered land surveyor, nor are they a legal description of property boundaries. Any measurements of position, length, area, or shape derived from this layer may only be used for general, reference, or approximate purposes, and the accuracy of such measurements should always be considered. To obtain legal descriptions and measurements, please refer to the legally recorded source document, typically a deed or subdivision plat, which may be found online at the Maryland State Archives. While the majority of this layer serves as a cadastral map, note that ownership boundaries internal to a tax parcel (acreage) or recorded lot are not captured. Tax account information for the property shapes is maintained through a relationship class using the PROP_ID field. Further information for tax account records and definitions are available within the metadata for the LDF, located at the GIS Data Inventory section of the Mapping Tools page at pgplanning.org.Property Symbolized from AssessmentAssessment tax exemption data was used to prepare several layers available through Data Loader in ArcMap, under the Property Symbolized from Assessment folder.Seven layers were created, one for each category of tax exemption, as defined by the State Assessor\u2019s office. These layers are live and are linked to the Property_Poly layer from the Assessment data, but these layers do not contain the specific code as an attribute that identifies the exemption. Values used are found within the LDF table field EXEMPT_CLASS. For further information on the individual exemptions, what each code represents, and what each category of exemptions contain, please refer to the list of codes available on the GIS SharePoint site; the list of EXEMPT_CLASS codes begins on page 3: Assessment Codes Please refer to this list before making any assumptions, since the information is not always clear or intuitive. For example:\u2022 What are the differences between the Individual, Private, and Non-profit/Charitable categories? \u2022 Which category would a religious institution fall under? \u2022 Is M-NCPPC captured as a State or County exemption? The answers may be surprising. The GIS layers for Property Symbolized by Assessment Data are named for the exemption categories, but do not contain the individual values of the EXEMPT_CLASS field. They should be used for simple mapping and analysis projects such as \u201cWhere are all the State and/or County exempt properties within the county?\u201d These layers should not be used for \u201cWhere are all the exempt M-NCPPC properties in the county?\u201d since the M-NCPPC exempt code isn\u2019t the only type of County exemption. To see the individual EXEMPT_CLASS values for each account, extract the information from the Property_Poly layer with its one-to-many relationship to the LDF table. This will provide the true one-to-many values for any analysis dealing with the fields in the LDF table. For a quick check, do an identify on the actual Property_Poly layer being represented by these seven layers, then look at the individual EXEMPT_CLASS codes from the assessment data.These layers are a live, spatially enabled \u2018join\u2019 of the relationship class that exists between the LDF table and Property_Poly layer in ArcSDE. All caveats apply, such as potential issues when flattening the relationship to a one-to-one join. For example, the seven layers will definitely overlap; the same property feature may appear in two separate tax exempt layers. How would a property shape be both a State exempt property and a Private exemption? Consider a commercial condominium complex, which is one large polygon in the Property_Poly layer but could contains dozens (or more) of Tax accounts within the LDF table. Any account within that condominium complex could be a State office, church owned, M-NCPPC owned (like Lakeside), a non-profit organization, etc. Therefore, that Condominium complex would be shown in any of the assessment category layers associated with any exemption type found with any account tied to that property shape. So, while each layer could be considered 100% correct, according to the State Tax Assessors office, there can be multiple tax exemptions on one property shape and each exemption layer represents only one of the possible categories.",
+  "dc_creator_sm": [
+    ""
+  ],
+  "dc_publisher_sm": [
+    "Prince George's County, Maryland"
+  ],
+  "dc_subject_sm": [
+    "Planning and Cadastral"
+  ],
+  "dc_format_s": "Shapefile",
+  "layer_geom_type_s": "Vector",
+  "dct_provenance_s": "Maryland",
+  "dct_issued_s": "",
+  "dct_temporal_sm": [
+    ""
+  ],
+  "solr_year_i": "2018",
+  "dct_spatial_sm": [
+    "Prince George's County, Maryland",
+    "Maryland"
+  ],
+  "solr_geom": "ENVELOPE(-77.077515,-76.668431,39.131186,38.539279)",
+  "dc_language_sm": [
+    "English"
+  ],
+  "b1g_code_s": "04f-03",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://gisdata.pgplanning.org/opendata/\",\"http://schema.org/downloadUrl\":\"http://gisdata.pgplanning.org/opendata/downloadzip.asp?FileName=/data/ShapeFile/Property_Py.zip\"}",
+  "b1g_image_ss": ""
+}
