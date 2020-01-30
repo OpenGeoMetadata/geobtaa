@@ -1,20 +1,25 @@
 ### Summary of scanned map records from the BTAA
 
 
-| Collection Code | Collection Title                                | Published Records | Institution    |
-|-----------------|-------------------------------------------------|-------------------|----------------|
-| 01d-01          | Indiana Historic Maps                           | 664               | Indiana        |
-| 03d-01          | Iowa Historical County Atlases                  | 250               | Iowa           |
-| 03d-02          | Hixson Plat Map Atlases of Iowa                 | 93                | Iowa           |
-| 04d-01          | University of Maryland Digital Collections      | 35                | Maryland       |
-| 05d-01          | John R. Borchert Map Library                    | 626               | Minnesota      |
-| 05d-05          | Minnesota Geological Survey from MN Reflections | 595               | Minnesota      |
-| 05d-06          | Polar Geospatial Center                         | 398               | Minnesota      |
-| 06d-01          | Michigan State University Libraries Maps        | 126               | Michigan State |
-| 07d-01          | Clark Library Scanned Maps                      | 802               | Michigan       |
-| 08d-01          | Penn State Rare Maps                            | 331               | Penn State     |
-| 08d-02          | Sanborn Maps from Penn State                    | 2,081             | Penn State     |
-| 09d-01          | Purdue Georeferenced Imagery                    | 117               | Purdue         |
-| 12d-01          | Social Scientists Map Chicago Collection        | 45                | Chicago        |
+|Folder          |Collection Title                                      |Image or Web Service     |Provenance    |Source website                                                                                                                       |
+|----------------|------------------------------------------------------|-------------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|
+|01d-01          |Indiana Historic Maps                                 |none                     |Indiana       |http://webapp1.dlib.indiana.edu/images/splash.htm?scope=IUBMaps                                                                      |
+|03d-01          |Iowa Historical County Atlases                        |15 have Esri Map Server  |Iowa          |http://digital.lib.uiowa.edu/cdm/landingpage/collection/atlases                                                                      |
+|03d-02          |Hixson Plat Map Atlases of Iowa                       |none                     |Iowa          |http://digital.lib.uiowa.edu/cdm/landingpage/collection/hixson                                                                       |
+|04d-01          |University of Maryland Digital Collections            |IIIF                     |Maryland      |https://www.lib.umd.edu/mdmap/?pid=umd:57340                                                                                         |
+|05d-01          |John R. Borchert Map Library                          |IIIF                     |Minnesota     |http://umedia.lib.umn.edu/                                                                                                           |
+|05d-01-manifests|John R. Borchert Map Library                          |IIIF Manifest            |Minnesota     |http://umedia.lib.umn.edu/                                                                                                           |
+|05d-02          |John R. Borchert Map Library Atlases & Sheet Maps     |IIIF Manifest            |Minnesota     |http://umedia.lib.umn.edu/                                                                                                           |
+|05d-05          |Minnesota Geological Survey from MN Reflections       |IIIF                     |Minnesota     |https://reflections.mndigital.org/?f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Geological+Survey&f%5Bphysical_format_ssi%5D%5B%5D=Maps|
+|05d-06          |Polar Geospatial Center                               |none                     |Minnesota     |http://maps.apps.pgc.umn.edu/                                                                                                        |
+|06d-01          |Michigan State University Libraries Maps              |none                     |Michigan State|https://lib.msu.edu/branches/map/scannedmaps/intro/                                                                                  |
+|07d-01          |Clark Library Scanned Maps                            |IIIF                     |Michigan      |https://quod.lib.umich.edu/c/clark1ic?page=index                                                                                     |
+|07d-01-manifests|Clark Library Scanned Maps                            |IIIF Manifest            |Michigan      |https://quod.lib.umich.edu/c/clark1ic?page=index                                                                                     |
+|08d-01          |Penn State Rare Maps                                  |IIIF Manifest            |Penn State    |https://libraries.psu.edu/about/collections/digital-map-drawer                                                                       |
+|08d-02          |Sanborn Maps from Penn State                          |IIIF Manifest            |Penn State    |https://libraries.psu.edu/about/collections/sanborn-fire-insurance-maps                                                              |
+|09d-01          |Wabash River Historical Maps and Imagery              |Esri Mosaic Image Service|Purdue        |https://mapsweb.lib.purdue.edu/arcgis/rest/services/Purdue/campus_history/ImageServer/                                               |
+|09d-01          |Purdue Campus Maps: West Lafayette, Indiana, 1890-2014|none                     |Purdue        |https://mapsweb.lib.purdue.edu/arcgis/rest/services/Purdue/campus_history/ImageServer/                                               |
+|12d-01          |Social Scientists Map Chicago Collection              |none (Luna)              |Chicago       |https://www.lib.uchicago.edu/e/collections/maps/                                                                                     |
+|12d-02          |Early Modern Maps of the Americas                     |none (Luna)              |Chicago       |https://www.lib.uchicago.edu/e/collections/maps/                                                                                     |
 
-See B1G_ScannedMaps.csv for more details.
+The folders 05d-01 and 07d-01 contain the same records, except one has IIIF endpoints and the other has IIIF Manifests.
