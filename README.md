@@ -1,12 +1,10 @@
 # big-ten
 Geospatial metadata for the Big Ten Academic Alliance
 
-- MAPS: GeoBlacklight Schema records for scanned maps from university libraries
-- DATASETS: GeoBlacklight Schema records for GIS data hosted on university servers and government web portals
 
 
 ### Metadata Schema
-The metadata schema used by this project is documented at [b1g_GBL_metadataSchema.csv](https://github.com/OpenGeoMetadata/big-ten/blob/master/b1g_gbl_metadataschema.csv)
+The metadata schema used by this project is documented at [the B1G Metadata Handbook](https://z.umn.edu/gbl-handbook)
 
 
 ### For more information, see:
