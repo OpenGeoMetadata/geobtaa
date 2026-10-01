@@ -1,6 +1,4 @@
-# big-ten
-Geospatial metadata for the Big Ten Academic Alliance Geospatial Information Network
-
+# Geospatial metadata for the Big Ten Academic Alliance Geospatial Information Network
 
 
 ### Metadata Schema
@@ -10,9 +8,6 @@ The metadata schema used by this project is documented at [the B1G Metadata Hand
 ### For more information, see:
 - [Big Ten Academic Alliance Geoportal](https://geo.btaa.org)
 - [Big Ten Academic Alliance Geospatial Data Project](https://gin.btaa.org)
-
-
-
 
 
 #### Contribution and enhancement status

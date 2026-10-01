@@ -4,7 +4,7 @@
     "Important farmland, Yuma-Welton area, Yuma County, Arizona, Imperial County, California"
   ],
   "dct_description_sm": [
-    "Relief shown by hachures and spot heights. Shows land use. 'Compiled 1980.' Includes location maps and sheet indexes. 'M7 0 24083.'",
+    "Relief shown by hachures and spot heights. Shows land use. \"Compiled 1980.\" Includes location maps and sheet indexes. \"M7 0 24083.\"",
     "65 x 58 centimeters; 76 x 64 centimeters"
   ],
   "dct_language_sm": [
@@ -19,6 +19,9 @@
   "schema_provider_s": "University of Minnesota",
   "gbl_resourceClass_sm": [
     "Maps"
+  ],
+  "dcat_theme_sm": [
+    "Agriculture"
   ],
   "dcat_keyword_sm": [
     "Agricultural Resources",
@@ -36,11 +39,13 @@
   ],
   "dct_spatial_sm": [
     "Arizona--Yuma County",
+    "Arizona--Imperial County",
+    "California--Yuma County",
     "California--Imperial County",
     "Arizona",
     "California"
   ],
-  "locn_geometry": "POLYGON((-114.8163 33.464507, -113.333212 33.464507, -113.333212 32.038927, -114.8163 32.038927, -114.8163 33.464507))",
+  "locn_geometry": "ENVELOPE(-114.8163,-113.333212,33.464507,32.038927)",
   "dcat_bbox": "ENVELOPE(-114.8163,-113.333212,33.464507,32.038927)",
   "dcat_centroid": "32.751717,-114.07475600000001",
   "pcdm_memberOf_sm": [
@@ -58,7 +63,7 @@
   "dct_references_s": "{\"http://schema.org/url\":\"https://umedia.lib.umn.edu/item/p16022coll624:860\",\"http://iiif.io/api/presentation#manifest\":\"https://cdm16022.contentdm.oclc.org/iiif/info/p16022coll624/860/manifest.json\"}",
   "id": "p16022coll624:860",
   "dct_identifier_sm": [
-    "UMN_ALMA:9959566120001701"
+    "https://umedia.lib.umn.edu/item/p16022coll624:860"
   ],
   "gbl_mdVersion_s": "Aardvark"
 }
