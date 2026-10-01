@@ -4,12 +4,16 @@ Geospatial metadata for the Big Ten Academic Alliance Geospatial Information Net
 
 
 ### Metadata Schema
-The metadata schema used by this project is documented at [the B1G Metadata Handbook](https://z.umn.edu/gbl-handbook)
+The metadata schema used by this project is documented at [the B1G Metadata Handbook](https://z.umn.edu/b1g_template)
 
 
 ### For more information, see:
 - [Big Ten Academic Alliance Geoportal](https://geo.btaa.org)
-- [Big Ten Academic Alliance Geospatial Data Project](https://z.umn.edu/btaagdp)
+- [Big Ten Academic Alliance Geospatial Data Project](https://gin.btaa.org)
+
+
+
+
 
 #### Contribution and enhancement status
 
