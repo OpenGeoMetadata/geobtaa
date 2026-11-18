@@ -5,6 +5,25 @@
 - [Big Ten Academic Alliance Geoportal](https://geo.btaa.org)
 - [Big Ten Academic Alliance Geospatial Data Project](https://gin.btaa.org)
 
+### This repository includes resources from the following BTAA universities:
+
+- Indiana University
+- Michigan State University
+- Northwestern University
+- The Ohio State University
+- Pennsylvania State University
+- Purdue University
+- Rutgers University
+- University of Chicago
+- University of Illinois
+- University of Iowa
+- University of Maryland
+- University of Michigan
+- University of Minnesota
+- University of Nebraska-Lincoln
+
+
+
 
 #### Contribution and enhancement status
 
